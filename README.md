@@ -23,4 +23,4 @@ It outputs a file containing the solution cost, the solving runtime, the number 
 
 ## Goal
 
-We try to benchmark the different algorithms
+We try to benchmark the different algorithms.

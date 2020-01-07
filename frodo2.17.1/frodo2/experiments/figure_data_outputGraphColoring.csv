@@ -1,0 +1,10 @@
+y axis label:;median total message size (in bytes)
+number of nodes;DPOP;DPOP length of below confidence half-interval;DPOP length of above confidence half-interval
+3.0;1903.0;0.0;0.0
+4.0;3808.0;0.0;2.0
+5.0;7621.0;458.0;2.0
+6.0;10970.0;450.0;121.0
+7.0;14338.0;460.0;247.0
+8.0;19372.0;230.0;266.0
+9.0;24245.0;170.0;687.0
+10.0;31279.0;512.0;903.0

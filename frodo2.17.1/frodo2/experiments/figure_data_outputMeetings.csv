@@ -1,0 +1,8 @@
+y axis label:;median total message size (in bytes)
+number of meetings;DPOP;DPOP length of below confidence half-interval;DPOP length of above confidence half-interval;MPC-DisCSP4;MPC-DisCSP4 length of below confidence half-interval;MPC-DisCSP4 length of above confidence half-interval;P-DPOP;P-DPOP length of below confidence half-interval;P-DPOP length of above confidence half-interval;P2-DPOP;P2-DPOP length of below confidence half-interval;P2-DPOP length of above confidence half-interval
+1.0;2002.0;0.0;0.0;12005.0;0.0;0.0;16175.0;0.0;0.0;268654.0;0.0;0.0
+2.0;4014.0;4.0;0.0;84120.0;0.0;0.0;34547.0;0.0;0.0;1918448.0;0.0;0.0
+3.0;5061.0;2.0;1813.0;1745590.0;0.0;0.0;50671.0;0.0;0.0;8812000.0;0.0;0.0
+4.0;12739.0;172.0;147.0;;;;;;;;;
+5.0;56728.0;10262.0;2.0;;;;;;;;;
+6.0;325708.0;2.0;16278.0;;;;;;;;;

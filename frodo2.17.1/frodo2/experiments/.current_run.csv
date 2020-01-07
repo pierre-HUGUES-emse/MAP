@@ -1,0 +1,2 @@
+algorithm;timed out;problem instance;filename;NCCCs;simulated time (in ms);number of messages;total message size (in bytes);maximum message size (in bytes);induced treewidth;reported cost;true cost
+DPOP;1;scen02;../../../src/scen02Output.xml;9223372036854775807;9223372036854775807;2147483647;9223372036854775807;9223372036854775807;2147483647;NaN;NaN
