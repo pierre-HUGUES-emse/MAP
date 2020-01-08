@@ -1,10 +1,9 @@
 #import xml.etree.ElementTree as ET
 import sys
 
-def parse(repository):
+def parse(scen):
 	base_path = "../FullRLFAP/CELAR/"
-	#scen = str(repository[0])
-	output_file = scen + "Output.xml"
+	output_file = "../problems_xml/" + scen + "Output.xml"
 
 	var_tab2 = []
 	ctr_tab2 = []
