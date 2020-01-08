@@ -1,4 +1,3 @@
-Time DSA_scen02 : 51,540 ms (simulated time)
 Time MGM_scen02 : 28,718 ms (simulated time)
 Number of messages sent (by type):
         [ALL, MGM, improve]:    8,800
