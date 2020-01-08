@@ -41,7 +41,7 @@ javaParams = [
 # Define the random problems to be generated
 generator = "frodo2.benchmarks.graphcoloring.GraphColoring"
 genParams = [
-			"-i", 				# use intensional constraints
+#			"-i", 				# use intensional constraints
 # 			"-soft", 			# outputs a Max-DisCSP instead of a pure DisCSP
 # 			"-mpc", 			# also outputs a (Max-)DisCSP formulation in which all constraints are public
 			list(range(3, 11)), # the varying number of nodes
@@ -88,6 +88,8 @@ output = "outputGraphColoring.csv"
 
 # Run the experiment
 frodo2.run(java, javaParams, generator, genParams, nbrProblems, algos, timeout, output, saveProblems = False)
+
+#frodo2.runExperiment(problemFile)
 
 # Tip: if some of the algorithms tend to time out most of the time on some problem files, 
 # you can run 2 experiments: one for all algorithms on the smaller problem sizes, 

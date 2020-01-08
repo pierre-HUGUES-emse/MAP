@@ -1,0 +1,3 @@
+java -ea -cp frodo2.17.1.jar frodo2.algorithms.AgentFactory ../../src/scen02Output.xml agents/DPOP/DPOPagentJaCoP.xml -o output.xml
+java -jar -ea frodo2.17.1.jar ../../src/scen02Output.xml
+java -jar -Xmx4g frodo2.17.1.jar
