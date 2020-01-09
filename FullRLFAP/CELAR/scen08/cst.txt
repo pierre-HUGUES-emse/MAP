@@ -3,7 +3,6 @@ number of assigned values.
 If there is no solution minimize the cost function with the following
 coefficients:
 
-
              a1 =  4
              a2 =  3
              a3 =  2

@@ -1,7 +1,5 @@
 Objective :If there is a solution find that one which minimize the largest assigned value.
-
 If there is no solution minimize the cost function with the following coefficients
-
 
              a1 = 1000
              a2 =  100

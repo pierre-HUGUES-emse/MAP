@@ -1,7 +1,5 @@
 Objective :
 If there is a solution find that one which minimizes the largest assigned value
- 
-
 If there is no solution minimizes the cost function whith the following
 coefficients:
 
