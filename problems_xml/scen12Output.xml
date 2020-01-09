@@ -1,0 +1,184 @@
+<instance>
+	<presentation name="scen12" maxConstraintArity="2" maximize="false" format="XCSP 2.1_FRODO"/>
+	<agents nbAgents="10">
+		<agent name="agent_0"/>
+		<agent name="agent_1"/>
+		<agent name="agent_2"/>
+		<agent name="agent_3"/>
+		<agent name="agent_4"/>
+		<agent name="agent_5"/>
+		<agent name="agent_6"/>
+		<agent name="agent_7"/>
+		<agent name="agent_8"/>
+		<agent name="agent_9"/>
+	</agents>
+	<domains nbDomains="1">
+		<domain name="0" nbValues="22">30 58 86 114 142 268 296 324 352 380 414 442 470 498 526 554 652 680 708 736 764 792</domain>
+	</domains>
+	<variables nbVariables="10">
+		<variable name="0" domain="0" agent="agent_0"/>
+		<variable name="1" domain="0" agent="agent_1"/>
+		<variable name="2" domain="0" agent="agent_2"/>
+		<variable name="3" domain="0" agent="agent_3"/>
+		<variable name="4" domain="0" agent="agent_4"/>
+		<variable name="5" domain="0" agent="agent_5"/>
+		<variable name="6" domain="0" agent="agent_6"/>
+		<variable name="7" domain="0" agent="agent_7"/>
+		<variable name="8" domain="0" agent="agent_8"/>
+		<variable name="9" domain="0" agent="agent_9"/>
+	</variables>
+	<predicates nbPredicates="2">
+		<predicate name="EQ">
+			<parameters> int F1 int F2 int K12 int C</parameters>
+			<expression>
+				<functional> if(eq(abs(sub(F1,F2)), K12), 0, C) </functional>
+			</expression>
+		</predicate>
+		<predicate name="SUP">
+			<parameters> int F1 int F2 int K12 int C</parameters>
+			<expression>
+				<functional> if(gt(abs(sub(F1,F2)), K12), 0, C) </functional>
+			</expression>
+		</predicate>
+	</predicates>
+	<constraints nbConstraints="46">
+		<constraint name="0" arity="2" scope="0 1" reference="SUP">
+			<parameters>0 1 56 1</parameters>
+		</constraint>
+		<constraint name="1" arity="2" scope="0 2" reference="SUP">
+			<parameters>0 2 2 1</parameters>
+		</constraint>
+		<constraint name="2" arity="2" scope="0 3" reference="SUP">
+			<parameters>0 3 55 1</parameters>
+		</constraint>
+		<constraint name="3" arity="2" scope="0 4" reference="SUP">
+			<parameters>0 4 55 1</parameters>
+		</constraint>
+		<constraint name="4" arity="2" scope="0 5" reference="SUP">
+			<parameters>0 5 55 1</parameters>
+		</constraint>
+		<constraint name="5" arity="2" scope="0 6" reference="SUP">
+			<parameters>0 6 2 1</parameters>
+		</constraint>
+		<constraint name="6" arity="2" scope="0 7" reference="SUP">
+			<parameters>0 7 56 1</parameters>
+		</constraint>
+		<constraint name="7" arity="2" scope="0 8" reference="SUP">
+			<parameters>0 8 56 1</parameters>
+		</constraint>
+		<constraint name="8" arity="2" scope="0 9" reference="SUP">
+			<parameters>0 9 19 1</parameters>
+		</constraint>
+		<constraint name="9" arity="2" scope="1 2" reference="EQ">
+			<parameters>1 2 238 1</parameters>
+		</constraint>
+		<constraint name="10" arity="2" scope="1 3" reference="SUP">
+			<parameters>1 3 8 1</parameters>
+		</constraint>
+		<constraint name="11" arity="2" scope="1 4" reference="SUP">
+			<parameters>1 4 56 1</parameters>
+		</constraint>
+		<constraint name="12" arity="2" scope="1 5" reference="SUP">
+			<parameters>1 5 42 1</parameters>
+		</constraint>
+		<constraint name="13" arity="2" scope="1 6" reference="SUP">
+			<parameters>1 6 10 1</parameters>
+		</constraint>
+		<constraint name="14" arity="2" scope="1 4" reference="SUP">
+			<parameters>1 4 42 1</parameters>
+		</constraint>
+		<constraint name="15" arity="2" scope="1 7" reference="SUP">
+			<parameters>1 7 56 1</parameters>
+		</constraint>
+		<constraint name="16" arity="2" scope="1 8" reference="SUP">
+			<parameters>1 8 8 1</parameters>
+		</constraint>
+		<constraint name="17" arity="2" scope="1 9" reference="SUP">
+			<parameters>1 9 56 1</parameters>
+		</constraint>
+		<constraint name="18" arity="2" scope="2 3" reference="SUP">
+			<parameters>2 3 10 1</parameters>
+		</constraint>
+		<constraint name="19" arity="2" scope="2 4" reference="SUP">
+			<parameters>2 4 27 1</parameters>
+		</constraint>
+		<constraint name="20" arity="2" scope="2 5" reference="SUP">
+			<parameters>2 5 56 1</parameters>
+		</constraint>
+		<constraint name="21" arity="2" scope="2 6" reference="SUP">
+			<parameters>2 6 2 1</parameters>
+		</constraint>
+		<constraint name="22" arity="2" scope="2 7" reference="SUP">
+			<parameters>2 7 10 1</parameters>
+		</constraint>
+		<constraint name="23" arity="2" scope="2 8" reference="SUP">
+			<parameters>2 8 56 1</parameters>
+		</constraint>
+		<constraint name="24" arity="2" scope="2 9" reference="SUP">
+			<parameters>2 9 10 1</parameters>
+		</constraint>
+		<constraint name="25" arity="2" scope="3 4" reference="EQ">
+			<parameters>3 4 238 1</parameters>
+		</constraint>
+		<constraint name="26" arity="2" scope="3 5" reference="SUP">
+			<parameters>3 5 19 1</parameters>
+		</constraint>
+		<constraint name="27" arity="2" scope="3 6" reference="SUP">
+			<parameters>3 6 42 1</parameters>
+		</constraint>
+		<constraint name="28" arity="2" scope="3 7" reference="SUP">
+			<parameters>3 7 39 1</parameters>
+		</constraint>
+		<constraint name="29" arity="2" scope="3 8" reference="SUP">
+			<parameters>3 8 56 1</parameters>
+		</constraint>
+		<constraint name="30" arity="2" scope="3 9" reference="SUP">
+			<parameters>3 9 56 1</parameters>
+		</constraint>
+		<constraint name="31" arity="2" scope="4 5" reference="SUP">
+			<parameters>4 5 19 1</parameters>
+		</constraint>
+		<constraint name="32" arity="2" scope="4 6" reference="SUP">
+			<parameters>4 6 56 1</parameters>
+		</constraint>
+		<constraint name="33" arity="2" scope="4 7" reference="SUP">
+			<parameters>4 7 23 1</parameters>
+		</constraint>
+		<constraint name="34" arity="2" scope="4 8" reference="SUP">
+			<parameters>4 8 36 1</parameters>
+		</constraint>
+		<constraint name="35" arity="2" scope="4 9" reference="SUP">
+			<parameters>4 9 56 1</parameters>
+		</constraint>
+		<constraint name="36" arity="2" scope="5 6" reference="SUP">
+			<parameters>5 6 11 1</parameters>
+		</constraint>
+		<constraint name="37" arity="2" scope="5 7" reference="SUP">
+			<parameters>5 7 6 1</parameters>
+		</constraint>
+		<constraint name="38" arity="2" scope="5 8" reference="SUP">
+			<parameters>5 8 2 1</parameters>
+		</constraint>
+		<constraint name="39" arity="2" scope="5 9" reference="SUP">
+			<parameters>5 9 56 1</parameters>
+		</constraint>
+		<constraint name="40" arity="2" scope="6 7" reference="SUP">
+			<parameters>6 7 2 1</parameters>
+		</constraint>
+		<constraint name="41" arity="2" scope="6 8" reference="SUP">
+			<parameters>6 8 56 1</parameters>
+		</constraint>
+		<constraint name="42" arity="2" scope="6 9" reference="SUP">
+			<parameters>6 9 56 1</parameters>
+		</constraint>
+		<constraint name="43" arity="2" scope="7 8" reference="SUP">
+			<parameters>7 8 2 1</parameters>
+		</constraint>
+		<constraint name="44" arity="2" scope="7 9" reference="SUP">
+			<parameters>7 9 20 1</parameters>
+		</constraint>
+		<constraint name="45" arity="2" scope="8 9" reference="SUP">
+			<parameters>8 9 54 1</parameters>
+		</constraint>
+	</constraints>
+</instance>

@@ -1,0 +1,7591 @@
+
+
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: /content/drive/My Drive/MAP/problems_xml/scen03Output.xml
+Parsing the input agent configuration file: /content/drive/My Drive/MAP/frodo2.17.1/agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent_180 {
+		label = agent_180;
+		405 [style="filled"];
+	}
+	subgraph cluster_agent_181 {
+		label = agent_181;
+		406 [style="filled"];
+	}
+	subgraph cluster_agent_182 {
+		label = agent_182;
+		435 [style="filled"];
+	}
+	subgraph cluster_agent_183 {
+		label = agent_183;
+		436 [style="filled"];
+	}
+	subgraph cluster_agent_184 {
+		label = agent_184;
+		439 [style="filled"];
+	}
+	subgraph cluster_agent_185 {
+		label = agent_185;
+		440 [style="filled"];
+	}
+	subgraph cluster_agent_186 {
+		label = agent_186;
+		449 [style="filled"];
+	}
+	subgraph cluster_agent_187 {
+		label = agent_187;
+		450 [style="filled"];
+	}
+	subgraph cluster_agent_188 {
+		label = agent_188;
+		471 [style="filled"];
+	}
+	subgraph cluster_agent_189 {
+		label = agent_189;
+		472 [style="filled"];
+	}
+	subgraph cluster_agent_290 {
+		label = agent_290;
+		643 [style="filled"];
+	}
+	subgraph cluster_agent_170 {
+		label = agent_170;
+		377 [style="filled"];
+	}
+	subgraph cluster_agent_291 {
+		label = agent_291;
+		644 [style="filled"];
+	}
+	subgraph cluster_agent_171 {
+		label = agent_171;
+		378 [style="filled"];
+	}
+	subgraph cluster_agent_292 {
+		label = agent_292;
+		645 [style="filled"];
+	}
+	subgraph cluster_agent_172 {
+		label = agent_172;
+		383 [style="filled"];
+	}
+	subgraph cluster_agent_293 {
+		label = agent_293;
+		646 [style="filled"];
+	}
+	subgraph cluster_agent_173 {
+		label = agent_173;
+		384 [style="filled"];
+	}
+	subgraph cluster_agent_294 {
+		label = agent_294;
+		651 [style="filled"];
+	}
+	subgraph cluster_agent_174 {
+		label = agent_174;
+		387 [style="filled"];
+	}
+	subgraph cluster_agent_295 {
+		label = agent_295;
+		652 [style="filled"];
+	}
+	subgraph cluster_agent_175 {
+		label = agent_175;
+		388 [style="filled"];
+	}
+	subgraph cluster_agent_296 {
+		label = agent_296;
+		653 [style="filled"];
+	}
+	subgraph cluster_agent_176 {
+		label = agent_176;
+		397 [style="filled"];
+	}
+	subgraph cluster_agent_297 {
+		label = agent_297;
+		654 [style="filled"];
+	}
+	subgraph cluster_agent_177 {
+		label = agent_177;
+		398 [style="filled"];
+	}
+	subgraph cluster_agent_298 {
+		label = agent_298;
+		661 [style="filled"];
+	}
+	subgraph cluster_agent_178 {
+		label = agent_178;
+		401 [style="filled"];
+	}
+	subgraph cluster_agent_299 {
+		label = agent_299;
+		662 [style="filled"];
+	}
+	subgraph cluster_agent_179 {
+		label = agent_179;
+		402 [style="filled"];
+	}
+	subgraph cluster_agent_190 {
+		label = agent_190;
+		475 [style="filled"];
+	}
+	subgraph cluster_agent_191 {
+		label = agent_191;
+		476 [style="filled"];
+	}
+	subgraph cluster_agent_192 {
+		label = agent_192;
+		477 [style="filled"];
+	}
+	subgraph cluster_agent_193 {
+		label = agent_193;
+		478 [style="filled"];
+	}
+	subgraph cluster_agent_194 {
+		label = agent_194;
+		481 [style="filled"];
+	}
+	subgraph cluster_agent_195 {
+		label = agent_195;
+		482 [style="filled"];
+	}
+	subgraph cluster_agent_196 {
+		label = agent_196;
+		491 [style="filled"];
+	}
+	subgraph cluster_agent_197 {
+		label = agent_197;
+		492 [style="filled"];
+	}
+	subgraph cluster_agent_198 {
+		label = agent_198;
+		493 [style="filled"];
+	}
+	subgraph cluster_agent_199 {
+		label = agent_199;
+		494 [style="filled"];
+	}
+	subgraph cluster_agent_380 {
+		label = agent_380;
+		835 [style="filled"];
+	}
+	subgraph cluster_agent_260 {
+		label = agent_260;
+		607 [style="filled"];
+	}
+	subgraph cluster_agent_381 {
+		label = agent_381;
+		836 [style="filled"];
+	}
+	subgraph cluster_agent_140 {
+		label = agent_140;
+		343 [style="filled"];
+	}
+	subgraph cluster_agent_261 {
+		label = agent_261;
+		608 [style="filled"];
+	}
+	subgraph cluster_agent_382 {
+		label = agent_382;
+		837 [style="filled"];
+	}
+	subgraph cluster_agent_141 {
+		label = agent_141;
+		344 [style="filled"];
+	}
+	subgraph cluster_agent_262 {
+		label = agent_262;
+		613 [style="filled"];
+	}
+	subgraph cluster_agent_383 {
+		label = agent_383;
+		838 [style="filled"];
+	}
+	subgraph cluster_agent_142 {
+		label = agent_142;
+		345 [style="filled"];
+	}
+	subgraph cluster_agent_263 {
+		label = agent_263;
+		614 [style="filled"];
+	}
+	subgraph cluster_agent_384 {
+		label = agent_384;
+		867 [style="filled"];
+	}
+	subgraph cluster_agent_143 {
+		label = agent_143;
+		346 [style="filled"];
+	}
+	subgraph cluster_agent_264 {
+		label = agent_264;
+		615 [style="filled"];
+	}
+	subgraph cluster_agent_385 {
+		label = agent_385;
+		868 [style="filled"];
+	}
+	subgraph cluster_agent_144 {
+		label = agent_144;
+		347 [style="filled"];
+	}
+	subgraph cluster_agent_265 {
+		label = agent_265;
+		616 [style="filled"];
+	}
+	subgraph cluster_agent_386 {
+		label = agent_386;
+		875 [style="filled"];
+	}
+	subgraph cluster_agent_145 {
+		label = agent_145;
+		348 [style="filled"];
+	}
+	subgraph cluster_agent_266 {
+		label = agent_266;
+		617 [style="filled"];
+	}
+	subgraph cluster_agent_387 {
+		label = agent_387;
+		876 [style="filled"];
+	}
+	subgraph cluster_agent_146 {
+		label = agent_146;
+		349 [style="filled"];
+	}
+	subgraph cluster_agent_267 {
+		label = agent_267;
+		618 [style="filled"];
+	}
+	subgraph cluster_agent_388 {
+		label = agent_388;
+		877 [style="filled"];
+	}
+	subgraph cluster_agent_147 {
+		label = agent_147;
+		350 [style="filled"];
+	}
+	subgraph cluster_agent_268 {
+		label = agent_268;
+		619 [style="filled"];
+	}
+	subgraph cluster_agent_389 {
+		label = agent_389;
+		878 [style="filled"];
+	}
+	subgraph cluster_agent_148 {
+		label = agent_148;
+		351 [style="filled"];
+	}
+	subgraph cluster_agent_269 {
+		label = agent_269;
+		620 [style="filled"];
+	}
+	subgraph cluster_agent_149 {
+		label = agent_149;
+		352 [style="filled"];
+	}
+	subgraph cluster_agent_370 {
+		label = agent_370;
+		815 [style="filled"];
+	}
+	subgraph cluster_agent_250 {
+		label = agent_250;
+		597 [style="filled"];
+	}
+	subgraph cluster_agent_371 {
+		label = agent_371;
+		816 [style="filled"];
+	}
+	subgraph cluster_agent_130 {
+		label = agent_130;
+		325 [style="filled"];
+	}
+	subgraph cluster_agent_251 {
+		label = agent_251;
+		598 [style="filled"];
+	}
+	subgraph cluster_agent_372 {
+		label = agent_372;
+		817 [style="filled"];
+	}
+	subgraph cluster_agent_131 {
+		label = agent_131;
+		326 [style="filled"];
+	}
+	subgraph cluster_agent_252 {
+		label = agent_252;
+		599 [style="filled"];
+	}
+	subgraph cluster_agent_373 {
+		label = agent_373;
+		818 [style="filled"];
+	}
+	subgraph cluster_agent_132 {
+		label = agent_132;
+		327 [style="filled"];
+	}
+	subgraph cluster_agent_253 {
+		label = agent_253;
+		600 [style="filled"];
+	}
+	subgraph cluster_agent_374 {
+		label = agent_374;
+		825 [style="filled"];
+	}
+	subgraph cluster_agent_133 {
+		label = agent_133;
+		328 [style="filled"];
+	}
+	subgraph cluster_agent_254 {
+		label = agent_254;
+		601 [style="filled"];
+	}
+	subgraph cluster_agent_375 {
+		label = agent_375;
+		826 [style="filled"];
+	}
+	subgraph cluster_agent_134 {
+		label = agent_134;
+		329 [style="filled"];
+	}
+	subgraph cluster_agent_255 {
+		label = agent_255;
+		602 [style="filled"];
+	}
+	subgraph cluster_agent_376 {
+		label = agent_376;
+		827 [style="filled"];
+	}
+	subgraph cluster_agent_135 {
+		label = agent_135;
+		330 [style="filled"];
+	}
+	subgraph cluster_agent_256 {
+		label = agent_256;
+		603 [style="filled"];
+	}
+	subgraph cluster_agent_377 {
+		label = agent_377;
+		828 [style="filled"];
+	}
+	subgraph cluster_agent_136 {
+		label = agent_136;
+		339 [style="filled"];
+	}
+	subgraph cluster_agent_257 {
+		label = agent_257;
+		604 [style="filled"];
+	}
+	subgraph cluster_agent_378 {
+		label = agent_378;
+		829 [style="filled"];
+	}
+	subgraph cluster_agent_137 {
+		label = agent_137;
+		340 [style="filled"];
+	}
+	subgraph cluster_agent_258 {
+		label = agent_258;
+		605 [style="filled"];
+	}
+	subgraph cluster_agent_379 {
+		label = agent_379;
+		830 [style="filled"];
+	}
+	subgraph cluster_agent_138 {
+		label = agent_138;
+		341 [style="filled"];
+	}
+	subgraph cluster_agent_259 {
+		label = agent_259;
+		606 [style="filled"];
+	}
+	subgraph cluster_agent_139 {
+		label = agent_139;
+		342 [style="filled"];
+	}
+	subgraph cluster_agent_280 {
+		label = agent_280;
+		633 [style="filled"];
+	}
+	subgraph cluster_agent_160 {
+		label = agent_160;
+		365 [style="filled"];
+	}
+	subgraph cluster_agent_281 {
+		label = agent_281;
+		634 [style="filled"];
+	}
+	subgraph cluster_agent_161 {
+		label = agent_161;
+		366 [style="filled"];
+	}
+	subgraph cluster_agent_282 {
+		label = agent_282;
+		635 [style="filled"];
+	}
+	subgraph cluster_agent_162 {
+		label = agent_162;
+		367 [style="filled"];
+	}
+	subgraph cluster_agent_283 {
+		label = agent_283;
+		636 [style="filled"];
+	}
+	subgraph cluster_agent_163 {
+		label = agent_163;
+		368 [style="filled"];
+	}
+	subgraph cluster_agent_284 {
+		label = agent_284;
+		637 [style="filled"];
+	}
+	subgraph cluster_agent_164 {
+		label = agent_164;
+		369 [style="filled"];
+	}
+	subgraph cluster_agent_285 {
+		label = agent_285;
+		638 [style="filled"];
+	}
+	subgraph cluster_agent_165 {
+		label = agent_165;
+		370 [style="filled"];
+	}
+	subgraph cluster_agent_286 {
+		label = agent_286;
+		639 [style="filled"];
+	}
+	subgraph cluster_agent_166 {
+		label = agent_166;
+		371 [style="filled"];
+	}
+	subgraph cluster_agent_287 {
+		label = agent_287;
+		640 [style="filled"];
+	}
+	subgraph cluster_agent_167 {
+		label = agent_167;
+		372 [style="filled"];
+	}
+	subgraph cluster_agent_288 {
+		label = agent_288;
+		641 [style="filled"];
+	}
+	subgraph cluster_agent_168 {
+		label = agent_168;
+		375 [style="filled"];
+	}
+	subgraph cluster_agent_289 {
+		label = agent_289;
+		642 [style="filled"];
+	}
+	subgraph cluster_agent_169 {
+		label = agent_169;
+		376 [style="filled"];
+	}
+	subgraph cluster_agent_390 {
+		label = agent_390;
+		879 [style="filled"];
+	}
+	subgraph cluster_agent_270 {
+		label = agent_270;
+		621 [style="filled"];
+	}
+	subgraph cluster_agent_391 {
+		label = agent_391;
+		880 [style="filled"];
+	}
+	subgraph cluster_agent_150 {
+		label = agent_150;
+		355 [style="filled"];
+	}
+	subgraph cluster_agent_271 {
+		label = agent_271;
+		622 [style="filled"];
+	}
+	subgraph cluster_agent_392 {
+		label = agent_392;
+		881 [style="filled"];
+	}
+	subgraph cluster_agent_151 {
+		label = agent_151;
+		356 [style="filled"];
+	}
+	subgraph cluster_agent_272 {
+		label = agent_272;
+		623 [style="filled"];
+	}
+	subgraph cluster_agent_393 {
+		label = agent_393;
+		882 [style="filled"];
+	}
+	subgraph cluster_agent_152 {
+		label = agent_152;
+		357 [style="filled"];
+	}
+	subgraph cluster_agent_273 {
+		label = agent_273;
+		624 [style="filled"];
+	}
+	subgraph cluster_agent_394 {
+		label = agent_394;
+		893 [style="filled"];
+	}
+	subgraph cluster_agent_153 {
+		label = agent_153;
+		358 [style="filled"];
+	}
+	subgraph cluster_agent_274 {
+		label = agent_274;
+		625 [style="filled"];
+	}
+	subgraph cluster_agent_395 {
+		label = agent_395;
+		894 [style="filled"];
+	}
+	subgraph cluster_agent_154 {
+		label = agent_154;
+		359 [style="filled"];
+	}
+	subgraph cluster_agent_275 {
+		label = agent_275;
+		626 [style="filled"];
+	}
+	subgraph cluster_agent_396 {
+		label = agent_396;
+		903 [style="filled"];
+	}
+	subgraph cluster_agent_155 {
+		label = agent_155;
+		360 [style="filled"];
+	}
+	subgraph cluster_agent_276 {
+		label = agent_276;
+		629 [style="filled"];
+	}
+	subgraph cluster_agent_397 {
+		label = agent_397;
+		904 [style="filled"];
+	}
+	subgraph cluster_agent_156 {
+		label = agent_156;
+		361 [style="filled"];
+	}
+	subgraph cluster_agent_277 {
+		label = agent_277;
+		630 [style="filled"];
+	}
+	subgraph cluster_agent_398 {
+		label = agent_398;
+		911 [style="filled"];
+	}
+	subgraph cluster_agent_157 {
+		label = agent_157;
+		362 [style="filled"];
+	}
+	subgraph cluster_agent_278 {
+		label = agent_278;
+		631 [style="filled"];
+	}
+	subgraph cluster_agent_399 {
+		label = agent_399;
+		912 [style="filled"];
+	}
+	subgraph cluster_agent_158 {
+		label = agent_158;
+		363 [style="filled"];
+	}
+	subgraph cluster_agent_279 {
+		label = agent_279;
+		632 [style="filled"];
+	}
+	subgraph cluster_agent_159 {
+		label = agent_159;
+		364 [style="filled"];
+	}
+	subgraph cluster_agent_90 {
+		label = agent_90;
+		275 [style="filled"];
+	}
+	subgraph cluster_agent_92 {
+		label = agent_92;
+		277 [style="filled"];
+	}
+	subgraph cluster_agent_91 {
+		label = agent_91;
+		276 [style="filled"];
+	}
+	subgraph cluster_agent_94 {
+		label = agent_94;
+		281 [style="filled"];
+	}
+	subgraph cluster_agent_93 {
+		label = agent_93;
+		278 [style="filled"];
+	}
+	subgraph cluster_agent_96 {
+		label = agent_96;
+		283 [style="filled"];
+	}
+	subgraph cluster_agent_95 {
+		label = agent_95;
+		282 [style="filled"];
+	}
+	subgraph cluster_agent_98 {
+		label = agent_98;
+		285 [style="filled"];
+	}
+	subgraph cluster_agent_97 {
+		label = agent_97;
+		284 [style="filled"];
+	}
+	subgraph cluster_agent_99 {
+		label = agent_99;
+		286 [style="filled"];
+	}
+	subgraph cluster_agent_50 {
+		label = agent_50;
+		181 [style="filled"];
+	}
+	subgraph cluster_agent_52 {
+		label = agent_52;
+		183 [style="filled"];
+	}
+	subgraph cluster_agent_51 {
+		label = agent_51;
+		182 [style="filled"];
+	}
+	subgraph cluster_agent_54 {
+		label = agent_54;
+		191 [style="filled"];
+	}
+	subgraph cluster_agent_53 {
+		label = agent_53;
+		184 [style="filled"];
+	}
+	subgraph cluster_agent_56 {
+		label = agent_56;
+		193 [style="filled"];
+	}
+	subgraph cluster_agent_55 {
+		label = agent_55;
+		192 [style="filled"];
+	}
+	subgraph cluster_agent_58 {
+		label = agent_58;
+		205 [style="filled"];
+	}
+	subgraph cluster_agent_57 {
+		label = agent_57;
+		194 [style="filled"];
+	}
+	subgraph cluster_agent_59 {
+		label = agent_59;
+		206 [style="filled"];
+	}
+	subgraph cluster_agent_61 {
+		label = agent_61;
+		210 [style="filled"];
+	}
+	subgraph cluster_agent_60 {
+		label = agent_60;
+		209 [style="filled"];
+	}
+	subgraph cluster_agent_63 {
+		label = agent_63;
+		212 [style="filled"];
+	}
+	subgraph cluster_agent_62 {
+		label = agent_62;
+		211 [style="filled"];
+	}
+	subgraph cluster_agent_65 {
+		label = agent_65;
+		214 [style="filled"];
+	}
+	subgraph cluster_agent_64 {
+		label = agent_64;
+		213 [style="filled"];
+	}
+	subgraph cluster_agent_67 {
+		label = agent_67;
+		216 [style="filled"];
+	}
+	subgraph cluster_agent_66 {
+		label = agent_66;
+		215 [style="filled"];
+	}
+	subgraph cluster_agent_69 {
+		label = agent_69;
+		218 [style="filled"];
+	}
+	subgraph cluster_agent_68 {
+		label = agent_68;
+		217 [style="filled"];
+	}
+	subgraph cluster_agent_0 {
+		label = agent_0;
+		13 [style="filled"];
+	}
+	subgraph cluster_agent_1 {
+		label = agent_1;
+		14 [style="filled"];
+	}
+	subgraph cluster_agent_4 {
+		label = agent_4;
+		23 [style="filled"];
+	}
+	subgraph cluster_agent_5 {
+		label = agent_5;
+		24 [style="filled"];
+	}
+	subgraph cluster_agent_2 {
+		label = agent_2;
+		15 [style="filled"];
+	}
+	subgraph cluster_agent_3 {
+		label = agent_3;
+		16 [style="filled"];
+	}
+	subgraph cluster_agent_8 {
+		label = agent_8;
+		51 [style="filled"];
+	}
+	subgraph cluster_agent_9 {
+		label = agent_9;
+		52 [style="filled"];
+	}
+	subgraph cluster_agent_6 {
+		label = agent_6;
+		49 [style="filled"];
+	}
+	subgraph cluster_agent_7 {
+		label = agent_7;
+		50 [style="filled"];
+	}
+	subgraph cluster_agent_70 {
+		label = agent_70;
+		233 [style="filled"];
+	}
+	subgraph cluster_agent_72 {
+		label = agent_72;
+		235 [style="filled"];
+	}
+	subgraph cluster_agent_71 {
+		label = agent_71;
+		234 [style="filled"];
+	}
+	subgraph cluster_agent_74 {
+		label = agent_74;
+		237 [style="filled"];
+	}
+	subgraph cluster_agent_73 {
+		label = agent_73;
+		236 [style="filled"];
+	}
+	subgraph cluster_agent_76 {
+		label = agent_76;
+		261 [style="filled"];
+	}
+	subgraph cluster_agent_75 {
+		label = agent_75;
+		238 [style="filled"];
+	}
+	subgraph cluster_agent_78 {
+		label = agent_78;
+		263 [style="filled"];
+	}
+	subgraph cluster_agent_77 {
+		label = agent_77;
+		262 [style="filled"];
+	}
+	subgraph cluster_agent_79 {
+		label = agent_79;
+		264 [style="filled"];
+	}
+	subgraph cluster_agent_81 {
+		label = agent_81;
+		266 [style="filled"];
+	}
+	subgraph cluster_agent_80 {
+		label = agent_80;
+		265 [style="filled"];
+	}
+	subgraph cluster_agent_83 {
+		label = agent_83;
+		268 [style="filled"];
+	}
+	subgraph cluster_agent_82 {
+		label = agent_82;
+		267 [style="filled"];
+	}
+	subgraph cluster_agent_85 {
+		label = agent_85;
+		270 [style="filled"];
+	}
+	subgraph cluster_agent_84 {
+		label = agent_84;
+		269 [style="filled"];
+	}
+	subgraph cluster_agent_87 {
+		label = agent_87;
+		272 [style="filled"];
+	}
+	subgraph cluster_agent_86 {
+		label = agent_86;
+		271 [style="filled"];
+	}
+	subgraph cluster_agent_89 {
+		label = agent_89;
+		274 [style="filled"];
+	}
+	subgraph cluster_agent_88 {
+		label = agent_88;
+		273 [style="filled"];
+	}
+	subgraph cluster_agent_10 {
+		label = agent_10;
+		53 [style="filled"];
+	}
+	subgraph cluster_agent_12 {
+		label = agent_12;
+		67 [style="filled"];
+	}
+	subgraph cluster_agent_11 {
+		label = agent_11;
+		54 [style="filled"];
+	}
+	subgraph cluster_agent_14 {
+		label = agent_14;
+		69 [style="filled"];
+	}
+	subgraph cluster_agent_13 {
+		label = agent_13;
+		68 [style="filled"];
+	}
+	subgraph cluster_agent_16 {
+		label = agent_16;
+		79 [style="filled"];
+	}
+	subgraph cluster_agent_15 {
+		label = agent_15;
+		70 [style="filled"];
+	}
+	subgraph cluster_agent_21 {
+		label = agent_21;
+		84 [style="filled"];
+	}
+	subgraph cluster_agent_20 {
+		label = agent_20;
+		83 [style="filled"];
+	}
+	subgraph cluster_agent_23 {
+		label = agent_23;
+		86 [style="filled"];
+	}
+	subgraph cluster_agent_22 {
+		label = agent_22;
+		85 [style="filled"];
+	}
+	subgraph cluster_agent_25 {
+		label = agent_25;
+		104 [style="filled"];
+	}
+	subgraph cluster_agent_24 {
+		label = agent_24;
+		103 [style="filled"];
+	}
+	subgraph cluster_agent_27 {
+		label = agent_27;
+		106 [style="filled"];
+	}
+	subgraph cluster_agent_26 {
+		label = agent_26;
+		105 [style="filled"];
+	}
+	subgraph cluster_agent_18 {
+		label = agent_18;
+		81 [style="filled"];
+	}
+	subgraph cluster_agent_17 {
+		label = agent_17;
+		80 [style="filled"];
+	}
+	subgraph cluster_agent_19 {
+		label = agent_19;
+		82 [style="filled"];
+	}
+	subgraph cluster_agent_30 {
+		label = agent_30;
+		119 [style="filled"];
+	}
+	subgraph cluster_agent_32 {
+		label = agent_32;
+		127 [style="filled"];
+	}
+	subgraph cluster_agent_31 {
+		label = agent_31;
+		120 [style="filled"];
+	}
+	subgraph cluster_agent_34 {
+		label = agent_34;
+		129 [style="filled"];
+	}
+	subgraph cluster_agent_33 {
+		label = agent_33;
+		128 [style="filled"];
+	}
+	subgraph cluster_agent_36 {
+		label = agent_36;
+		143 [style="filled"];
+	}
+	subgraph cluster_agent_35 {
+		label = agent_35;
+		130 [style="filled"];
+	}
+	subgraph cluster_agent_38 {
+		label = agent_38;
+		145 [style="filled"];
+	}
+	subgraph cluster_agent_37 {
+		label = agent_37;
+		144 [style="filled"];
+	}
+	subgraph cluster_agent_29 {
+		label = agent_29;
+		118 [style="filled"];
+	}
+	subgraph cluster_agent_28 {
+		label = agent_28;
+		117 [style="filled"];
+	}
+	subgraph cluster_agent_41 {
+		label = agent_41;
+		152 [style="filled"];
+	}
+	subgraph cluster_agent_40 {
+		label = agent_40;
+		151 [style="filled"];
+	}
+	subgraph cluster_agent_43 {
+		label = agent_43;
+		154 [style="filled"];
+	}
+	subgraph cluster_agent_42 {
+		label = agent_42;
+		153 [style="filled"];
+	}
+	subgraph cluster_agent_45 {
+		label = agent_45;
+		156 [style="filled"];
+	}
+	subgraph cluster_agent_44 {
+		label = agent_44;
+		155 [style="filled"];
+	}
+	subgraph cluster_agent_47 {
+		label = agent_47;
+		158 [style="filled"];
+	}
+	subgraph cluster_agent_46 {
+		label = agent_46;
+		157 [style="filled"];
+	}
+	subgraph cluster_agent_49 {
+		label = agent_49;
+		180 [style="filled"];
+	}
+	subgraph cluster_agent_48 {
+		label = agent_48;
+		179 [style="filled"];
+	}
+	subgraph cluster_agent_39 {
+		label = agent_39;
+		146 [style="filled"];
+	}
+	subgraph cluster_agent_219 {
+		label = agent_219;
+		560 [style="filled"];
+	}
+	subgraph cluster_agent_340 {
+		label = agent_340;
+		765 [style="filled"];
+	}
+	subgraph cluster_agent_220 {
+		label = agent_220;
+		561 [style="filled"];
+	}
+	subgraph cluster_agent_341 {
+		label = agent_341;
+		766 [style="filled"];
+	}
+	subgraph cluster_agent_100 {
+		label = agent_100;
+		287 [style="filled"];
+	}
+	subgraph cluster_agent_221 {
+		label = agent_221;
+		562 [style="filled"];
+	}
+	subgraph cluster_agent_342 {
+		label = agent_342;
+		767 [style="filled"];
+	}
+	subgraph cluster_agent_101 {
+		label = agent_101;
+		288 [style="filled"];
+	}
+	subgraph cluster_agent_222 {
+		label = agent_222;
+		563 [style="filled"];
+	}
+	subgraph cluster_agent_343 {
+		label = agent_343;
+		768 [style="filled"];
+	}
+	subgraph cluster_agent_102 {
+		label = agent_102;
+		289 [style="filled"];
+	}
+	subgraph cluster_agent_223 {
+		label = agent_223;
+		564 [style="filled"];
+	}
+	subgraph cluster_agent_344 {
+		label = agent_344;
+		769 [style="filled"];
+	}
+	subgraph cluster_agent_103 {
+		label = agent_103;
+		290 [style="filled"];
+	}
+	subgraph cluster_agent_224 {
+		label = agent_224;
+		565 [style="filled"];
+	}
+	subgraph cluster_agent_345 {
+		label = agent_345;
+		770 [style="filled"];
+	}
+	subgraph cluster_agent_104 {
+		label = agent_104;
+		291 [style="filled"];
+	}
+	subgraph cluster_agent_225 {
+		label = agent_225;
+		566 [style="filled"];
+	}
+	subgraph cluster_agent_346 {
+		label = agent_346;
+		771 [style="filled"];
+	}
+	subgraph cluster_agent_105 {
+		label = agent_105;
+		292 [style="filled"];
+	}
+	subgraph cluster_agent_226 {
+		label = agent_226;
+		573 [style="filled"];
+	}
+	subgraph cluster_agent_347 {
+		label = agent_347;
+		772 [style="filled"];
+	}
+	subgraph cluster_agent_106 {
+		label = agent_106;
+		293 [style="filled"];
+	}
+	subgraph cluster_agent_227 {
+		label = agent_227;
+		574 [style="filled"];
+	}
+	subgraph cluster_agent_348 {
+		label = agent_348;
+		773 [style="filled"];
+	}
+	subgraph cluster_agent_107 {
+		label = agent_107;
+		294 [style="filled"];
+	}
+	subgraph cluster_agent_228 {
+		label = agent_228;
+		575 [style="filled"];
+	}
+	subgraph cluster_agent_349 {
+		label = agent_349;
+		774 [style="filled"];
+	}
+	subgraph cluster_agent_108 {
+		label = agent_108;
+		295 [style="filled"];
+	}
+	subgraph cluster_agent_229 {
+		label = agent_229;
+		576 [style="filled"];
+	}
+	subgraph cluster_agent_208 {
+		label = agent_208;
+		533 [style="filled"];
+	}
+	subgraph cluster_agent_329 {
+		label = agent_329;
+		744 [style="filled"];
+	}
+	subgraph cluster_agent_209 {
+		label = agent_209;
+		534 [style="filled"];
+	}
+	subgraph cluster_agent_330 {
+		label = agent_330;
+		745 [style="filled"];
+	}
+	subgraph cluster_agent_210 {
+		label = agent_210;
+		535 [style="filled"];
+	}
+	subgraph cluster_agent_331 {
+		label = agent_331;
+		746 [style="filled"];
+	}
+	subgraph cluster_agent_211 {
+		label = agent_211;
+		536 [style="filled"];
+	}
+	subgraph cluster_agent_332 {
+		label = agent_332;
+		747 [style="filled"];
+	}
+	subgraph cluster_agent_212 {
+		label = agent_212;
+		547 [style="filled"];
+	}
+	subgraph cluster_agent_333 {
+		label = agent_333;
+		748 [style="filled"];
+	}
+	subgraph cluster_agent_213 {
+		label = agent_213;
+		548 [style="filled"];
+	}
+	subgraph cluster_agent_334 {
+		label = agent_334;
+		757 [style="filled"];
+	}
+	subgraph cluster_agent_214 {
+		label = agent_214;
+		555 [style="filled"];
+	}
+	subgraph cluster_agent_335 {
+		label = agent_335;
+		758 [style="filled"];
+	}
+	subgraph cluster_agent_215 {
+		label = agent_215;
+		556 [style="filled"];
+	}
+	subgraph cluster_agent_336 {
+		label = agent_336;
+		759 [style="filled"];
+	}
+	subgraph cluster_agent_216 {
+		label = agent_216;
+		557 [style="filled"];
+	}
+	subgraph cluster_agent_337 {
+		label = agent_337;
+		760 [style="filled"];
+	}
+	subgraph cluster_agent_217 {
+		label = agent_217;
+		558 [style="filled"];
+	}
+	subgraph cluster_agent_338 {
+		label = agent_338;
+		763 [style="filled"];
+	}
+	subgraph cluster_agent_218 {
+		label = agent_218;
+		559 [style="filled"];
+	}
+	subgraph cluster_agent_339 {
+		label = agent_339;
+		764 [style="filled"];
+	}
+	subgraph cluster_agent_360 {
+		label = agent_360;
+		793 [style="filled"];
+	}
+	subgraph cluster_agent_240 {
+		label = agent_240;
+		587 [style="filled"];
+	}
+	subgraph cluster_agent_361 {
+		label = agent_361;
+		794 [style="filled"];
+	}
+	subgraph cluster_agent_120 {
+		label = agent_120;
+		309 [style="filled"];
+	}
+	subgraph cluster_agent_241 {
+		label = agent_241;
+		588 [style="filled"];
+	}
+	subgraph cluster_agent_362 {
+		label = agent_362;
+		795 [style="filled"];
+	}
+	subgraph cluster_agent_121 {
+		label = agent_121;
+		310 [style="filled"];
+	}
+	subgraph cluster_agent_242 {
+		label = agent_242;
+		589 [style="filled"];
+	}
+	subgraph cluster_agent_363 {
+		label = agent_363;
+		796 [style="filled"];
+	}
+	subgraph cluster_agent_122 {
+		label = agent_122;
+		311 [style="filled"];
+	}
+	subgraph cluster_agent_243 {
+		label = agent_243;
+		590 [style="filled"];
+	}
+	subgraph cluster_agent_364 {
+		label = agent_364;
+		797 [style="filled"];
+	}
+	subgraph cluster_agent_123 {
+		label = agent_123;
+		312 [style="filled"];
+	}
+	subgraph cluster_agent_244 {
+		label = agent_244;
+		591 [style="filled"];
+	}
+	subgraph cluster_agent_365 {
+		label = agent_365;
+		798 [style="filled"];
+	}
+	subgraph cluster_agent_124 {
+		label = agent_124;
+		313 [style="filled"];
+	}
+	subgraph cluster_agent_245 {
+		label = agent_245;
+		592 [style="filled"];
+	}
+	subgraph cluster_agent_366 {
+		label = agent_366;
+		799 [style="filled"];
+	}
+	subgraph cluster_agent_125 {
+		label = agent_125;
+		314 [style="filled"];
+	}
+	subgraph cluster_agent_246 {
+		label = agent_246;
+		593 [style="filled"];
+	}
+	subgraph cluster_agent_367 {
+		label = agent_367;
+		800 [style="filled"];
+	}
+	subgraph cluster_agent_126 {
+		label = agent_126;
+		321 [style="filled"];
+	}
+	subgraph cluster_agent_247 {
+		label = agent_247;
+		594 [style="filled"];
+	}
+	subgraph cluster_agent_368 {
+		label = agent_368;
+		801 [style="filled"];
+	}
+	subgraph cluster_agent_127 {
+		label = agent_127;
+		322 [style="filled"];
+	}
+	subgraph cluster_agent_248 {
+		label = agent_248;
+		595 [style="filled"];
+	}
+	subgraph cluster_agent_369 {
+		label = agent_369;
+		802 [style="filled"];
+	}
+	subgraph cluster_agent_128 {
+		label = agent_128;
+		323 [style="filled"];
+	}
+	subgraph cluster_agent_249 {
+		label = agent_249;
+		596 [style="filled"];
+	}
+	subgraph cluster_agent_129 {
+		label = agent_129;
+		324 [style="filled"];
+	}
+	subgraph cluster_agent_109 {
+		label = agent_109;
+		296 [style="filled"];
+	}
+	subgraph cluster_agent_350 {
+		label = agent_350;
+		783 [style="filled"];
+	}
+	subgraph cluster_agent_230 {
+		label = agent_230;
+		577 [style="filled"];
+	}
+	subgraph cluster_agent_351 {
+		label = agent_351;
+		784 [style="filled"];
+	}
+	subgraph cluster_agent_110 {
+		label = agent_110;
+		299 [style="filled"];
+	}
+	subgraph cluster_agent_231 {
+		label = agent_231;
+		578 [style="filled"];
+	}
+	subgraph cluster_agent_352 {
+		label = agent_352;
+		785 [style="filled"];
+	}
+	subgraph cluster_agent_111 {
+		label = agent_111;
+		300 [style="filled"];
+	}
+	subgraph cluster_agent_232 {
+		label = agent_232;
+		579 [style="filled"];
+	}
+	subgraph cluster_agent_353 {
+		label = agent_353;
+		786 [style="filled"];
+	}
+	subgraph cluster_agent_112 {
+		label = agent_112;
+		301 [style="filled"];
+	}
+	subgraph cluster_agent_233 {
+		label = agent_233;
+		580 [style="filled"];
+	}
+	subgraph cluster_agent_354 {
+		label = agent_354;
+		787 [style="filled"];
+	}
+	subgraph cluster_agent_113 {
+		label = agent_113;
+		302 [style="filled"];
+	}
+	subgraph cluster_agent_234 {
+		label = agent_234;
+		581 [style="filled"];
+	}
+	subgraph cluster_agent_355 {
+		label = agent_355;
+		788 [style="filled"];
+	}
+	subgraph cluster_agent_114 {
+		label = agent_114;
+		303 [style="filled"];
+	}
+	subgraph cluster_agent_235 {
+		label = agent_235;
+		582 [style="filled"];
+	}
+	subgraph cluster_agent_356 {
+		label = agent_356;
+		789 [style="filled"];
+	}
+	subgraph cluster_agent_115 {
+		label = agent_115;
+		304 [style="filled"];
+	}
+	subgraph cluster_agent_236 {
+		label = agent_236;
+		583 [style="filled"];
+	}
+	subgraph cluster_agent_357 {
+		label = agent_357;
+		790 [style="filled"];
+	}
+	subgraph cluster_agent_116 {
+		label = agent_116;
+		305 [style="filled"];
+	}
+	subgraph cluster_agent_237 {
+		label = agent_237;
+		584 [style="filled"];
+	}
+	subgraph cluster_agent_358 {
+		label = agent_358;
+		791 [style="filled"];
+	}
+	subgraph cluster_agent_117 {
+		label = agent_117;
+		306 [style="filled"];
+	}
+	subgraph cluster_agent_238 {
+		label = agent_238;
+		585 [style="filled"];
+	}
+	subgraph cluster_agent_359 {
+		label = agent_359;
+		792 [style="filled"];
+	}
+	subgraph cluster_agent_118 {
+		label = agent_118;
+		307 [style="filled"];
+	}
+	subgraph cluster_agent_239 {
+		label = agent_239;
+		586 [style="filled"];
+	}
+	subgraph cluster_agent_119 {
+		label = agent_119;
+		308 [style="filled"];
+	}
+	subgraph cluster_agent_300 {
+		label = agent_300;
+		663 [style="filled"];
+	}
+	subgraph cluster_agent_301 {
+		label = agent_301;
+		664 [style="filled"];
+	}
+	subgraph cluster_agent_302 {
+		label = agent_302;
+		665 [style="filled"];
+	}
+	subgraph cluster_agent_303 {
+		label = agent_303;
+		666 [style="filled"];
+	}
+	subgraph cluster_agent_304 {
+		label = agent_304;
+		667 [style="filled"];
+	}
+	subgraph cluster_agent_305 {
+		label = agent_305;
+		668 [style="filled"];
+	}
+	subgraph cluster_agent_306 {
+		label = agent_306;
+		671 [style="filled"];
+	}
+	subgraph cluster_agent_318 {
+		label = agent_318;
+		723 [style="filled"];
+	}
+	subgraph cluster_agent_319 {
+		label = agent_319;
+		724 [style="filled"];
+	}
+	subgraph cluster_agent_320 {
+		label = agent_320;
+		725 [style="filled"];
+	}
+	subgraph cluster_agent_200 {
+		label = agent_200;
+		495 [style="filled"];
+	}
+	subgraph cluster_agent_321 {
+		label = agent_321;
+		726 [style="filled"];
+	}
+	subgraph cluster_agent_201 {
+		label = agent_201;
+		496 [style="filled"];
+	}
+	subgraph cluster_agent_322 {
+		label = agent_322;
+		727 [style="filled"];
+	}
+	subgraph cluster_agent_202 {
+		label = agent_202;
+		517 [style="filled"];
+	}
+	subgraph cluster_agent_323 {
+		label = agent_323;
+		728 [style="filled"];
+	}
+	subgraph cluster_agent_203 {
+		label = agent_203;
+		518 [style="filled"];
+	}
+	subgraph cluster_agent_324 {
+		label = agent_324;
+		733 [style="filled"];
+	}
+	subgraph cluster_agent_204 {
+		label = agent_204;
+		519 [style="filled"];
+	}
+	subgraph cluster_agent_325 {
+		label = agent_325;
+		734 [style="filled"];
+	}
+	subgraph cluster_agent_205 {
+		label = agent_205;
+		520 [style="filled"];
+	}
+	subgraph cluster_agent_326 {
+		label = agent_326;
+		741 [style="filled"];
+	}
+	subgraph cluster_agent_206 {
+		label = agent_206;
+		525 [style="filled"];
+	}
+	subgraph cluster_agent_327 {
+		label = agent_327;
+		742 [style="filled"];
+	}
+	subgraph cluster_agent_207 {
+		label = agent_207;
+		526 [style="filled"];
+	}
+	subgraph cluster_agent_328 {
+		label = agent_328;
+		743 [style="filled"];
+	}
+	subgraph cluster_agent_307 {
+		label = agent_307;
+		672 [style="filled"];
+	}
+	subgraph cluster_agent_308 {
+		label = agent_308;
+		713 [style="filled"];
+	}
+	subgraph cluster_agent_309 {
+		label = agent_309;
+		714 [style="filled"];
+	}
+	subgraph cluster_agent_310 {
+		label = agent_310;
+		715 [style="filled"];
+	}
+	subgraph cluster_agent_311 {
+		label = agent_311;
+		716 [style="filled"];
+	}
+	subgraph cluster_agent_312 {
+		label = agent_312;
+		717 [style="filled"];
+	}
+	subgraph cluster_agent_313 {
+		label = agent_313;
+		718 [style="filled"];
+	}
+	subgraph cluster_agent_314 {
+		label = agent_314;
+		719 [style="filled"];
+	}
+	subgraph cluster_agent_315 {
+		label = agent_315;
+		720 [style="filled"];
+	}
+	subgraph cluster_agent_316 {
+		label = agent_316;
+		721 [style="filled"];
+	}
+	subgraph cluster_agent_317 {
+		label = agent_317;
+		722 [style="filled"];
+	}
+
+
+	911 -- 180;
+	911 -- 183;
+	911 -- 151;
+	911 -- 184;
+	911 -- 152;
+	911 -- 120;
+	911 -- 450;
+	911 -- 440;
+	911 -- 179;
+	911 -- 117;
+	911 -- 128;
+	911 -- 118;
+	911 -- 217;
+	911 -- 449;
+	911 -- 439;
+	911 -- 827;
+	911 -- 828;
+	912 -- 180;
+	912 -- 183;
+	912 -- 151;
+	912 -- 184;
+	912 -- 130;
+	912 -- 152;
+	912 -- 450;
+	912 -- 211;
+	912 -- 299;
+	912 -- 179;
+	912 -- 301;
+	912 -- 117;
+	912 -- 118;
+	912 -- 217;
+	912 -- 449;
+	912 -- 911;
+	912 -- 439;
+	912 -- 615;
+	912 -- 769;
+	912 -- 209;
+	912 -- 616;
+	912 -- 827;
+	912 -- 828;
+	800 -- 797;
+	800 -- 798;
+	800 -- 579;
+	800 -- 799;
+	800 -- 767;
+	800 -- 768;
+	801 -- 591;
+	801 -- 350;
+	801 -- 592;
+	801 -- 561;
+	801 -- 562;
+	801 -- 233;
+	801 -- 234;
+	801 -- 577;
+	801 -- 621;
+	801 -- 578;
+	801 -- 622;
+	801 -- 799;
+	801 -- 349;
+	801 -- 800;
+	802 -- 591;
+	802 -- 350;
+	802 -- 592;
+	802 -- 561;
+	802 -- 562;
+	802 -- 233;
+	802 -- 234;
+	802 -- 577;
+	802 -- 621;
+	802 -- 578;
+	802 -- 622;
+	802 -- 799;
+	802 -- 349;
+	802 -- 767;
+	802 -- 800;
+	802 -- 768;
+	802 -- 801;
+	816 -- 815;
+	817 -- 375;
+	817 -- 376;
+	817 -- 369;
+	817 -- 182;
+	817 -- 370;
+	817 -- 815;
+	817 -- 184;
+	817 -- 371;
+	817 -- 816;
+	818 -- 375;
+	818 -- 376;
+	818 -- 369;
+	818 -- 182;
+	818 -- 370;
+	818 -- 815;
+	818 -- 371;
+	818 -- 816;
+	818 -- 372;
+	818 -- 817;
+	825 -- 180;
+	825 -- 183;
+	825 -- 151;
+	825 -- 184;
+	825 -- 152;
+	825 -- 120;
+	825 -- 153;
+	825 -- 563;
+	825 -- 564;
+	825 -- 620;
+	825 -- 401;
+	825 -- 402;
+	825 -- 117;
+	825 -- 667;
+	825 -- 118;
+	825 -- 668;
+	825 -- 119;
+	825 -- 619;
+	826 -- 180;
+	826 -- 181;
+	826 -- 183;
+	826 -- 184;
+	826 -- 152;
+	826 -- 120;
+	826 -- 154;
+	826 -- 563;
+	826 -- 564;
+	826 -- 620;
+	826 -- 401;
+	826 -- 402;
+	826 -- 117;
+	826 -- 667;
+	826 -- 118;
+	826 -- 668;
+	826 -- 119;
+	826 -- 615;
+	826 -- 825;
+	826 -- 619;
+	827 -- 180;
+	827 -- 151;
+	827 -- 184;
+	827 -- 130;
+	827 -- 152;
+	827 -- 120;
+	827 -- 450;
+	827 -- 440;
+	827 -- 211;
+	827 -- 179;
+	827 -- 117;
+	827 -- 118;
+	827 -- 217;
+	827 -- 449;
+	827 -- 439;
+	827 -- 615;
+	827 -- 769;
+	827 -- 209;
+	827 -- 616;
+	828 -- 180;
+	828 -- 183;
+	828 -- 151;
+	828 -- 184;
+	828 -- 152;
+	828 -- 450;
+	828 -- 440;
+	828 -- 563;
+	828 -- 179;
+	828 -- 117;
+	828 -- 128;
+	828 -- 118;
+	828 -- 119;
+	828 -- 449;
+	828 -- 439;
+	828 -- 827;
+	829 -- 183;
+	829 -- 184;
+	829 -- 120;
+	829 -- 153;
+	829 -- 563;
+	829 -- 564;
+	829 -- 620;
+	829 -- 401;
+	829 -- 127;
+	829 -- 117;
+	829 -- 667;
+	829 -- 118;
+	829 -- 119;
+	829 -- 825;
+	830 -- 180;
+	830 -- 183;
+	830 -- 152;
+	830 -- 120;
+	830 -- 154;
+	830 -- 563;
+	830 -- 564;
+	830 -- 402;
+	830 -- 117;
+	830 -- 118;
+	830 -- 668;
+	830 -- 119;
+	830 -- 825;
+	830 -- 826;
+	830 -- 619;
+	830 -- 829;
+	713 -- 270;
+	713 -- 272;
+	713 -- 274;
+	713 -- 275;
+	713 -- 276;
+	713 -- 278;
+	713 -- 555;
+	713 -- 556;
+	713 -- 281;
+	713 -- 282;
+	713 -- 283;
+	713 -- 284;
+	713 -- 143;
+	713 -- 341;
+	713 -- 583;
+	713 -- 144;
+	713 -- 342;
+	713 -- 584;
+	713 -- 145;
+	713 -- 343;
+	713 -- 146;
+	713 -- 344;
+	714 -- 271;
+	714 -- 273;
+	714 -- 275;
+	714 -- 276;
+	714 -- 277;
+	714 -- 555;
+	714 -- 556;
+	714 -- 713;
+	714 -- 281;
+	714 -- 282;
+	714 -- 283;
+	714 -- 284;
+	714 -- 143;
+	714 -- 341;
+	714 -- 583;
+	714 -- 144;
+	714 -- 342;
+	714 -- 584;
+	714 -- 145;
+	714 -- 343;
+	714 -- 146;
+	714 -- 344;
+	714 -- 269;
+	714 -- 607;
+	835 -- 67;
+	835 -- 68;
+	835 -- 651;
+	835 -- 69;
+	835 -- 652;
+	835 -- 70;
+	715 -- 641;
+	715 -- 642;
+	715 -- 643;
+	715 -- 644;
+	715 -- 217;
+	715 -- 151;
+	715 -- 152;
+	715 -- 295;
+	715 -- 296;
+	836 -- 67;
+	836 -- 68;
+	836 -- 651;
+	836 -- 69;
+	836 -- 652;
+	836 -- 70;
+	836 -- 835;
+	716 -- 641;
+	716 -- 642;
+	716 -- 643;
+	716 -- 644;
+	716 -- 715;
+	716 -- 183;
+	716 -- 151;
+	716 -- 152;
+	716 -- 295;
+	716 -- 296;
+	837 -- 835;
+	837 -- 836;
+	717 -- 270;
+	717 -- 271;
+	717 -- 272;
+	717 -- 273;
+	717 -- 274;
+	717 -- 275;
+	717 -- 276;
+	717 -- 277;
+	717 -- 278;
+	717 -- 555;
+	717 -- 556;
+	717 -- 713;
+	717 -- 714;
+	717 -- 143;
+	717 -- 583;
+	717 -- 144;
+	717 -- 584;
+	717 -- 145;
+	717 -- 146;
+	717 -- 269;
+	717 -- 607;
+	838 -- 835;
+	838 -- 836;
+	838 -- 837;
+	718 -- 270;
+	718 -- 271;
+	718 -- 272;
+	718 -- 273;
+	718 -- 274;
+	718 -- 275;
+	718 -- 276;
+	718 -- 277;
+	718 -- 278;
+	718 -- 555;
+	718 -- 556;
+	718 -- 713;
+	718 -- 714;
+	718 -- 717;
+	718 -- 143;
+	718 -- 583;
+	718 -- 144;
+	718 -- 584;
+	718 -- 145;
+	718 -- 146;
+	718 -- 269;
+	718 -- 607;
+	719 -- 270;
+	719 -- 272;
+	719 -- 274;
+	719 -- 143;
+	719 -- 583;
+	719 -- 144;
+	719 -- 276;
+	719 -- 584;
+	719 -- 145;
+	719 -- 146;
+	719 -- 278;
+	719 -- 555;
+	719 -- 556;
+	719 -- 714;
+	719 -- 607;
+	719 -- 717;
+	719 -- 718;
+	720 -- 271;
+	720 -- 273;
+	720 -- 275;
+	720 -- 277;
+	720 -- 555;
+	720 -- 556;
+	720 -- 713;
+	720 -- 717;
+	720 -- 718;
+	720 -- 719;
+	720 -- 143;
+	720 -- 583;
+	720 -- 144;
+	720 -- 584;
+	720 -- 145;
+	720 -- 146;
+	720 -- 269;
+	720 -- 607;
+	720 -- 608;
+	600 -- 13;
+	600 -- 14;
+	600 -- 15;
+	600 -- 16;
+	600 -- 321;
+	600 -- 322;
+	600 -- 323;
+	600 -- 324;
+	600 -- 599;
+	600 -- 557;
+	600 -- 558;
+	721 -- 273;
+	721 -- 274;
+	721 -- 275;
+	721 -- 276;
+	721 -- 277;
+	721 -- 278;
+	721 -- 713;
+	721 -- 714;
+	721 -- 717;
+	721 -- 718;
+	721 -- 719;
+	721 -- 281;
+	721 -- 282;
+	721 -- 283;
+	721 -- 284;
+	721 -- 143;
+	721 -- 341;
+	721 -- 144;
+	721 -- 342;
+	721 -- 343;
+	721 -- 146;
+	721 -- 344;
+	721 -- 720;
+	601 -- 330;
+	601 -- 595;
+	601 -- 596;
+	601 -- 565;
+	601 -- 566;
+	601 -- 559;
+	601 -- 560;
+	722 -- 273;
+	722 -- 274;
+	722 -- 275;
+	722 -- 276;
+	722 -- 277;
+	722 -- 278;
+	722 -- 713;
+	722 -- 714;
+	722 -- 717;
+	722 -- 718;
+	722 -- 719;
+	722 -- 281;
+	722 -- 282;
+	722 -- 283;
+	722 -- 284;
+	722 -- 143;
+	722 -- 341;
+	722 -- 144;
+	722 -- 342;
+	722 -- 145;
+	722 -- 343;
+	722 -- 344;
+	722 -- 720;
+	722 -- 721;
+	602 -- 595;
+	602 -- 596;
+	602 -- 565;
+	602 -- 566;
+	602 -- 601;
+	602 -- 559;
+	602 -- 560;
+	723 -- 273;
+	723 -- 274;
+	723 -- 275;
+	723 -- 276;
+	723 -- 277;
+	723 -- 278;
+	723 -- 713;
+	723 -- 714;
+	723 -- 717;
+	723 -- 718;
+	723 -- 719;
+	723 -- 281;
+	723 -- 282;
+	723 -- 283;
+	723 -- 284;
+	723 -- 143;
+	723 -- 341;
+	723 -- 144;
+	723 -- 342;
+	723 -- 343;
+	723 -- 146;
+	723 -- 344;
+	723 -- 720;
+	723 -- 722;
+	603 -- 265;
+	603 -- 266;
+	603 -- 267;
+	603 -- 268;
+	603 -- 559;
+	603 -- 560;
+	724 -- 273;
+	724 -- 274;
+	724 -- 275;
+	724 -- 276;
+	724 -- 277;
+	724 -- 278;
+	724 -- 713;
+	724 -- 714;
+	724 -- 717;
+	724 -- 718;
+	724 -- 719;
+	724 -- 281;
+	724 -- 282;
+	724 -- 283;
+	724 -- 284;
+	724 -- 143;
+	724 -- 341;
+	724 -- 144;
+	724 -- 342;
+	724 -- 145;
+	724 -- 343;
+	724 -- 344;
+	724 -- 720;
+	724 -- 721;
+	724 -- 723;
+	604 -- 265;
+	604 -- 266;
+	604 -- 267;
+	604 -- 268;
+	604 -- 559;
+	604 -- 603;
+	604 -- 262;
+	604 -- 560;
+	725 -- 155;
+	725 -- 156;
+	725 -- 157;
+	725 -- 158;
+	725 -- 345;
+	725 -- 346;
+	725 -- 347;
+	725 -- 348;
+	725 -- 339;
+	605 -- 561;
+	605 -- 562;
+	605 -- 288;
+	605 -- 471;
+	605 -- 472;
+	726 -- 155;
+	726 -- 156;
+	726 -- 157;
+	726 -- 158;
+	726 -- 345;
+	726 -- 346;
+	726 -- 347;
+	726 -- 348;
+	726 -- 725;
+	726 -- 340;
+	606 -- 561;
+	606 -- 287;
+	606 -- 562;
+	606 -- 605;
+	606 -- 471;
+	606 -- 472;
+	727 -- 155;
+	727 -- 156;
+	727 -- 157;
+	727 -- 158;
+	727 -- 345;
+	727 -- 346;
+	727 -- 347;
+	727 -- 348;
+	727 -- 339;
+	727 -- 726;
+	607 -- 273;
+	607 -- 274;
+	607 -- 275;
+	607 -- 583;
+	607 -- 276;
+	607 -- 584;
+	607 -- 278;
+	607 -- 555;
+	607 -- 556;
+	728 -- 155;
+	728 -- 156;
+	728 -- 157;
+	728 -- 158;
+	728 -- 345;
+	728 -- 346;
+	728 -- 347;
+	728 -- 348;
+	728 -- 725;
+	728 -- 727;
+	728 -- 340;
+	608 -- 270;
+	608 -- 271;
+	608 -- 272;
+	608 -- 274;
+	608 -- 583;
+	608 -- 276;
+	608 -- 584;
+	608 -- 269;
+	608 -- 555;
+	608 -- 556;
+	608 -- 607;
+	733 -- 387;
+	733 -- 388;
+	733 -- 547;
+	733 -- 548;
+	733 -- 383;
+	733 -- 384;
+	613 -- 594;
+	613 -- 597;
+	613 -- 598;
+	613 -- 557;
+	613 -- 558;
+	734 -- 387;
+	734 -- 388;
+	734 -- 733;
+	734 -- 547;
+	734 -- 293;
+	734 -- 383;
+	734 -- 384;
+	614 -- 593;
+	614 -- 597;
+	614 -- 598;
+	614 -- 557;
+	614 -- 558;
+	614 -- 613;
+	615 -- 180;
+	615 -- 183;
+	615 -- 184;
+	615 -- 154;
+	615 -- 179;
+	615 -- 214;
+	615 -- 127;
+	615 -- 402;
+	615 -- 128;
+	615 -- 129;
+	615 -- 206;
+	616 -- 180;
+	616 -- 184;
+	616 -- 130;
+	616 -- 299;
+	616 -- 179;
+	616 -- 213;
+	616 -- 301;
+	616 -- 127;
+	616 -- 128;
+	616 -- 205;
+	616 -- 206;
+	616 -- 615;
+	617 -- 595;
+	617 -- 596;
+	617 -- 589;
+	617 -- 615;
+	617 -- 616;
+	617 -- 590;
+	618 -- 590;
+	618 -- 130;
+	618 -- 595;
+	618 -- 596;
+	618 -- 127;
+	618 -- 303;
+	618 -- 589;
+	618 -- 205;
+	618 -- 305;
+	618 -- 615;
+	618 -- 616;
+	618 -- 617;
+	619 -- 180;
+	619 -- 181;
+	619 -- 183;
+	619 -- 151;
+	619 -- 152;
+	619 -- 120;
+	619 -- 153;
+	619 -- 154;
+	619 -- 563;
+	619 -- 564;
+	619 -- 401;
+	619 -- 117;
+	619 -- 118;
+	619 -- 119;
+	619 -- 615;
+	619 -- 616;
+	620 -- 183;
+	620 -- 151;
+	620 -- 184;
+	620 -- 152;
+	620 -- 120;
+	620 -- 153;
+	620 -- 210;
+	620 -- 563;
+	620 -- 212;
+	620 -- 564;
+	620 -- 127;
+	620 -- 402;
+	620 -- 117;
+	620 -- 118;
+	620 -- 119;
+	620 -- 615;
+	620 -- 616;
+	620 -- 619;
+	741 -- 181;
+	741 -- 182;
+	741 -- 184;
+	741 -- 299;
+	741 -- 377;
+	741 -- 301;
+	741 -- 378;
+	741 -- 478;
+	741 -- 369;
+	741 -- 117;
+	741 -- 405;
+	741 -- 406;
+	621 -- 580;
+	621 -- 591;
+	621 -- 350;
+	621 -- 592;
+	621 -- 561;
+	621 -- 562;
+	621 -- 233;
+	621 -- 234;
+	621 -- 577;
+	621 -- 578;
+	621 -- 579;
+	621 -- 349;
+	742 -- 181;
+	742 -- 182;
+	742 -- 183;
+	742 -- 370;
+	742 -- 377;
+	742 -- 378;
+	742 -- 477;
+	742 -- 741;
+	742 -- 369;
+	742 -- 405;
+	742 -- 406;
+	622 -- 580;
+	622 -- 591;
+	622 -- 350;
+	622 -- 592;
+	622 -- 561;
+	622 -- 562;
+	622 -- 233;
+	622 -- 234;
+	622 -- 577;
+	622 -- 621;
+	622 -- 578;
+	622 -- 579;
+	622 -- 349;
+	743 -- 263;
+	743 -- 264;
+	743 -- 663;
+	743 -- 664;
+	743 -- 325;
+	743 -- 326;
+	743 -- 327;
+	743 -- 328;
+	623 -- 581;
+	744 -- 263;
+	744 -- 264;
+	744 -- 663;
+	744 -- 664;
+	744 -- 325;
+	744 -- 743;
+	744 -- 326;
+	744 -- 327;
+	744 -- 328;
+	624 -- 623;
+	624 -- 581;
+	624 -- 582;
+	745 -- 585;
+	745 -- 586;
+	745 -- 565;
+	745 -- 587;
+	745 -- 566;
+	745 -- 588;
+	745 -- 599;
+	745 -- 600;
+	625 -- 621;
+	625 -- 622;
+	625 -- 579;
+	625 -- 623;
+	625 -- 624;
+	625 -- 580;
+	746 -- 585;
+	746 -- 586;
+	746 -- 565;
+	746 -- 566;
+	746 -- 588;
+	746 -- 599;
+	746 -- 600;
+	746 -- 745;
+	867 -- 23;
+	867 -- 24;
+	867 -- 49;
+	867 -- 105;
+	867 -- 106;
+	867 -- 50;
+	867 -- 51;
+	867 -- 52;
+	626 -- 621;
+	626 -- 622;
+	626 -- 579;
+	626 -- 623;
+	626 -- 624;
+	626 -- 625;
+	626 -- 580;
+	747 -- 663;
+	747 -- 664;
+	747 -- 743;
+	747 -- 744;
+	747 -- 613;
+	747 -- 614;
+	868 -- 23;
+	868 -- 24;
+	868 -- 49;
+	868 -- 105;
+	868 -- 106;
+	868 -- 867;
+	868 -- 50;
+	868 -- 51;
+	868 -- 52;
+	748 -- 663;
+	748 -- 664;
+	748 -- 743;
+	748 -- 744;
+	748 -- 613;
+	748 -- 614;
+	748 -- 747;
+	629 -- 269;
+	629 -- 291;
+	629 -- 270;
+	629 -- 292;
+	629 -- 271;
+	629 -- 272;
+	630 -- 269;
+	630 -- 291;
+	630 -- 270;
+	630 -- 292;
+	630 -- 271;
+	630 -- 272;
+	630 -- 629;
+	631 -- 594;
+	631 -- 321;
+	631 -- 630;
+	631 -- 323;
+	631 -- 629;
+	631 -- 593;
+	632 -- 594;
+	632 -- 630;
+	632 -- 631;
+	632 -- 629;
+	632 -- 593;
+	633 -- 330;
+	633 -- 352;
+	633 -- 329;
+	633 -- 591;
+	633 -- 592;
+	633 -- 351;
+	634 -- 330;
+	634 -- 352;
+	634 -- 633;
+	634 -- 329;
+	634 -- 591;
+	634 -- 592;
+	634 -- 351;
+	876 -- 875;
+	635 -- 330;
+	635 -- 565;
+	635 -- 566;
+	635 -- 633;
+	635 -- 601;
+	635 -- 634;
+	635 -- 602;
+	635 -- 559;
+	635 -- 560;
+	877 -- 875;
+	877 -- 876;
+	877 -- 867;
+	877 -- 868;
+	636 -- 565;
+	636 -- 566;
+	636 -- 633;
+	636 -- 601;
+	636 -- 634;
+	636 -- 602;
+	636 -- 635;
+	636 -- 559;
+	636 -- 560;
+	757 -- 573;
+	757 -- 574;
+	757 -- 179;
+	878 -- 875;
+	878 -- 876;
+	878 -- 877;
+	878 -- 867;
+	878 -- 868;
+	637 -- 525;
+	637 -- 526;
+	758 -- 573;
+	758 -- 574;
+	758 -- 757;
+	879 -- 67;
+	879 -- 68;
+	879 -- 69;
+	879 -- 875;
+	879 -- 876;
+	879 -- 70;
+	879 -- 835;
+	879 -- 836;
+	517 -- 310;
+	517 -- 237;
+	517 -- 303;
+	517 -- 304;
+	517 -- 305;
+	517 -- 349;
+	517 -- 306;
+	517 -- 309;
+	517 -- 350;
+	517 -- 285;
+	638 -- 526;
+	638 -- 637;
+	759 -- 575;
+	759 -- 576;
+	759 -- 757;
+	759 -- 758;
+	518 -- 286;
+	518 -- 310;
+	518 -- 303;
+	518 -- 238;
+	518 -- 304;
+	518 -- 305;
+	518 -- 349;
+	518 -- 306;
+	518 -- 517;
+	518 -- 309;
+	518 -- 350;
+	639 -- 623;
+	639 -- 525;
+	639 -- 624;
+	639 -- 526;
+	639 -- 637;
+	639 -- 638;
+	639 -- 581;
+	639 -- 582;
+	880 -- 67;
+	880 -- 68;
+	880 -- 69;
+	880 -- 875;
+	880 -- 876;
+	880 -- 80;
+	880 -- 70;
+	880 -- 835;
+	880 -- 879;
+	880 -- 836;
+	760 -- 179;
+	760 -- 575;
+	760 -- 576;
+	760 -- 757;
+	760 -- 758;
+	760 -- 759;
+	881 -- 877;
+	881 -- 867;
+	881 -- 878;
+	881 -- 868;
+	881 -- 51;
+	881 -- 52;
+	881 -- 53;
+	881 -- 54;
+	640 -- 623;
+	640 -- 525;
+	640 -- 624;
+	640 -- 526;
+	640 -- 637;
+	640 -- 638;
+	640 -- 639;
+	640 -- 581;
+	640 -- 582;
+	882 -- 881;
+	882 -- 877;
+	882 -- 867;
+	882 -- 878;
+	882 -- 868;
+	882 -- 51;
+	882 -- 52;
+	882 -- 53;
+	882 -- 54;
+	520 -- 519;
+	641 -- 151;
+	641 -- 152;
+	641 -- 295;
+	641 -- 153;
+	641 -- 296;
+	641 -- 154;
+	641 -- 311;
+	641 -- 575;
+	641 -- 312;
+	641 -- 576;
+	641 -- 313;
+	641 -- 314;
+	642 -- 183;
+	642 -- 151;
+	642 -- 152;
+	642 -- 295;
+	642 -- 153;
+	642 -- 296;
+	642 -- 154;
+	642 -- 311;
+	642 -- 575;
+	642 -- 641;
+	642 -- 312;
+	642 -- 576;
+	642 -- 313;
+	642 -- 314;
+	763 -- 263;
+	763 -- 264;
+	763 -- 367;
+	763 -- 368;
+	763 -- 533;
+	763 -- 215;
+	763 -- 325;
+	763 -- 534;
+	763 -- 743;
+	763 -- 326;
+	763 -- 744;
+	763 -- 327;
+	763 -- 328;
+	401 -- 180;
+	401 -- 183;
+	401 -- 151;
+	401 -- 184;
+	401 -- 152;
+	401 -- 120;
+	401 -- 153;
+	401 -- 117;
+	401 -- 118;
+	401 -- 119;
+	643 -- 151;
+	643 -- 152;
+	643 -- 295;
+	643 -- 153;
+	643 -- 296;
+	643 -- 154;
+	643 -- 311;
+	643 -- 575;
+	643 -- 641;
+	643 -- 312;
+	643 -- 576;
+	643 -- 642;
+	643 -- 313;
+	643 -- 314;
+	764 -- 263;
+	764 -- 264;
+	764 -- 367;
+	764 -- 763;
+	764 -- 368;
+	764 -- 533;
+	764 -- 325;
+	764 -- 534;
+	764 -- 743;
+	764 -- 216;
+	764 -- 326;
+	764 -- 744;
+	764 -- 327;
+	764 -- 328;
+	402 -- 180;
+	402 -- 181;
+	402 -- 183;
+	402 -- 184;
+	402 -- 152;
+	402 -- 120;
+	402 -- 154;
+	402 -- 401;
+	402 -- 117;
+	402 -- 118;
+	402 -- 119;
+	644 -- 183;
+	644 -- 151;
+	644 -- 152;
+	644 -- 295;
+	644 -- 153;
+	644 -- 296;
+	644 -- 154;
+	644 -- 311;
+	644 -- 575;
+	644 -- 641;
+	644 -- 312;
+	644 -- 576;
+	644 -- 642;
+	644 -- 313;
+	644 -- 643;
+	644 -- 314;
+	765 -- 613;
+	765 -- 614;
+	765 -- 747;
+	765 -- 748;
+	645 -- 265;
+	645 -- 266;
+	645 -- 267;
+	645 -- 268;
+	645 -- 566;
+	766 -- 765;
+	766 -- 613;
+	766 -- 614;
+	766 -- 747;
+	766 -- 748;
+	646 -- 265;
+	646 -- 266;
+	646 -- 267;
+	646 -- 268;
+	646 -- 645;
+	767 -- 290;
+	767 -- 591;
+	767 -- 593;
+	767 -- 594;
+	767 -- 597;
+	767 -- 631;
+	767 -- 599;
+	767 -- 632;
+	767 -- 633;
+	767 -- 557;
+	767 -- 634;
+	767 -- 558;
+	767 -- 614;
+	767 -- 636;
+	767 -- 13;
+	767 -- 14;
+	767 -- 15;
+	767 -- 16;
+	767 -- 321;
+	767 -- 322;
+	767 -- 586;
+	767 -- 323;
+	767 -- 565;
+	767 -- 587;
+	767 -- 324;
+	767 -- 665;
+	767 -- 600;
+	767 -- 666;
+	767 -- 765;
+	767 -- 745;
+	767 -- 746;
+	767 -- 747;
+	405 -- 180;
+	405 -- 181;
+	405 -- 182;
+	405 -- 183;
+	405 -- 370;
+	405 -- 184;
+	405 -- 377;
+	405 -- 378;
+	405 -- 369;
+	405 -- 117;
+	526 -- 525;
+	768 -- 290;
+	768 -- 593;
+	768 -- 594;
+	768 -- 597;
+	768 -- 630;
+	768 -- 598;
+	768 -- 631;
+	768 -- 599;
+	768 -- 557;
+	768 -- 558;
+	768 -- 613;
+	768 -- 614;
+	768 -- 13;
+	768 -- 14;
+	768 -- 15;
+	768 -- 16;
+	768 -- 321;
+	768 -- 322;
+	768 -- 586;
+	768 -- 323;
+	768 -- 565;
+	768 -- 324;
+	768 -- 665;
+	768 -- 600;
+	768 -- 666;
+	768 -- 767;
+	768 -- 746;
+	768 -- 747;
+	768 -- 629;
+	406 -- 181;
+	406 -- 182;
+	406 -- 183;
+	406 -- 370;
+	406 -- 184;
+	406 -- 311;
+	406 -- 377;
+	406 -- 378;
+	406 -- 369;
+	406 -- 405;
+	769 -- 180;
+	769 -- 184;
+	769 -- 120;
+	769 -- 154;
+	769 -- 563;
+	769 -- 179;
+	769 -- 564;
+	769 -- 217;
+	769 -- 439;
+	770 -- 563;
+	770 -- 564;
+	770 -- 218;
+	770 -- 769;
+	770 -- 152;
+	770 -- 120;
+	770 -- 153;
+	771 -- 397;
+	771 -- 387;
+	771 -- 398;
+	771 -- 388;
+	771 -- 481;
+	771 -- 482;
+	651 -- 495;
+	651 -- 496;
+	651 -- 103;
+	651 -- 104;
+	772 -- 397;
+	772 -- 771;
+	772 -- 387;
+	772 -- 398;
+	772 -- 388;
+	772 -- 481;
+	772 -- 482;
+	893 -- 867;
+	893 -- 868;
+	893 -- 51;
+	893 -- 52;
+	652 -- 495;
+	652 -- 496;
+	652 -- 651;
+	652 -- 103;
+	652 -- 104;
+	773 -- 741;
+	773 -- 742;
+	773 -- 667;
+	773 -- 217;
+	773 -- 181;
+	894 -- 893;
+	894 -- 867;
+	894 -- 868;
+	894 -- 51;
+	894 -- 52;
+	653 -- 191;
+	653 -- 181;
+	653 -- 192;
+	653 -- 193;
+	653 -- 183;
+	653 -- 194;
+	653 -- 285;
+	653 -- 377;
+	653 -- 378;
+	653 -- 217;
+	653 -- 218;
+	653 -- 309;
+	774 -- 773;
+	774 -- 741;
+	774 -- 742;
+	774 -- 217;
+	774 -- 181;
+	533 -- 367;
+	533 -- 368;
+	533 -- 215;
+	533 -- 216;
+	654 -- 377;
+	654 -- 378;
+	654 -- 653;
+	654 -- 205;
+	654 -- 217;
+	654 -- 180;
+	654 -- 191;
+	654 -- 218;
+	654 -- 192;
+	654 -- 193;
+	654 -- 194;
+	534 -- 264;
+	534 -- 367;
+	534 -- 368;
+	534 -- 533;
+	534 -- 215;
+	534 -- 216;
+	534 -- 263;
+	535 -- 533;
+	535 -- 534;
+	535 -- 216;
+	536 -- 533;
+	536 -- 534;
+	536 -- 535;
+	661 -- 645;
+	661 -- 646;
+	662 -- 661;
+	662 -- 645;
+	662 -- 646;
+	783 -- 481;
+	783 -- 482;
+	783 -- 397;
+	783 -- 771;
+	783 -- 387;
+	783 -- 398;
+	783 -- 475;
+	783 -- 772;
+	783 -- 388;
+	783 -- 476;
+	783 -- 435;
+	783 -- 436;
+	300 -- 180;
+	300 -- 181;
+	300 -- 183;
+	300 -- 151;
+	300 -- 210;
+	300 -- 211;
+	300 -- 299;
+	300 -- 212;
+	300 -- 213;
+	300 -- 214;
+	300 -- 205;
+	300 -- 206;
+	300 -- 209;
+	784 -- 481;
+	784 -- 482;
+	784 -- 397;
+	784 -- 771;
+	784 -- 387;
+	784 -- 398;
+	784 -- 475;
+	784 -- 772;
+	784 -- 783;
+	784 -- 388;
+	784 -- 476;
+	784 -- 435;
+	784 -- 436;
+	301 -- 152;
+	301 -- 210;
+	301 -- 211;
+	301 -- 299;
+	301 -- 212;
+	301 -- 213;
+	301 -- 214;
+	301 -- 180;
+	301 -- 300;
+	301 -- 127;
+	301 -- 205;
+	301 -- 206;
+	301 -- 209;
+	664 -- 663;
+	785 -- 593;
+	785 -- 594;
+	785 -- 597;
+	785 -- 598;
+	785 -- 665;
+	785 -- 666;
+	785 -- 557;
+	785 -- 558;
+	785 -- 613;
+	785 -- 767;
+	785 -- 614;
+	785 -- 768;
+	302 -- 180;
+	302 -- 181;
+	302 -- 183;
+	302 -- 151;
+	302 -- 210;
+	302 -- 211;
+	302 -- 299;
+	302 -- 212;
+	302 -- 300;
+	302 -- 213;
+	302 -- 301;
+	302 -- 214;
+	302 -- 205;
+	302 -- 206;
+	302 -- 209;
+	665 -- 13;
+	665 -- 14;
+	665 -- 15;
+	665 -- 16;
+	665 -- 593;
+	665 -- 594;
+	665 -- 321;
+	665 -- 322;
+	665 -- 597;
+	665 -- 323;
+	665 -- 598;
+	665 -- 324;
+	665 -- 599;
+	665 -- 600;
+	665 -- 557;
+	665 -- 558;
+	665 -- 613;
+	665 -- 614;
+	786 -- 593;
+	786 -- 594;
+	786 -- 597;
+	786 -- 598;
+	786 -- 785;
+	786 -- 665;
+	786 -- 666;
+	786 -- 557;
+	786 -- 558;
+	786 -- 613;
+	786 -- 767;
+	786 -- 614;
+	303 -- 192;
+	303 -- 285;
+	303 -- 286;
+	303 -- 299;
+	303 -- 300;
+	303 -- 301;
+	303 -- 302;
+	303 -- 237;
+	303 -- 238;
+	666 -- 13;
+	666 -- 14;
+	666 -- 15;
+	666 -- 16;
+	666 -- 593;
+	666 -- 594;
+	666 -- 321;
+	666 -- 322;
+	666 -- 597;
+	666 -- 323;
+	666 -- 598;
+	666 -- 324;
+	666 -- 599;
+	666 -- 665;
+	666 -- 600;
+	666 -- 557;
+	666 -- 558;
+	666 -- 613;
+	666 -- 614;
+	787 -- 271;
+	787 -- 274;
+	787 -- 276;
+	787 -- 269;
+	787 -- 555;
+	787 -- 720;
+	787 -- 556;
+	787 -- 607;
+	787 -- 608;
+	787 -- 718;
+	304 -- 285;
+	304 -- 286;
+	304 -- 299;
+	304 -- 300;
+	304 -- 301;
+	304 -- 302;
+	304 -- 237;
+	304 -- 303;
+	304 -- 238;
+	667 -- 151;
+	667 -- 130;
+	667 -- 153;
+	667 -- 154;
+	667 -- 210;
+	667 -- 211;
+	667 -- 212;
+	667 -- 311;
+	667 -- 575;
+	667 -- 213;
+	667 -- 312;
+	667 -- 576;
+	667 -- 214;
+	667 -- 313;
+	667 -- 314;
+	667 -- 117;
+	667 -- 118;
+	667 -- 217;
+	667 -- 119;
+	667 -- 218;
+	667 -- 615;
+	667 -- 616;
+	667 -- 618;
+	667 -- 619;
+	667 -- 183;
+	667 -- 184;
+	667 -- 120;
+	667 -- 563;
+	667 -- 300;
+	667 -- 564;
+	667 -- 641;
+	667 -- 642;
+	667 -- 302;
+	667 -- 643;
+	667 -- 402;
+	667 -- 644;
+	667 -- 205;
+	667 -- 206;
+	667 -- 209;
+	788 -- 143;
+	788 -- 145;
+	788 -- 555;
+	788 -- 556;
+	788 -- 721;
+	788 -- 787;
+	788 -- 723;
+	788 -- 768;
+	788 -- 607;
+	788 -- 608;
+	305 -- 192;
+	305 -- 194;
+	305 -- 285;
+	305 -- 286;
+	305 -- 299;
+	305 -- 300;
+	305 -- 301;
+	305 -- 302;
+	305 -- 237;
+	305 -- 303;
+	305 -- 238;
+	305 -- 304;
+	547 -- 387;
+	547 -- 388;
+	547 -- 293;
+	547 -- 294;
+	547 -- 383;
+	547 -- 384;
+	668 -- 152;
+	668 -- 153;
+	668 -- 154;
+	668 -- 299;
+	668 -- 311;
+	668 -- 575;
+	668 -- 213;
+	668 -- 312;
+	668 -- 576;
+	668 -- 313;
+	668 -- 314;
+	668 -- 117;
+	668 -- 118;
+	668 -- 217;
+	668 -- 119;
+	668 -- 183;
+	668 -- 184;
+	668 -- 120;
+	668 -- 563;
+	668 -- 564;
+	668 -- 641;
+	668 -- 301;
+	668 -- 620;
+	668 -- 642;
+	668 -- 401;
+	668 -- 643;
+	668 -- 644;
+	668 -- 667;
+	668 -- 449;
+	789 -- 787;
+	789 -- 788;
+	789 -- 768;
+	306 -- 285;
+	306 -- 286;
+	306 -- 299;
+	306 -- 300;
+	306 -- 301;
+	306 -- 302;
+	306 -- 237;
+	306 -- 303;
+	306 -- 238;
+	306 -- 304;
+	306 -- 305;
+	548 -- 387;
+	548 -- 388;
+	548 -- 547;
+	548 -- 293;
+	548 -- 294;
+	548 -- 383;
+	548 -- 384;
+	308 -- 307;
+	309 -- 285;
+	309 -- 286;
+	309 -- 237;
+	309 -- 303;
+	309 -- 238;
+	309 -- 304;
+	309 -- 305;
+	309 -- 306;
+	309 -- 307;
+	309 -- 308;
+	790 -- 289;
+	790 -- 787;
+	790 -- 788;
+	790 -- 767;
+	790 -- 789;
+	790 -- 768;
+	791 -- 767;
+	791 -- 789;
+	791 -- 790;
+	671 -- 299;
+	671 -- 300;
+	671 -- 301;
+	671 -- 302;
+	671 -- 303;
+	671 -- 304;
+	671 -- 305;
+	671 -- 306;
+	792 -- 767;
+	792 -- 789;
+	792 -- 768;
+	792 -- 790;
+	792 -- 791;
+	672 -- 671;
+	672 -- 299;
+	672 -- 300;
+	672 -- 301;
+	672 -- 302;
+	672 -- 303;
+	672 -- 304;
+	672 -- 305;
+	672 -- 306;
+	793 -- 792;
+	793 -- 767;
+	793 -- 768;
+	793 -- 791;
+	310 -- 285;
+	310 -- 286;
+	310 -- 237;
+	310 -- 303;
+	310 -- 238;
+	310 -- 304;
+	310 -- 305;
+	310 -- 306;
+	310 -- 307;
+	310 -- 308;
+	310 -- 309;
+	794 -- 792;
+	794 -- 793;
+	794 -- 767;
+	794 -- 791;
+	311 -- 181;
+	311 -- 182;
+	311 -- 183;
+	311 -- 184;
+	311 -- 153;
+	311 -- 154;
+	311 -- 310;
+	311 -- 307;
+	311 -- 308;
+	311 -- 309;
+	795 -- 793;
+	795 -- 794;
+	795 -- 767;
+	312 -- 181;
+	312 -- 182;
+	312 -- 183;
+	312 -- 153;
+	312 -- 154;
+	312 -- 310;
+	312 -- 311;
+	312 -- 307;
+	312 -- 308;
+	312 -- 309;
+	796 -- 793;
+	796 -- 794;
+	796 -- 795;
+	313 -- 181;
+	313 -- 182;
+	313 -- 183;
+	313 -- 184;
+	313 -- 153;
+	313 -- 154;
+	313 -- 310;
+	313 -- 312;
+	313 -- 307;
+	313 -- 308;
+	313 -- 309;
+	555 -- 270;
+	555 -- 271;
+	555 -- 272;
+	555 -- 273;
+	555 -- 274;
+	555 -- 275;
+	555 -- 276;
+	555 -- 277;
+	555 -- 278;
+	555 -- 269;
+	797 -- 795;
+	797 -- 796;
+	314 -- 181;
+	314 -- 182;
+	314 -- 183;
+	314 -- 153;
+	314 -- 154;
+	314 -- 310;
+	314 -- 311;
+	314 -- 313;
+	314 -- 307;
+	314 -- 308;
+	314 -- 309;
+	435 -- 261;
+	435 -- 262;
+	556 -- 270;
+	556 -- 271;
+	556 -- 272;
+	556 -- 273;
+	556 -- 274;
+	556 -- 275;
+	556 -- 276;
+	556 -- 277;
+	556 -- 278;
+	556 -- 269;
+	556 -- 555;
+	798 -- 795;
+	798 -- 796;
+	798 -- 797;
+	798 -- 768;
+	436 -- 435;
+	436 -- 261;
+	436 -- 262;
+	557 -- 13;
+	557 -- 14;
+	557 -- 15;
+	557 -- 16;
+	557 -- 321;
+	557 -- 322;
+	557 -- 323;
+	557 -- 324;
+	799 -- 797;
+	799 -- 798;
+	799 -- 767;
+	799 -- 768;
+	558 -- 13;
+	558 -- 14;
+	558 -- 15;
+	558 -- 16;
+	558 -- 321;
+	558 -- 322;
+	558 -- 323;
+	558 -- 324;
+	558 -- 557;
+	559 -- 265;
+	559 -- 266;
+	559 -- 267;
+	559 -- 268;
+	439 -- 180;
+	439 -- 183;
+	439 -- 151;
+	439 -- 184;
+	439 -- 179;
+	439 -- 117;
+	439 -- 217;
+	560 -- 265;
+	560 -- 266;
+	560 -- 267;
+	560 -- 268;
+	560 -- 559;
+	440 -- 180;
+	440 -- 181;
+	440 -- 182;
+	440 -- 183;
+	440 -- 184;
+	440 -- 152;
+	440 -- 120;
+	440 -- 179;
+	440 -- 118;
+	440 -- 439;
+	561 -- 350;
+	561 -- 233;
+	561 -- 349;
+	562 -- 350;
+	562 -- 561;
+	562 -- 234;
+	562 -- 349;
+	321 -- 14;
+	321 -- 16;
+	563 -- 151;
+	563 -- 153;
+	563 -- 179;
+	563 -- 117;
+	563 -- 118;
+	563 -- 217;
+	563 -- 119;
+	563 -- 183;
+	563 -- 184;
+	563 -- 120;
+	563 -- 401;
+	563 -- 402;
+	322 -- 13;
+	322 -- 15;
+	322 -- 321;
+	564 -- 183;
+	564 -- 120;
+	564 -- 154;
+	564 -- 563;
+	564 -- 401;
+	564 -- 402;
+	564 -- 117;
+	564 -- 118;
+	564 -- 218;
+	323 -- 14;
+	323 -- 16;
+	323 -- 322;
+	565 -- 560;
+	565 -- 559;
+	324 -- 13;
+	324 -- 15;
+	324 -- 321;
+	324 -- 323;
+	566 -- 560;
+	566 -- 330;
+	566 -- 565;
+	566 -- 559;
+	325 -- 263;
+	325 -- 264;
+	325 -- 215;
+	325 -- 216;
+	205 -- 130;
+	205 -- 154;
+	205 -- 127;
+	205 -- 128;
+	326 -- 263;
+	326 -- 264;
+	326 -- 215;
+	326 -- 325;
+	326 -- 216;
+	206 -- 180;
+	206 -- 181;
+	206 -- 153;
+	206 -- 127;
+	206 -- 128;
+	206 -- 205;
+	206 -- 129;
+	327 -- 263;
+	327 -- 264;
+	327 -- 215;
+	327 -- 325;
+	327 -- 216;
+	327 -- 326;
+	328 -- 263;
+	328 -- 264;
+	328 -- 215;
+	328 -- 325;
+	328 -- 216;
+	328 -- 326;
+	328 -- 327;
+	449 -- 180;
+	449 -- 181;
+	449 -- 182;
+	449 -- 183;
+	449 -- 184;
+	449 -- 152;
+	449 -- 120;
+	449 -- 440;
+	449 -- 179;
+	449 -- 128;
+	449 -- 118;
+	449 -- 405;
+	449 -- 406;
+	449 -- 439;
+	209 -- 151;
+	209 -- 152;
+	209 -- 153;
+	209 -- 154;
+	209 -- 179;
+	209 -- 119;
+	209 -- 180;
+	209 -- 181;
+	209 -- 183;
+	209 -- 184;
+	209 -- 205;
+	209 -- 206;
+	450 -- 180;
+	450 -- 183;
+	450 -- 151;
+	450 -- 184;
+	450 -- 440;
+	450 -- 179;
+	450 -- 117;
+	450 -- 119;
+	450 -- 405;
+	450 -- 449;
+	450 -- 406;
+	450 -- 439;
+	330 -- 329;
+	210 -- 180;
+	210 -- 183;
+	210 -- 151;
+	210 -- 184;
+	210 -- 152;
+	210 -- 153;
+	210 -- 154;
+	210 -- 205;
+	210 -- 206;
+	210 -- 209;
+	211 -- 151;
+	211 -- 152;
+	211 -- 153;
+	211 -- 154;
+	211 -- 210;
+	211 -- 179;
+	211 -- 119;
+	211 -- 180;
+	211 -- 181;
+	211 -- 183;
+	211 -- 184;
+	211 -- 205;
+	211 -- 206;
+	211 -- 209;
+	574 -- 573;
+	212 -- 180;
+	212 -- 183;
+	212 -- 151;
+	212 -- 184;
+	212 -- 152;
+	212 -- 153;
+	212 -- 154;
+	212 -- 210;
+	212 -- 211;
+	212 -- 205;
+	212 -- 206;
+	212 -- 209;
+	575 -- 153;
+	575 -- 154;
+	575 -- 312;
+	575 -- 313;
+	575 -- 314;
+	213 -- 130;
+	213 -- 154;
+	213 -- 210;
+	213 -- 211;
+	213 -- 212;
+	213 -- 127;
+	213 -- 128;
+	213 -- 206;
+	213 -- 209;
+	576 -- 153;
+	576 -- 154;
+	576 -- 311;
+	576 -- 575;
+	576 -- 313;
+	576 -- 314;
+	214 -- 180;
+	214 -- 181;
+	214 -- 183;
+	214 -- 184;
+	214 -- 154;
+	214 -- 210;
+	214 -- 211;
+	214 -- 212;
+	214 -- 213;
+	214 -- 128;
+	214 -- 205;
+	214 -- 129;
+	214 -- 209;
+	577 -- 561;
+	577 -- 234;
+	577 -- 349;
+	577 -- 350;
+	578 -- 562;
+	578 -- 233;
+	578 -- 577;
+	578 -- 349;
+	578 -- 350;
+	216 -- 215;
+	217 -- 151;
+	217 -- 152;
+	217 -- 153;
+	217 -- 154;
+	217 -- 211;
+	217 -- 179;
+	217 -- 117;
+	217 -- 119;
+	217 -- 180;
+	217 -- 181;
+	217 -- 183;
+	217 -- 184;
+	217 -- 120;
+	217 -- 209;
+	218 -- 180;
+	218 -- 183;
+	218 -- 151;
+	218 -- 184;
+	218 -- 152;
+	218 -- 120;
+	218 -- 153;
+	218 -- 154;
+	218 -- 210;
+	218 -- 212;
+	218 -- 117;
+	218 -- 118;
+	218 -- 217;
+	218 -- 119;
+	339 -- 155;
+	339 -- 156;
+	339 -- 157;
+	339 -- 158;
+	580 -- 579;
+	340 -- 155;
+	340 -- 156;
+	340 -- 157;
+	340 -- 158;
+	340 -- 339;
+	582 -- 581;
+	341 -- 155;
+	341 -- 156;
+	341 -- 277;
+	341 -- 157;
+	341 -- 278;
+	341 -- 158;
+	341 -- 281;
+	341 -- 283;
+	341 -- 284;
+	341 -- 143;
+	341 -- 144;
+	341 -- 145;
+	341 -- 146;
+	583 -- 270;
+	583 -- 271;
+	583 -- 272;
+	583 -- 273;
+	583 -- 274;
+	583 -- 275;
+	583 -- 276;
+	583 -- 277;
+	583 -- 278;
+	583 -- 269;
+	583 -- 555;
+	583 -- 556;
+	342 -- 155;
+	342 -- 156;
+	342 -- 277;
+	342 -- 157;
+	342 -- 278;
+	342 -- 158;
+	342 -- 282;
+	342 -- 283;
+	342 -- 284;
+	342 -- 143;
+	342 -- 341;
+	342 -- 144;
+	342 -- 145;
+	342 -- 146;
+	584 -- 270;
+	584 -- 271;
+	584 -- 272;
+	584 -- 273;
+	584 -- 284;
+	584 -- 274;
+	584 -- 275;
+	584 -- 583;
+	584 -- 276;
+	584 -- 277;
+	584 -- 278;
+	584 -- 269;
+	584 -- 555;
+	584 -- 556;
+	343 -- 155;
+	343 -- 156;
+	343 -- 277;
+	343 -- 157;
+	343 -- 278;
+	343 -- 158;
+	343 -- 281;
+	343 -- 283;
+	343 -- 284;
+	343 -- 143;
+	343 -- 144;
+	343 -- 342;
+	343 -- 145;
+	343 -- 146;
+	585 -- 565;
+	585 -- 566;
+	344 -- 155;
+	344 -- 156;
+	344 -- 277;
+	344 -- 157;
+	344 -- 278;
+	344 -- 158;
+	344 -- 282;
+	344 -- 283;
+	344 -- 284;
+	344 -- 143;
+	344 -- 341;
+	344 -- 144;
+	344 -- 145;
+	344 -- 343;
+	344 -- 146;
+	586 -- 266;
+	586 -- 585;
+	586 -- 268;
+	586 -- 565;
+	586 -- 566;
+	345 -- 340;
+	345 -- 341;
+	345 -- 155;
+	345 -- 342;
+	345 -- 156;
+	345 -- 343;
+	345 -- 157;
+	345 -- 344;
+	345 -- 158;
+	345 -- 339;
+	587 -- 585;
+	587 -- 586;
+	587 -- 565;
+	587 -- 566;
+	104 -- 103;
+	346 -- 340;
+	346 -- 341;
+	346 -- 155;
+	346 -- 342;
+	346 -- 156;
+	346 -- 343;
+	346 -- 157;
+	346 -- 344;
+	346 -- 158;
+	346 -- 345;
+	346 -- 339;
+	588 -- 585;
+	588 -- 586;
+	588 -- 565;
+	588 -- 587;
+	588 -- 566;
+	105 -- 103;
+	105 -- 104;
+	347 -- 340;
+	347 -- 341;
+	347 -- 155;
+	347 -- 342;
+	347 -- 156;
+	347 -- 343;
+	347 -- 157;
+	347 -- 344;
+	347 -- 158;
+	347 -- 345;
+	347 -- 346;
+	347 -- 339;
+	106 -- 103;
+	106 -- 104;
+	106 -- 105;
+	348 -- 340;
+	348 -- 341;
+	348 -- 155;
+	348 -- 342;
+	348 -- 156;
+	348 -- 343;
+	348 -- 157;
+	348 -- 344;
+	348 -- 158;
+	348 -- 345;
+	348 -- 346;
+	348 -- 347;
+	348 -- 339;
+	349 -- 233;
+	349 -- 234;
+	349 -- 237;
+	349 -- 238;
+	590 -- 589;
+	591 -- 350;
+	591 -- 351;
+	591 -- 330;
+	591 -- 352;
+	591 -- 561;
+	591 -- 562;
+	591 -- 233;
+	591 -- 234;
+	591 -- 577;
+	591 -- 349;
+	591 -- 329;
+	350 -- 233;
+	350 -- 234;
+	350 -- 237;
+	350 -- 238;
+	350 -- 349;
+	471 -- 288;
+	592 -- 591;
+	592 -- 350;
+	592 -- 351;
+	592 -- 330;
+	592 -- 352;
+	592 -- 561;
+	592 -- 562;
+	592 -- 233;
+	592 -- 234;
+	592 -- 577;
+	592 -- 578;
+	592 -- 349;
+	592 -- 329;
+	351 -- 330;
+	351 -- 235;
+	351 -- 236;
+	351 -- 329;
+	472 -- 287;
+	472 -- 471;
+	593 -- 557;
+	593 -- 558;
+	352 -- 330;
+	352 -- 235;
+	352 -- 236;
+	352 -- 329;
+	352 -- 351;
+	594 -- 593;
+	594 -- 321;
+	594 -- 323;
+	594 -- 557;
+	594 -- 558;
+	595 -- 589;
+	595 -- 590;
+	475 -- 435;
+	475 -- 359;
+	475 -- 436;
+	475 -- 360;
+	596 -- 595;
+	596 -- 589;
+	596 -- 590;
+	234 -- 233;
+	355 -- 215;
+	355 -- 216;
+	355 -- 326;
+	355 -- 328;
+	476 -- 475;
+	476 -- 435;
+	476 -- 359;
+	476 -- 436;
+	476 -- 360;
+	597 -- 593;
+	597 -- 594;
+	597 -- 520;
+	597 -- 557;
+	597 -- 558;
+	597 -- 519;
+	235 -- 233;
+	235 -- 234;
+	356 -- 355;
+	356 -- 215;
+	356 -- 216;
+	356 -- 326;
+	356 -- 328;
+	477 -- 191;
+	477 -- 181;
+	477 -- 192;
+	477 -- 182;
+	477 -- 193;
+	477 -- 183;
+	477 -- 194;
+	477 -- 370;
+	477 -- 184;
+	477 -- 375;
+	477 -- 376;
+	477 -- 377;
+	477 -- 378;
+	477 -- 369;
+	477 -- 405;
+	477 -- 406;
+	598 -- 593;
+	598 -- 594;
+	598 -- 520;
+	598 -- 597;
+	598 -- 557;
+	598 -- 558;
+	598 -- 519;
+	236 -- 233;
+	236 -- 234;
+	236 -- 235;
+	478 -- 191;
+	478 -- 181;
+	478 -- 192;
+	478 -- 182;
+	478 -- 193;
+	478 -- 183;
+	478 -- 194;
+	478 -- 370;
+	478 -- 184;
+	478 -- 375;
+	478 -- 376;
+	478 -- 377;
+	478 -- 312;
+	478 -- 378;
+	478 -- 477;
+	478 -- 314;
+	478 -- 369;
+	478 -- 405;
+	478 -- 406;
+	599 -- 13;
+	599 -- 14;
+	599 -- 15;
+	599 -- 16;
+	599 -- 321;
+	599 -- 322;
+	599 -- 323;
+	599 -- 324;
+	599 -- 557;
+	599 -- 558;
+	358 -- 357;
+	238 -- 237;
+	359 -- 264;
+	359 -- 355;
+	359 -- 356;
+	359 -- 215;
+	359 -- 216;
+	118 -- 117;
+	119 -- 117;
+	119 -- 118;
+	14 -- 13;
+	15 -- 14;
+	16 -- 13;
+	16 -- 15;
+	360 -- 263;
+	360 -- 355;
+	360 -- 356;
+	360 -- 325;
+	360 -- 216;
+	360 -- 359;
+	360 -- 327;
+	481 -- 397;
+	481 -- 387;
+	481 -- 398;
+	481 -- 475;
+	481 -- 388;
+	481 -- 476;
+	481 -- 435;
+	481 -- 436;
+	361 -- 357;
+	361 -- 358;
+	482 -- 481;
+	482 -- 397;
+	482 -- 387;
+	482 -- 398;
+	482 -- 475;
+	482 -- 388;
+	482 -- 476;
+	482 -- 435;
+	482 -- 436;
+	120 -- 117;
+	120 -- 118;
+	120 -- 119;
+	362 -- 357;
+	362 -- 358;
+	362 -- 361;
+	363 -- 360;
+	363 -- 361;
+	363 -- 362;
+	363 -- 355;
+	363 -- 356;
+	363 -- 215;
+	363 -- 325;
+	363 -- 216;
+	363 -- 359;
+	363 -- 327;
+	364 -- 360;
+	364 -- 361;
+	364 -- 362;
+	364 -- 363;
+	364 -- 355;
+	364 -- 356;
+	364 -- 216;
+	364 -- 326;
+	364 -- 359;
+	364 -- 328;
+	365 -- 363;
+	365 -- 364;
+	365 -- 355;
+	365 -- 356;
+	365 -- 326;
+	365 -- 359;
+	365 -- 328;
+	365 -- 360;
+	366 -- 360;
+	366 -- 263;
+	366 -- 363;
+	366 -- 364;
+	366 -- 365;
+	366 -- 355;
+	366 -- 356;
+	366 -- 215;
+	366 -- 325;
+	366 -- 216;
+	366 -- 359;
+	366 -- 327;
+	367 -- 360;
+	367 -- 363;
+	367 -- 364;
+	367 -- 365;
+	367 -- 355;
+	367 -- 366;
+	367 -- 356;
+	367 -- 215;
+	367 -- 325;
+	367 -- 216;
+	367 -- 359;
+	367 -- 327;
+	368 -- 360;
+	368 -- 363;
+	368 -- 364;
+	368 -- 365;
+	368 -- 355;
+	368 -- 366;
+	368 -- 356;
+	368 -- 367;
+	368 -- 216;
+	368 -- 359;
+	369 -- 181;
+	369 -- 182;
+	369 -- 183;
+	369 -- 184;
+	128 -- 127;
+	128 -- 118;
+	129 -- 127;
+	129 -- 128;
+	24 -- 23;
+	370 -- 181;
+	370 -- 182;
+	370 -- 183;
+	370 -- 184;
+	370 -- 369;
+	491 -- 23;
+	491 -- 24;
+	371 -- 369;
+	371 -- 370;
+	492 -- 23;
+	492 -- 24;
+	492 -- 491;
+	130 -- 127;
+	130 -- 128;
+	130 -- 129;
+	372 -- 369;
+	372 -- 370;
+	372 -- 371;
+	493 -- 23;
+	493 -- 24;
+	493 -- 491;
+	493 -- 492;
+	494 -- 23;
+	494 -- 24;
+	494 -- 491;
+	494 -- 492;
+	494 -- 493;
+	495 -- 103;
+	495 -- 104;
+	375 -- 191;
+	375 -- 192;
+	375 -- 193;
+	375 -- 194;
+	375 -- 370;
+	375 -- 371;
+	375 -- 372;
+	375 -- 369;
+	496 -- 495;
+	496 -- 103;
+	496 -- 104;
+	376 -- 191;
+	376 -- 192;
+	376 -- 182;
+	376 -- 193;
+	376 -- 194;
+	376 -- 370;
+	376 -- 371;
+	376 -- 372;
+	376 -- 375;
+	376 -- 369;
+	377 -- 181;
+	377 -- 182;
+	377 -- 183;
+	377 -- 370;
+	377 -- 184;
+	377 -- 369;
+	377 -- 217;
+	377 -- 218;
+	378 -- 181;
+	378 -- 182;
+	378 -- 183;
+	378 -- 370;
+	378 -- 184;
+	378 -- 377;
+	378 -- 369;
+	378 -- 217;
+	378 -- 218;
+	262 -- 261;
+	383 -- 293;
+	263 -- 215;
+	263 -- 216;
+	384 -- 293;
+	384 -- 294;
+	384 -- 383;
+	264 -- 263;
+	264 -- 215;
+	264 -- 216;
+	144 -- 143;
+	145 -- 143;
+	145 -- 144;
+	266 -- 265;
+	387 -- 383;
+	387 -- 384;
+	146 -- 143;
+	146 -- 144;
+	146 -- 145;
+	267 -- 265;
+	267 -- 266;
+	388 -- 294;
+	388 -- 383;
+	388 -- 384;
+	388 -- 387;
+	268 -- 265;
+	268 -- 266;
+	268 -- 267;
+	49 -- 105;
+	49 -- 106;
+	270 -- 269;
+	271 -- 270;
+	151 -- 117;
+	151 -- 119;
+	151 -- 120;
+	272 -- 271;
+	272 -- 269;
+	152 -- 151;
+	152 -- 118;
+	152 -- 119;
+	152 -- 120;
+	273 -- 270;
+	273 -- 272;
+	273 -- 143;
+	273 -- 144;
+	273 -- 145;
+	273 -- 146;
+	153 -- 151;
+	153 -- 152;
+	153 -- 119;
+	153 -- 120;
+	153 -- 127;
+	153 -- 128;
+	153 -- 129;
+	274 -- 271;
+	274 -- 273;
+	274 -- 143;
+	274 -- 144;
+	274 -- 145;
+	274 -- 146;
+	274 -- 269;
+	154 -- 151;
+	154 -- 130;
+	154 -- 152;
+	154 -- 153;
+	154 -- 119;
+	154 -- 120;
+	275 -- 270;
+	275 -- 271;
+	275 -- 272;
+	275 -- 274;
+	275 -- 143;
+	275 -- 144;
+	275 -- 145;
+	275 -- 146;
+	275 -- 269;
+	276 -- 270;
+	276 -- 271;
+	276 -- 272;
+	276 -- 273;
+	276 -- 275;
+	276 -- 143;
+	276 -- 144;
+	276 -- 145;
+	276 -- 146;
+	276 -- 269;
+	397 -- 387;
+	397 -- 388;
+	156 -- 155;
+	277 -- 270;
+	277 -- 272;
+	277 -- 274;
+	277 -- 275;
+	277 -- 276;
+	277 -- 143;
+	277 -- 144;
+	277 -- 145;
+	277 -- 146;
+	398 -- 397;
+	398 -- 387;
+	398 -- 388;
+	157 -- 155;
+	157 -- 156;
+	278 -- 271;
+	278 -- 273;
+	278 -- 275;
+	278 -- 276;
+	278 -- 277;
+	278 -- 143;
+	278 -- 144;
+	278 -- 145;
+	278 -- 146;
+	278 -- 269;
+	158 -- 155;
+	158 -- 156;
+	158 -- 157;
+	50 -- 49;
+	50 -- 105;
+	50 -- 106;
+	51 -- 23;
+	51 -- 24;
+	51 -- 49;
+	51 -- 50;
+	52 -- 23;
+	52 -- 24;
+	52 -- 49;
+	52 -- 50;
+	52 -- 51;
+	53 -- 49;
+	53 -- 50;
+	53 -- 51;
+	53 -- 52;
+	54 -- 49;
+	54 -- 50;
+	54 -- 51;
+	54 -- 52;
+	54 -- 53;
+	281 -- 143;
+	281 -- 144;
+	281 -- 145;
+	281 -- 277;
+	281 -- 146;
+	281 -- 278;
+	282 -- 281;
+	282 -- 143;
+	282 -- 144;
+	282 -- 145;
+	282 -- 277;
+	282 -- 146;
+	282 -- 278;
+	283 -- 281;
+	283 -- 282;
+	283 -- 143;
+	283 -- 144;
+	283 -- 145;
+	283 -- 277;
+	283 -- 146;
+	283 -- 278;
+	284 -- 281;
+	284 -- 282;
+	284 -- 283;
+	284 -- 143;
+	284 -- 144;
+	284 -- 145;
+	284 -- 277;
+	284 -- 146;
+	284 -- 278;
+	285 -- 238;
+	286 -- 237;
+	286 -- 238;
+	286 -- 285;
+	288 -- 287;
+	67 -- 651;
+	67 -- 652;
+	68 -- 67;
+	68 -- 651;
+	68 -- 652;
+	69 -- 67;
+	69 -- 68;
+	69 -- 651;
+	69 -- 652;
+	290 -- 289;
+	291 -- 289;
+	291 -- 269;
+	291 -- 290;
+	291 -- 270;
+	291 -- 271;
+	291 -- 272;
+	292 -- 289;
+	292 -- 269;
+	292 -- 290;
+	292 -- 291;
+	292 -- 270;
+	292 -- 271;
+	292 -- 272;
+	294 -- 293;
+	295 -- 217;
+	295 -- 151;
+	295 -- 152;
+	296 -- 183;
+	296 -- 151;
+	296 -- 152;
+	296 -- 295;
+	299 -- 152;
+	299 -- 210;
+	299 -- 211;
+	299 -- 212;
+	299 -- 213;
+	299 -- 214;
+	299 -- 180;
+	299 -- 127;
+	299 -- 205;
+	299 -- 206;
+	299 -- 209;
+	179 -- 151;
+	179 -- 130;
+	179 -- 152;
+	179 -- 153;
+	179 -- 117;
+	179 -- 118;
+	179 -- 119;
+	70 -- 67;
+	70 -- 68;
+	70 -- 651;
+	70 -- 69;
+	70 -- 652;
+	79 -- 53;
+	180 -- 151;
+	180 -- 130;
+	180 -- 152;
+	180 -- 153;
+	180 -- 154;
+	180 -- 179;
+	180 -- 117;
+	180 -- 118;
+	180 -- 119;
+	180 -- 127;
+	181 -- 151;
+	181 -- 152;
+	181 -- 154;
+	181 -- 118;
+	182 -- 181;
+	182 -- 118;
+	183 -- 151;
+	183 -- 152;
+	183 -- 153;
+	183 -- 154;
+	183 -- 117;
+	183 -- 118;
+	183 -- 119;
+	183 -- 120;
+	183 -- 128;
+	183 -- 179;
+	183 -- 180;
+	183 -- 181;
+	183 -- 182;
+	184 -- 151;
+	184 -- 152;
+	184 -- 153;
+	184 -- 154;
+	184 -- 117;
+	184 -- 118;
+	184 -- 119;
+	184 -- 120;
+	184 -- 127;
+	184 -- 130;
+	184 -- 179;
+	184 -- 180;
+	184 -- 181;
+	184 -- 182;
+	184 -- 183;
+	80 -- 79;
+	80 -- 53;
+	80 -- 790;
+	81 -- 79;
+	81 -- 289;
+	81 -- 80;
+	82 -- 79;
+	82 -- 80;
+	82 -- 81;
+	82 -- 290;
+	83 -- 765;
+	83 -- 766;
+	83 -- 613;
+	83 -- 614;
+	83 -- 747;
+	83 -- 748;
+	84 -- 785;
+	84 -- 765;
+	84 -- 766;
+	84 -- 613;
+	84 -- 614;
+	84 -- 747;
+	84 -- 83;
+	84 -- 748;
+	85 -- 765;
+	85 -- 766;
+	85 -- 613;
+	85 -- 614;
+	85 -- 747;
+	85 -- 83;
+	85 -- 748;
+	85 -- 84;
+	86 -- 785;
+	86 -- 765;
+	86 -- 766;
+	86 -- 613;
+	86 -- 614;
+	86 -- 747;
+	86 -- 83;
+	86 -- 748;
+	86 -- 84;
+	86 -- 85;
+	192 -- 191;
+	193 -- 191;
+	193 -- 192;
+	194 -- 191;
+	194 -- 192;
+	194 -- 193;
+	903 -- 880;
+	903 -- 875;
+	903 -- 876;
+	903 -- 879;
+	904 -- 880;
+	904 -- 875;
+	904 -- 879;
+	904 -- 903;
+}
+
+Starting the algorithm...
+var `293' = 170
+var `496' = 666
+var `495' = 428
+var `104' = 680
+var `103' = 442
+var `494' = 86
+var `493' = 324
+var `492' = 764
+var `491' = 526
+var `358' = 666
+var `357' = 428
+var `294' = 408
+var `733' = 142
+var `734' = 380
+var `383' = 58
+var `384' = 296
+var `548' = 128
+var `547' = 366
+var `838' = 338
+var `837' = 100
+var `878' = 128
+var `877' = 366
+var `652' = 254
+var `651' = 16
+var `106' = 254
+var `105' = 16
+var `894' = 666
+var `893' = 428
+var `24' = 44
+var `23' = 282
+var `868' = 268
+var `867' = 30
+var `362' = 526
+var `361' = 764
+var `536' = 282
+var `772' = 296
+var `398' = 414
+var `397' = 652
+var `771' = 58
+var `387' = 30
+var `388' = 268
+var `535' = 44
+var `726' = 128
+var `728' = 44
+var `725' = 666
+var `339' = 156
+var `727' = 282
+var `340' = 708
+var `904' = 456
+var `876' = 764
+var `903' = 694
+var `875' = 526
+var `68' = 338
+var `836' = 128
+var `835' = 366
+var `879' = 268
+var `70' = 778
+var `69' = 540
+var `67' = 100
+var `54' = 254
+var `882' = 498
+var `881' = 736
+var `50' = 324
+var `49' = 86
+var `51' = 100
+var `52' = 554
+var `533' = 778
+var `368' = 338
+var `359' = 114
+var `525' = 680
+var `638' = 512
+var `526' = 442
+var `637' = 750
+var `534' = 540
+var `366' = 498
+var `360' = 352
+var `363' = 44
+var `367' = 100
+var `476' = 268
+var `475' = 30
+var `784' = 512
+var `482' = 282
+var `783' = 750
+var `481' = 44
+var `365' = 736
+var `355' = 750
+var `356' = 512
+var `364' = 282
+var `215' = 324
+var `216' = 86
+var `158' = 352
+var `157' = 394
+var `346' = 456
+var `347' = 16
+var `155' = 484
+var `345' = 114
+var `156' = 722
+var `348' = 254
+var `81' = 114
+var `79' = 512
+var `53' = 16
+var `880' = 30
+var `764' = 324
+var `763' = 86
+var `264' = 44
+var `263' = 282
+var `326' = 114
+var `327' = 428
+var `325' = 156
+var `328' = 666
+var `583' = 722
+var `584' = 484
+var `582' = 86
+var `581' = 324
+var `639' = 128
+var `640' = 366
+var `261' = 16
+var `436' = 114
+var `435' = 352
+var `282' = 554
+var `281' = 792
+var `283' = 44
+var `284' = 338
+var `273' = 352
+var `719' = 352
+var `720' = 114
+var `274' = 114
+var `344' = 30
+var `341' = 268
+var `343' = 268
+var `724' = 296
+var `722' = 366
+var `275' = 352
+var `342' = 30
+var `146' = 282
+var `144' = 428
+var `276' = 114
+var `717' = 442
+var `718' = 680
+var `277' = 16
+var `278' = 254
+var `714' = 254
+var `713' = 16
+var `270' = 268
+var `271' = 30
+var `272' = 268
+var `269' = 30
+var `608' = 540
+var `607' = 778
+var `556' = 470
+var `555' = 708
+var `723' = 58
+var `721' = 128
+var `145' = 100
+var `143' = 666
+var `796' = 30
+var `82' = 352
+var `80' = 750
+var `289' = 540
+var `291' = 16
+var `292' = 254
+var `787' = 282
+var `664' = 498
+var `663' = 736
+var `744' = 680
+var `743' = 442
+var `519' = 722
+var `520' = 484
+var `288' = 282
+var `287' = 44
+var `471' = 254
+var `472' = 16
+var `85' = 254
+var `83' = 324
+var `748' = 128
+var `766' = 268
+var `86' = 16
+var `84' = 86
+var `623' = 778
+var `624' = 540
+var `797' = 72
+var `262' = 254
+var `662' = 512
+var `661' = 750
+var `646' = 100
+var `798' = 310
+var `789' = 498
+var `629' = 282
+var `630' = 44
+var `788' = 44
+var `598' = 100
+var `613' = 442
+var `791' = 380
+var `795' = 268
+var `632' = 470
+var `794' = 736
+var `792' = 142
+var `793' = 498
+var `290' = 778
+var `631' = 708
+var `790' = 736
+var `765' = 30
+var `593' = 428
+var `597' = 338
+var `14' = 666
+var `16' = 30
+var `322' = 16
+var `324' = 58
+var `15' = 268
+var `13' = 428
+var `786' = 764
+var `747' = 366
+var `594' = 666
+var `599' = 456
+var `600' = 694
+var `321' = 254
+var `323' = 296
+var `785' = 526
+var `614' = 680
+var `558' = 708
+var `557' = 470
+var `665' = 86
+var `666' = 324
+var `236' = 778
+var `235' = 540
+var `606' = 778
+var `605' = 540
+var `799' = 778
+var `800' = 540
+var `580' = 254
+var `625' = 338
+var `626' = 100
+var `579' = 16
+var `603' = 352
+var `604' = 114
+var `265' = 736
+var `267' = 666
+var `266' = 498
+var `268' = 428
+var `329' = 114
+var `351' = 268
+var `352' = 30
+var `634' = 282
+var `633' = 44
+var `645' = 338
+var `585' = 268
+var `588' = 428
+var `745' = 72
+var `587' = 666
+var `746' = 310
+var `586' = 30
+var `768' = 652
+var `767' = 156
+var `233' = 268
+var `578' = 652
+var `561' = 512
+var `562' = 750
+var `234' = 30
+var `577' = 414
+var `801' = 366
+var `802' = 128
+var `621' = 428
+var `622' = 666
+var `592' = 296
+var `591' = 58
+var `636' = 114
+var `635' = 750
+var `330' = 352
+var `559' = 30
+var `560' = 764
+var `566' = 442
+var `565' = 680
+var `349' = 114
+var `350' = 352
+var `602' = 310
+var `601' = 470
+var `574' = 30
+var `573' = 114
+var `758' = 380
+var `517' = 428
+var `518' = 666
+var `237' = 44
+var `238' = 456
+var `286' = 282
+var `589' = 114
+var `590' = 352
+var `596' = 694
+var `595' = 456
+var `759' = 526
+var `816' = 366
+var `815' = 128
+var `760' = 764
+var `757' = 296
+var `285' = 44
+var `372' = 72
+var `371' = 310
+var `818' = 708
+var `617' = 338
+var `193' = 296
+var `191' = 456
+var `194' = 128
+var `375' = 366
+var `192' = 694
+var `376' = 366
+var `308' = 484
+var `307' = 722
+var `310' = 296
+var `309' = 58
+var `774' = 414
+var `654' = 764
+var `672' = 268
+var `671' = 30
+var `306' = 254
+var `304' = 764
+var `303' = 526
+var `305' = 16
+var `129' = 512
+var `770' = 366
+var `295' = 254
+var `715' = 652
+var `301' = 156
+var `299' = 86
+var `773' = 652
+var `618' = 100
+var `575' = 128
+var `576' = 366
+var `641' = 694
+var `643' = 296
+var `213' = 680
+var `205' = 694
+var `206' = 456
+var `817' = 470
+var `769' = 128
+var `130' = 750
+var `741' = 254
+var `616' = 72
+var `127' = 142
+var `827' = 554
+var `296' = 16
+var `716' = 414
+var `182' = 394
+var `406' = 324
+var `450' = 44
+var `653' = 394
+var `179' = 394
+var `742' = 16
+var `378' = 86
+var `405' = 380
+var `377' = 512
+var `370' = 142
+var `401' = 30
+var `477' = 30
+var `642' = 456
+var `439' = 16
+var `128' = 380
+var `440' = 254
+var `369' = 484
+var `564' = 470
+var `402' = 268
+var `829' = 156
+var `449' = 72
+var `615' = 310
+var `644' = 58
+var `218' = 282
+var `619' = 268
+var `830' = 394
+var `826' = 512
+var `181' = 156
+var `828' = 792
+var `620' = 30
+var `911' = 722
+var `825' = 750
+var `563' = 708
+var `214' = 442
+var `312' = 254
+var `313' = 44
+var `478' = 666
+var `210' = 142
+var `212' = 16
+var `311' = 16
+var `300' = 324
+var `302' = 394
+var `912' = 484
+var `314' = 282
+var `217' = 44
+var `209' = 380
+var `211' = 254
+var `180' = 156
+var `119' = 652
+var `120' = 414
+var `118' = 310
+var `117' = 72
+var `668' = 554
+var `153' = 526
+var `151' = 666
+var `154' = 30
+var `152' = 428
+var `667' = 792
+var `184' = 764
+var `183' = 114
+Total cost of reported solution: 245
+Algorithm finished in 71,054 ms (simulated time)
+Number of messages sent (by type):
+	[ALL, DSA, VALUE]:	12,139
+	[ALL, DSA, VALUE]:	10,746
+	[ALL, DSA, VALUE]:	8,756
+	[ALL, DSA, VALUE]:	8,358
+	[ALL, DSA, VALUE]:	7,562
+	[ALL, DSA, VALUE]:	7,761
+	[ALL, DSA, VALUE]:	7,562
+	[ALL, DSA, VALUE]:	6,368
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,771
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	8,557
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	6,169
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	7,164
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	5,373
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	3,582
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	8,756
+	[ALL, DSA, VALUE]:	7,761
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,990
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,174
+	[ALL, DSA, VALUE]:	5,174
+	[ALL, DSA, VALUE]:	5,174
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	4,577
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	6,169
+	[ALL, DSA, VALUE]:	6,169
+	[ALL, DSA, VALUE]:	5,970
+	[ALL, DSA, VALUE]:	5,771
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,572
+	[ALL, DSA, VALUE]:	5,373
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	5,174
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,975
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	4,776
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,781
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	4,378
+	[ALL, DSA, VALUE]:	4,179
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,388
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	3,980
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	3,383
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	2,786
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	2,587
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,194
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	796
+	[ALL, DSA, VALUE]:	3,184
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	2,985
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	2,189
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,592
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	1,393
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	995
+	[ALL, DSA, VALUE]:	1,194
+	- Total:	1,098,480
+Number of messages sent (by agent):
+	agent_0:	2,388
+	agent_1:	2,388
+	agent_10:	1,791
+	agent_100:	597
+	agent_101:	597
+	agent_102:	995
+	agent_103:	1,194
+	agent_104:	1,791
+	agent_105:	1,791
+	agent_106:	1,194
+	agent_107:	995
+	agent_108:	1,990
+	agent_109:	1,990
+	agent_11:	1,393
+	agent_110:	4,776
+	agent_111:	4,378
+	agent_112:	4,776
+	agent_113:	4,378
+	agent_114:	3,781
+	agent_115:	3,383
+	agent_116:	3,980
+	agent_117:	3,383
+	agent_118:	1,393
+	agent_119:	1,393
+	agent_12:	1,791
+	agent_120:	3,582
+	agent_121:	3,383
+	agent_122:	3,980
+	agent_123:	3,781
+	agent_124:	3,980
+	agent_125:	3,980
+	agent_126:	2,786
+	agent_127:	2,388
+	agent_128:	2,786
+	agent_129:	2,388
+	agent_13:	1,791
+	agent_130:	2,985
+	agent_131:	2,985
+	agent_132:	2,985
+	agent_133:	2,985
+	agent_134:	1,393
+	agent_135:	1,990
+	agent_136:	2,189
+	agent_137:	2,189
+	agent_138:	4,975
+	agent_139:	4,975
+	agent_14:	1,791
+	agent_140:	4,975
+	agent_141:	4,975
+	agent_142:	3,383
+	agent_143:	3,383
+	agent_144:	3,383
+	agent_145:	3,383
+	agent_146:	3,383
+	agent_147:	3,383
+	agent_148:	1,791
+	agent_149:	1,791
+	agent_15:	1,791
+	agent_150:	2,587
+	agent_151:	2,587
+	agent_152:	597
+	agent_153:	597
+	agent_154:	2,786
+	agent_155:	2,985
+	agent_156:	995
+	agent_157:	995
+	agent_158:	2,985
+	agent_159:	2,786
+	agent_16:	796
+	agent_160:	2,189
+	agent_161:	2,786
+	agent_162:	3,383
+	agent_163:	2,786
+	agent_164:	3,781
+	agent_165:	3,582
+	agent_166:	1,393
+	agent_167:	1,194
+	agent_168:	2,587
+	agent_169:	2,786
+	agent_17:	1,194
+	agent_170:	3,383
+	agent_171:	3,383
+	agent_172:	1,592
+	agent_173:	1,791
+	agent_174:	2,985
+	agent_175:	3,184
+	agent_176:	1,791
+	agent_177:	1,791
+	agent_178:	3,582
+	agent_179:	3,781
+	agent_18:	796
+	agent_180:	3,383
+	agent_181:	3,184
+	agent_182:	1,791
+	agent_183:	1,791
+	agent_184:	2,985
+	agent_185:	2,985
+	agent_186:	3,980
+	agent_187:	3,184
+	agent_188:	796
+	agent_189:	796
+	agent_19:	796
+	agent_190:	1,791
+	agent_191:	1,791
+	agent_192:	3,582
+	agent_193:	3,980
+	agent_194:	2,587
+	agent_195:	2,587
+	agent_196:	995
+	agent_197:	995
+	agent_198:	995
+	agent_199:	995
+	agent_2:	2,388
+	agent_20:	1,791
+	agent_200:	995
+	agent_201:	995
+	agent_202:	2,189
+	agent_203:	2,189
+	agent_204:	597
+	agent_205:	597
+	agent_206:	796
+	agent_207:	995
+	agent_208:	1,791
+	agent_209:	2,189
+	agent_21:	1,990
+	agent_210:	796
+	agent_211:	597
+	agent_212:	1,791
+	agent_213:	1,592
+	agent_214:	4,577
+	agent_215:	4,577
+	agent_216:	4,577
+	agent_217:	4,577
+	agent_218:	2,587
+	agent_219:	2,587
+	agent_22:	1,791
+	agent_220:	2,587
+	agent_221:	2,587
+	agent_222:	4,776
+	agent_223:	3,781
+	agent_224:	2,985
+	agent_225:	2,985
+	agent_226:	597
+	agent_227:	597
+	agent_228:	2,786
+	agent_229:	2,786
+	agent_23:	1,990
+	agent_230:	2,189
+	agent_231:	1,990
+	agent_232:	1,194
+	agent_233:	995
+	agent_234:	995
+	agent_235:	796
+	agent_236:	4,179
+	agent_237:	4,378
+	agent_238:	1,393
+	agent_239:	2,189
+	agent_24:	1,393
+	agent_240:	1,393
+	agent_241:	1,393
+	agent_242:	995
+	agent_243:	995
+	agent_244:	3,781
+	agent_245:	3,781
+	agent_246:	2,786
+	agent_247:	3,184
+	agent_248:	1,393
+	agent_249:	1,393
+	agent_25:	1,393
+	agent_250:	2,985
+	agent_251:	2,786
+	agent_252:	3,383
+	agent_253:	3,383
+	agent_254:	1,990
+	agent_255:	1,791
+	agent_256:	1,393
+	agent_257:	1,592
+	agent_258:	1,194
+	agent_259:	1,194
+	agent_26:	1,393
+	agent_260:	3,383
+	agent_261:	2,786
+	agent_262:	3,781
+	agent_263:	3,980
+	agent_264:	3,980
+	agent_265:	3,781
+	agent_266:	1,393
+	agent_267:	2,587
+	agent_268:	4,179
+	agent_269:	4,378
+	agent_27:	1,393
+	agent_270:	3,383
+	agent_271:	3,383
+	agent_272:	1,194
+	agent_273:	1,393
+	agent_274:	1,393
+	agent_275:	1,393
+	agent_276:	1,990
+	agent_277:	1,990
+	agent_278:	1,791
+	agent_279:	1,194
+	agent_28:	5,970
+	agent_280:	1,990
+	agent_281:	1,990
+	agent_282:	1,990
+	agent_283:	1,990
+	agent_284:	995
+	agent_285:	796
+	agent_286:	1,791
+	agent_287:	1,791
+	agent_288:	3,781
+	agent_289:	3,980
+	agent_29:	5,970
+	agent_290:	3,781
+	agent_291:	3,980
+	agent_292:	1,592
+	agent_293:	1,393
+	agent_294:	2,189
+	agent_295:	2,189
+	agent_296:	2,587
+	agent_297:	2,189
+	agent_298:	597
+	agent_299:	597
+	agent_3:	2,388
+	agent_30:	5,572
+	agent_300:	995
+	agent_301:	995
+	agent_302:	4,577
+	agent_303:	4,577
+	agent_304:	8,756
+	agent_305:	6,368
+	agent_306:	1,791
+	agent_307:	1,791
+	agent_308:	5,970
+	agent_309:	6,169
+	agent_31:	5,771
+	agent_310:	1,990
+	agent_311:	1,990
+	agent_312:	5,572
+	agent_313:	5,771
+	agent_314:	4,378
+	agent_315:	4,776
+	agent_316:	5,174
+	agent_317:	4,975
+	agent_318:	5,174
+	agent_319:	4,975
+	agent_32:	3,184
+	agent_320:	2,189
+	agent_321:	2,189
+	agent_322:	2,189
+	agent_323:	2,189
+	agent_324:	1,393
+	agent_325:	1,393
+	agent_326:	2,985
+	agent_327:	2,587
+	agent_328:	2,587
+	agent_329:	2,587
+	agent_33:	2,985
+	agent_330:	1,990
+	agent_331:	1,990
+	agent_332:	2,985
+	agent_333:	2,587
+	agent_334:	1,194
+	agent_335:	995
+	agent_336:	995
+	agent_337:	1,194
+	agent_338:	2,786
+	agent_339:	2,786
+	agent_34:	1,393
+	agent_340:	1,990
+	agent_341:	1,791
+	agent_342:	8,756
+	agent_343:	7,761
+	agent_344:	2,388
+	agent_345:	1,393
+	agent_346:	1,791
+	agent_347:	1,791
+	agent_348:	1,194
+	agent_349:	995
+	agent_35:	2,786
+	agent_350:	2,587
+	agent_351:	2,587
+	agent_352:	2,985
+	agent_353:	2,388
+	agent_354:	2,587
+	agent_355:	2,388
+	agent_356:	1,194
+	agent_357:	1,791
+	agent_358:	1,194
+	agent_359:	1,393
+	agent_36:	5,572
+	agent_360:	1,393
+	agent_361:	1,194
+	agent_362:	1,194
+	agent_363:	995
+	agent_364:	995
+	agent_365:	1,194
+	agent_366:	1,393
+	agent_367:	1,592
+	agent_368:	2,985
+	agent_369:	3,383
+	agent_37:	5,373
+	agent_370:	597
+	agent_371:	597
+	agent_372:	1,990
+	agent_373:	1,990
+	agent_374:	4,179
+	agent_375:	4,179
+	agent_376:	4,378
+	agent_377:	3,582
+	agent_378:	2,985
+	agent_379:	3,184
+	agent_38:	5,174
+	agent_380:	2,189
+	agent_381:	2,189
+	agent_382:	597
+	agent_383:	597
+	agent_384:	2,985
+	agent_385:	2,985
+	agent_386:	1,393
+	agent_387:	1,194
+	agent_388:	1,393
+	agent_389:	1,393
+	agent_39:	4,975
+	agent_390:	2,189
+	agent_391:	2,388
+	agent_392:	1,791
+	agent_393:	1,791
+	agent_394:	995
+	agent_395:	995
+	agent_396:	995
+	agent_397:	796
+	agent_398:	3,582
+	agent_399:	4,577
+	agent_4:	1,791
+	agent_40:	7,761
+	agent_41:	8,358
+	agent_42:	7,562
+	agent_43:	7,562
+	agent_44:	3,383
+	agent_45:	3,383
+	agent_46:	3,383
+	agent_47:	3,383
+	agent_48:	5,373
+	agent_49:	8,557
+	agent_5:	1,791
+	agent_50:	7,164
+	agent_51:	4,577
+	agent_52:	12,139
+	agent_53:	10,746
+	agent_54:	1,791
+	agent_55:	2,189
+	agent_56:	1,791
+	agent_57:	1,990
+	agent_58:	3,582
+	agent_59:	3,781
+	agent_6:	1,791
+	agent_60:	4,975
+	agent_61:	4,179
+	agent_62:	4,975
+	agent_63:	4,179
+	agent_64:	3,383
+	agent_65:	3,781
+	agent_66:	3,184
+	agent_67:	3,980
+	agent_68:	6,169
+	agent_69:	4,179
+	agent_7:	1,791
+	agent_70:	2,587
+	agent_71:	2,587
+	agent_72:	995
+	agent_73:	995
+	agent_74:	2,189
+	agent_75:	2,388
+	agent_76:	597
+	agent_77:	796
+	agent_78:	2,786
+	agent_79:	2,587
+	agent_8:	2,587
+	agent_80:	1,791
+	agent_81:	1,990
+	agent_82:	1,791
+	agent_83:	1,990
+	agent_84:	3,980
+	agent_85:	3,781
+	agent_86:	3,980
+	agent_87:	3,781
+	agent_88:	4,378
+	agent_89:	4,776
+	agent_9:	2,587
+	agent_90:	5,174
+	agent_91:	5,572
+	agent_92:	5,970
+	agent_93:	6,169
+	agent_94:	3,383
+	agent_95:	3,383
+	agent_96:	3,781
+	agent_97:	3,980
+	agent_98:	1,990
+	agent_99:	1,990
+Number of messages received (by agent):
+	agent_0:	2,388
+	agent_1:	2,388
+	agent_10:	1,791
+	agent_100:	597
+	agent_101:	597
+	agent_102:	995
+	agent_103:	1,194
+	agent_104:	1,791
+	agent_105:	1,791
+	agent_106:	1,194
+	agent_107:	995
+	agent_108:	1,990
+	agent_109:	1,990
+	agent_11:	1,393
+	agent_110:	4,776
+	agent_111:	4,378
+	agent_112:	4,776
+	agent_113:	4,378
+	agent_114:	3,781
+	agent_115:	3,383
+	agent_116:	3,980
+	agent_117:	3,383
+	agent_118:	1,393
+	agent_119:	1,393
+	agent_12:	1,791
+	agent_120:	3,582
+	agent_121:	3,383
+	agent_122:	3,980
+	agent_123:	3,781
+	agent_124:	3,980
+	agent_125:	3,980
+	agent_126:	2,786
+	agent_127:	2,388
+	agent_128:	2,786
+	agent_129:	2,388
+	agent_13:	1,791
+	agent_130:	2,985
+	agent_131:	2,985
+	agent_132:	2,985
+	agent_133:	2,985
+	agent_134:	1,393
+	agent_135:	1,990
+	agent_136:	2,189
+	agent_137:	2,189
+	agent_138:	4,975
+	agent_139:	4,975
+	agent_14:	1,791
+	agent_140:	4,975
+	agent_141:	4,975
+	agent_142:	3,383
+	agent_143:	3,383
+	agent_144:	3,383
+	agent_145:	3,383
+	agent_146:	3,383
+	agent_147:	3,383
+	agent_148:	1,791
+	agent_149:	1,791
+	agent_15:	1,791
+	agent_150:	2,587
+	agent_151:	2,587
+	agent_152:	597
+	agent_153:	597
+	agent_154:	2,786
+	agent_155:	2,985
+	agent_156:	995
+	agent_157:	995
+	agent_158:	2,985
+	agent_159:	2,786
+	agent_16:	796
+	agent_160:	2,189
+	agent_161:	2,786
+	agent_162:	3,383
+	agent_163:	2,786
+	agent_164:	3,781
+	agent_165:	3,582
+	agent_166:	1,393
+	agent_167:	1,194
+	agent_168:	2,587
+	agent_169:	2,786
+	agent_17:	1,194
+	agent_170:	3,383
+	agent_171:	3,383
+	agent_172:	1,592
+	agent_173:	1,791
+	agent_174:	2,985
+	agent_175:	3,184
+	agent_176:	1,791
+	agent_177:	1,791
+	agent_178:	3,582
+	agent_179:	3,781
+	agent_18:	796
+	agent_180:	3,383
+	agent_181:	3,184
+	agent_182:	1,791
+	agent_183:	1,791
+	agent_184:	2,985
+	agent_185:	2,985
+	agent_186:	3,980
+	agent_187:	3,184
+	agent_188:	796
+	agent_189:	796
+	agent_19:	796
+	agent_190:	1,791
+	agent_191:	1,791
+	agent_192:	3,582
+	agent_193:	3,980
+	agent_194:	2,587
+	agent_195:	2,587
+	agent_196:	995
+	agent_197:	995
+	agent_198:	995
+	agent_199:	995
+	agent_2:	2,388
+	agent_20:	1,791
+	agent_200:	995
+	agent_201:	995
+	agent_202:	2,189
+	agent_203:	2,189
+	agent_204:	597
+	agent_205:	597
+	agent_206:	796
+	agent_207:	995
+	agent_208:	1,791
+	agent_209:	2,189
+	agent_21:	1,990
+	agent_210:	796
+	agent_211:	597
+	agent_212:	1,791
+	agent_213:	1,592
+	agent_214:	4,577
+	agent_215:	4,577
+	agent_216:	4,577
+	agent_217:	4,577
+	agent_218:	2,587
+	agent_219:	2,587
+	agent_22:	1,791
+	agent_220:	2,587
+	agent_221:	2,587
+	agent_222:	4,776
+	agent_223:	3,781
+	agent_224:	2,985
+	agent_225:	2,985
+	agent_226:	597
+	agent_227:	597
+	agent_228:	2,786
+	agent_229:	2,786
+	agent_23:	1,990
+	agent_230:	2,189
+	agent_231:	1,990
+	agent_232:	1,194
+	agent_233:	995
+	agent_234:	995
+	agent_235:	796
+	agent_236:	4,179
+	agent_237:	4,378
+	agent_238:	1,393
+	agent_239:	2,189
+	agent_24:	1,393
+	agent_240:	1,393
+	agent_241:	1,393
+	agent_242:	995
+	agent_243:	995
+	agent_244:	3,781
+	agent_245:	3,781
+	agent_246:	2,786
+	agent_247:	3,184
+	agent_248:	1,393
+	agent_249:	1,393
+	agent_25:	1,393
+	agent_250:	2,985
+	agent_251:	2,786
+	agent_252:	3,383
+	agent_253:	3,383
+	agent_254:	1,990
+	agent_255:	1,791
+	agent_256:	1,393
+	agent_257:	1,592
+	agent_258:	1,194
+	agent_259:	1,194
+	agent_26:	1,393
+	agent_260:	3,383
+	agent_261:	2,786
+	agent_262:	3,781
+	agent_263:	3,980
+	agent_264:	3,980
+	agent_265:	3,781
+	agent_266:	1,393
+	agent_267:	2,587
+	agent_268:	4,179
+	agent_269:	4,378
+	agent_27:	1,393
+	agent_270:	3,383
+	agent_271:	3,383
+	agent_272:	1,194
+	agent_273:	1,393
+	agent_274:	1,393
+	agent_275:	1,393
+	agent_276:	1,990
+	agent_277:	1,990
+	agent_278:	1,791
+	agent_279:	1,194
+	agent_28:	5,970
+	agent_280:	1,990
+	agent_281:	1,990
+	agent_282:	1,990
+	agent_283:	1,990
+	agent_284:	995
+	agent_285:	796
+	agent_286:	1,791
+	agent_287:	1,791
+	agent_288:	3,781
+	agent_289:	3,980
+	agent_29:	5,970
+	agent_290:	3,781
+	agent_291:	3,980
+	agent_292:	1,592
+	agent_293:	1,393
+	agent_294:	2,189
+	agent_295:	2,189
+	agent_296:	2,587
+	agent_297:	2,189
+	agent_298:	597
+	agent_299:	597
+	agent_3:	2,388
+	agent_30:	5,572
+	agent_300:	995
+	agent_301:	995
+	agent_302:	4,577
+	agent_303:	4,577
+	agent_304:	8,756
+	agent_305:	6,368
+	agent_306:	1,791
+	agent_307:	1,791
+	agent_308:	5,970
+	agent_309:	6,169
+	agent_31:	5,771
+	agent_310:	1,990
+	agent_311:	1,990
+	agent_312:	5,572
+	agent_313:	5,771
+	agent_314:	4,378
+	agent_315:	4,776
+	agent_316:	5,174
+	agent_317:	4,975
+	agent_318:	5,174
+	agent_319:	4,975
+	agent_32:	3,184
+	agent_320:	2,189
+	agent_321:	2,189
+	agent_322:	2,189
+	agent_323:	2,189
+	agent_324:	1,393
+	agent_325:	1,393
+	agent_326:	2,985
+	agent_327:	2,587
+	agent_328:	2,587
+	agent_329:	2,587
+	agent_33:	2,985
+	agent_330:	1,990
+	agent_331:	1,990
+	agent_332:	2,985
+	agent_333:	2,587
+	agent_334:	1,194
+	agent_335:	995
+	agent_336:	995
+	agent_337:	1,194
+	agent_338:	2,786
+	agent_339:	2,786
+	agent_34:	1,393
+	agent_340:	1,990
+	agent_341:	1,791
+	agent_342:	8,756
+	agent_343:	7,761
+	agent_344:	2,388
+	agent_345:	1,393
+	agent_346:	1,791
+	agent_347:	1,791
+	agent_348:	1,194
+	agent_349:	995
+	agent_35:	2,786
+	agent_350:	2,587
+	agent_351:	2,587
+	agent_352:	2,985
+	agent_353:	2,388
+	agent_354:	2,587
+	agent_355:	2,388
+	agent_356:	1,194
+	agent_357:	1,791
+	agent_358:	1,194
+	agent_359:	1,393
+	agent_36:	5,572
+	agent_360:	1,393
+	agent_361:	1,194
+	agent_362:	1,194
+	agent_363:	995
+	agent_364:	995
+	agent_365:	1,194
+	agent_366:	1,393
+	agent_367:	1,592
+	agent_368:	2,985
+	agent_369:	3,383
+	agent_37:	5,373
+	agent_370:	597
+	agent_371:	597
+	agent_372:	1,990
+	agent_373:	1,990
+	agent_374:	4,179
+	agent_375:	4,179
+	agent_376:	4,378
+	agent_377:	3,582
+	agent_378:	2,985
+	agent_379:	3,184
+	agent_38:	5,174
+	agent_380:	2,189
+	agent_381:	2,189
+	agent_382:	597
+	agent_383:	597
+	agent_384:	2,985
+	agent_385:	2,985
+	agent_386:	1,393
+	agent_387:	1,194
+	agent_388:	1,393
+	agent_389:	1,393
+	agent_39:	4,975
+	agent_390:	2,189
+	agent_391:	2,388
+	agent_392:	1,791
+	agent_393:	1,791
+	agent_394:	995
+	agent_395:	995
+	agent_396:	995
+	agent_397:	796
+	agent_398:	3,582
+	agent_399:	4,577
+	agent_4:	1,791
+	agent_40:	7,761
+	agent_41:	8,358
+	agent_42:	7,562
+	agent_43:	7,562
+	agent_44:	3,383
+	agent_45:	3,383
+	agent_46:	3,383
+	agent_47:	3,383
+	agent_48:	5,373
+	agent_49:	8,557
+	agent_5:	1,791
+	agent_50:	7,164
+	agent_51:	4,577
+	agent_52:	12,139
+	agent_53:	10,746
+	agent_54:	1,791
+	agent_55:	2,189
+	agent_56:	1,791
+	agent_57:	1,990
+	agent_58:	3,582
+	agent_59:	3,781
+	agent_6:	1,791
+	agent_60:	4,975
+	agent_61:	4,179
+	agent_62:	4,975
+	agent_63:	4,179
+	agent_64:	3,383
+	agent_65:	3,781
+	agent_66:	3,184
+	agent_67:	3,980
+	agent_68:	6,169
+	agent_69:	4,179
+	agent_7:	1,791
+	agent_70:	2,587
+	agent_71:	2,587
+	agent_72:	995
+	agent_73:	995
+	agent_74:	2,189
+	agent_75:	2,388
+	agent_76:	597
+	agent_77:	796
+	agent_78:	2,786
+	agent_79:	2,587
+	agent_8:	2,587
+	agent_80:	1,791
+	agent_81:	1,990
+	agent_82:	1,791
+	agent_83:	1,990
+	agent_84:	3,980
+	agent_85:	3,781
+	agent_86:	3,980
+	agent_87:	3,781
+	agent_88:	4,378
+	agent_89:	4,776
+	agent_9:	2,587
+	agent_90:	5,174
+	agent_91:	5,572
+	agent_92:	5,970
+	agent_93:	6,169
+	agent_94:	3,383
+	agent_95:	3,383
+	agent_96:	3,781
+	agent_97:	3,980
+	agent_98:	1,990
+	agent_99:	1,990
+Amount of information sent (by type, in bytes):
+	[ALL, DSA, VALUE]:	256,688
+	[ALL, DSA, VALUE]:	226,260
+	[ALL, DSA, VALUE]:	184,756
+	[ALL, DSA, VALUE]:	177,072
+	[ALL, DSA, VALUE]:	159,220
+	[ALL, DSA, VALUE]:	164,775
+	[ALL, DSA, VALUE]:	159,220
+	[ALL, DSA, VALUE]:	134,368
+	[ALL, DSA, VALUE]:	125,970
+	[ALL, DSA, VALUE]:	126,240
+	[ALL, DSA, VALUE]:	122,032
+	[ALL, DSA, VALUE]:	117,572
+	[ALL, DSA, VALUE]:	180,987
+	[ALL, DSA, VALUE]:	105,200
+	[ALL, DSA, VALUE]:	104,750
+	[ALL, DSA, VALUE]:	130,169
+	[ALL, DSA, VALUE]:	83,800
+	[ALL, DSA, VALUE]:	96,577
+	[ALL, DSA, VALUE]:	92,378
+	[ALL, DSA, VALUE]:	92,576
+	[ALL, DSA, VALUE]:	84,140
+	[ALL, DSA, VALUE]:	88,347
+	[ALL, DSA, VALUE]:	83,980
+	[ALL, DSA, VALUE]:	88,179
+	[ALL, DSA, VALUE]:	83,980
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	79,800
+	[ALL, DSA, VALUE]:	100,560
+	[ALL, DSA, VALUE]:	87,990
+	[ALL, DSA, VALUE]:	75,420
+	[ALL, DSA, VALUE]:	92,950
+	[ALL, DSA, VALUE]:	75,600
+	[ALL, DSA, VALUE]:	151,164
+	[ALL, DSA, VALUE]:	88,389
+	[ALL, DSA, VALUE]:	67,184
+	[ALL, DSA, VALUE]:	88,179
+	[ALL, DSA, VALUE]:	88,179
+	[ALL, DSA, VALUE]:	84,160
+	[ALL, DSA, VALUE]:	83,980
+	[ALL, DSA, VALUE]:	83,980
+	[ALL, DSA, VALUE]:	62,850
+	[ALL, DSA, VALUE]:	79,610
+	[ALL, DSA, VALUE]:	79,781
+	[ALL, DSA, VALUE]:	62,985
+	[ALL, DSA, VALUE]:	79,610
+	[ALL, DSA, VALUE]:	62,985
+	[ALL, DSA, VALUE]:	63,240
+	[ALL, DSA, VALUE]:	83,800
+	[ALL, DSA, VALUE]:	75,726
+	[ALL, DSA, VALUE]:	75,582
+	[ALL, DSA, VALUE]:	75,726
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	71,400
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	113,373
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	67,328
+	[ALL, DSA, VALUE]:	67,456
+	[ALL, DSA, VALUE]:	96,600
+	[ALL, DSA, VALUE]:	41,990
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	92,378
+	[ALL, DSA, VALUE]:	67,040
+	[ALL, DSA, VALUE]:	79,610
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	58,660
+	[ALL, DSA, VALUE]:	50,400
+	[ALL, DSA, VALUE]:	41,990
+	[ALL, DSA, VALUE]:	79,800
+	[ALL, DSA, VALUE]:	75,582
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	79,610
+	[ALL, DSA, VALUE]:	79,781
+	[ALL, DSA, VALUE]:	58,912
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	100,992
+	[ALL, DSA, VALUE]:	100,776
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	42,070
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	84,160
+	[ALL, DSA, VALUE]:	79,781
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	37,863
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	46,090
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	75,906
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	37,710
+	[ALL, DSA, VALUE]:	37,710
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	25,200
+	[ALL, DSA, VALUE]:	42,160
+	[ALL, DSA, VALUE]:	25,140
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	29,400
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	21,000
+	[ALL, DSA, VALUE]:	42,080
+	[ALL, DSA, VALUE]:	50,280
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	46,387
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	37,710
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	71,672
+	[ALL, DSA, VALUE]:	62,850
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	79,610
+	[ALL, DSA, VALUE]:	79,781
+	[ALL, DSA, VALUE]:	71,689
+	[ALL, DSA, VALUE]:	71,553
+	[ALL, DSA, VALUE]:	71,536
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	46,090
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	41,990
+	[ALL, DSA, VALUE]:	184,752
+	[ALL, DSA, VALUE]:	164,459
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	33,520
+	[ALL, DSA, VALUE]:	42,070
+	[ALL, DSA, VALUE]:	41,990
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	41,900
+	[ALL, DSA, VALUE]:	41,990
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,710
+	[ALL, DSA, VALUE]:	33,520
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	33,520
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	25,140
+	[ALL, DSA, VALUE]:	21,000
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	96,596
+	[ALL, DSA, VALUE]:	96,573
+	[ALL, DSA, VALUE]:	96,573
+	[ALL, DSA, VALUE]:	97,171
+	[ALL, DSA, VALUE]:	84,296
+	[ALL, DSA, VALUE]:	62,848
+	[ALL, DSA, VALUE]:	58,784
+	[ALL, DSA, VALUE]:	58,910
+	[ALL, DSA, VALUE]:	71,379
+	[ALL, DSA, VALUE]:	71,226
+	[ALL, DSA, VALUE]:	67,184
+	[ALL, DSA, VALUE]:	62,996
+	[ALL, DSA, VALUE]:	50,388
+	[ALL, DSA, VALUE]:	50,362
+	[ALL, DSA, VALUE]:	50,362
+	[ALL, DSA, VALUE]:	50,278
+	[ALL, DSA, VALUE]:	50,386
+	[ALL, DSA, VALUE]:	50,362
+	[ALL, DSA, VALUE]:	50,458
+	[ALL, DSA, VALUE]:	63,105
+	[ALL, DSA, VALUE]:	58,660
+	[ALL, DSA, VALUE]:	41,986
+	[ALL, DSA, VALUE]:	37,799
+	[ALL, DSA, VALUE]:	37,710
+	[ALL, DSA, VALUE]:	25,193
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	25,140
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	79,606
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	50,280
+	[ALL, DSA, VALUE]:	41,990
+	[ALL, DSA, VALUE]:	42,070
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	25,194
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	16,760
+	[ALL, DSA, VALUE]:	21,000
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	25,140
+	[ALL, DSA, VALUE]:	42,047
+	[ALL, DSA, VALUE]:	41,887
+	[ALL, DSA, VALUE]:	37,787
+	[ALL, DSA, VALUE]:	54,596
+	[ALL, DSA, VALUE]:	37,770
+	[ALL, DSA, VALUE]:	37,770
+	[ALL, DSA, VALUE]:	16,760
+	[ALL, DSA, VALUE]:	16,796
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	21,000
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	20,994
+	[ALL, DSA, VALUE]:	25,130
+	[ALL, DSA, VALUE]:	16,753
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	117,572
+	[ALL, DSA, VALUE]:	108,940
+	[ALL, DSA, VALUE]:	108,940
+	[ALL, DSA, VALUE]:	109,408
+	[ALL, DSA, VALUE]:	96,784
+	[ALL, DSA, VALUE]:	96,370
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	84,160
+	[ALL, DSA, VALUE]:	79,781
+	[ALL, DSA, VALUE]:	83,800
+	[ALL, DSA, VALUE]:	79,781
+	[ALL, DSA, VALUE]:	125,970
+	[ALL, DSA, VALUE]:	130,169
+	[ALL, DSA, VALUE]:	130,448
+	[ALL, DSA, VALUE]:	126,240
+	[ALL, DSA, VALUE]:	122,061
+	[ALL, DSA, VALUE]:	117,824
+	[ALL, DSA, VALUE]:	117,572
+	[ALL, DSA, VALUE]:	113,400
+	[ALL, DSA, VALUE]:	105,200
+	[ALL, DSA, VALUE]:	104,750
+	[ALL, DSA, VALUE]:	109,850
+	[ALL, DSA, VALUE]:	104,975
+	[ALL, DSA, VALUE]:	104,750
+	[ALL, DSA, VALUE]:	105,200
+	[ALL, DSA, VALUE]:	104,975
+	[ALL, DSA, VALUE]:	104,975
+	[ALL, DSA, VALUE]:	100,776
+	[ALL, DSA, VALUE]:	100,776
+	[ALL, DSA, VALUE]:	92,378
+	[ALL, DSA, VALUE]:	92,774
+	[ALL, DSA, VALUE]:	83,800
+	[ALL, DSA, VALUE]:	79,952
+	[ALL, DSA, VALUE]:	71,536
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,800
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,710
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	16,760
+	[ALL, DSA, VALUE]:	92,576
+	[ALL, DSA, VALUE]:	88,368
+	[ALL, DSA, VALUE]:	62,850
+	[ALL, DSA, VALUE]:	63,225
+	[ALL, DSA, VALUE]:	63,105
+	[ALL, DSA, VALUE]:	63,240
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	58,912
+	[ALL, DSA, VALUE]:	58,912
+	[ALL, DSA, VALUE]:	50,491
+	[ALL, DSA, VALUE]:	37,766
+	[ALL, DSA, VALUE]:	16,784
+	[ALL, DSA, VALUE]:	16,785
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	71,536
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	71,383
+	[ALL, DSA, VALUE]:	84,160
+	[ALL, DSA, VALUE]:	67,328
+	[ALL, DSA, VALUE]:	58,940
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	54,704
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	54,587
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	54,470
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	71,230
+	[ALL, DSA, VALUE]:	63,150
+	[ALL, DSA, VALUE]:	62,985
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	16,796
+	[ALL, DSA, VALUE]:	16,796
+	[ALL, DSA, VALUE]:	58,800
+	[ALL, DSA, VALUE]:	58,786
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	54,450
+	[ALL, DSA, VALUE]:	54,762
+	[ALL, DSA, VALUE]:	37,768
+	[ALL, DSA, VALUE]:	37,696
+	[ALL, DSA, VALUE]:	37,706
+	[ALL, DSA, VALUE]:	37,787
+	[ALL, DSA, VALUE]:	29,374
+	[ALL, DSA, VALUE]:	37,842
+	[ALL, DSA, VALUE]:	37,698
+	[ALL, DSA, VALUE]:	37,842
+	[ALL, DSA, VALUE]:	46,284
+	[ALL, DSA, VALUE]:	46,284
+	[ALL, DSA, VALUE]:	46,284
+	[ALL, DSA, VALUE]:	37,698
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	25,248
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	16,796
+	[ALL, DSA, VALUE]:	46,090
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	46,090
+	[ALL, DSA, VALUE]:	46,090
+	[ALL, DSA, VALUE]:	46,090
+	[ALL, DSA, VALUE]:	46,189
+	[ALL, DSA, VALUE]:	16,796
+	[ALL, DSA, VALUE]:	67,328
+	[ALL, DSA, VALUE]:	63,120
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	37,800
+	[ALL, DSA, VALUE]:	37,800
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	62,844
+	[ALL, DSA, VALUE]:	63,114
+	[ALL, DSA, VALUE]:	37,842
+	[ALL, DSA, VALUE]:	37,842
+	[ALL, DSA, VALUE]:	20,993
+	[ALL, DSA, VALUE]:	20,993
+	[ALL, DSA, VALUE]:	29,461
+	[ALL, DSA, VALUE]:	29,391
+	[ALL, DSA, VALUE]:	46,185
+	[ALL, DSA, VALUE]:	46,284
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	37,872
+	[ALL, DSA, VALUE]:	33,656
+	[ALL, DSA, VALUE]:	37,791
+	[ALL, DSA, VALUE]:	33,520
+	[ALL, DSA, VALUE]:	29,330
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	12,597
+	[ALL, DSA, VALUE]:	12,570
+	[ALL, DSA, VALUE]:	20,993
+	[ALL, DSA, VALUE]:	20,948
+	[ALL, DSA, VALUE]:	20,993
+	[ALL, DSA, VALUE]:	20,948
+	[ALL, DSA, VALUE]:	29,393
+	[ALL, DSA, VALUE]:	29,400
+	[ALL, DSA, VALUE]:	20,995
+	[ALL, DSA, VALUE]:	20,950
+	[ALL, DSA, VALUE]:	25,194
+	- Total:	23,184,086
+Amount of information sent (by agent, in bytes):
+	agent_0:	50,362
+	agent_1:	50,362
+	agent_10:	37,766
+	agent_100:	12,570
+	agent_101:	12,597
+	agent_102:	20,994
+	agent_103:	25,193
+	agent_104:	37,791
+	agent_105:	37,791
+	agent_106:	25,194
+	agent_107:	20,995
+	agent_108:	42,070
+	agent_109:	42,080
+	agent_11:	29,374
+	agent_110:	100,992
+	agent_111:	92,576
+	agent_112:	100,776
+	agent_113:	92,378
+	agent_114:	79,781
+	agent_115:	71,383
+	agent_116:	84,160
+	agent_117:	71,383
+	agent_118:	29,393
+	agent_119:	29,330
+	agent_12:	37,842
+	agent_120:	75,906
+	agent_121:	71,383
+	agent_122:	84,140
+	agent_123:	79,952
+	agent_124:	83,980
+	agent_125:	83,800
+	agent_126:	58,910
+	agent_127:	50,386
+	agent_128:	58,784
+	agent_129:	50,278
+	agent_13:	37,698
+	agent_130:	63,225
+	agent_131:	63,240
+	agent_132:	63,105
+	agent_133:	62,850
+	agent_134:	29,393
+	agent_135:	41,900
+	agent_136:	46,090
+	agent_137:	46,090
+	agent_138:	104,975
+	agent_139:	104,750
+	agent_14:	37,698
+	agent_140:	105,200
+	agent_141:	104,975
+	agent_142:	71,230
+	agent_143:	71,230
+	agent_144:	71,383
+	agent_145:	71,383
+	agent_146:	71,230
+	agent_147:	71,672
+	agent_148:	37,872
+	agent_149:	37,791
+	agent_15:	37,842
+	agent_150:	54,704
+	agent_151:	54,470
+	agent_152:	12,597
+	agent_153:	12,570
+	agent_154:	58,800
+	agent_155:	62,985
+	agent_156:	20,995
+	agent_157:	20,950
+	agent_158:	63,150
+	agent_159:	58,940
+	agent_16:	16,784
+	agent_160:	46,189
+	agent_161:	58,786
+	agent_162:	71,230
+	agent_163:	58,786
+	agent_164:	79,610
+	agent_165:	75,582
+	agent_166:	29,393
+	agent_167:	25,200
+	agent_168:	54,470
+	agent_169:	58,786
+	agent_17:	25,130
+	agent_170:	71,230
+	agent_171:	71,400
+	agent_172:	33,520
+	agent_173:	37,791
+	agent_174:	63,120
+	agent_175:	67,328
+	agent_176:	37,791
+	agent_177:	37,800
+	agent_178:	75,726
+	agent_179:	79,610
+	agent_18:	16,785
+	agent_180:	71,383
+	agent_181:	67,456
+	agent_182:	37,791
+	agent_183:	37,800
+	agent_184:	63,240
+	agent_185:	62,985
+	agent_186:	83,980
+	agent_187:	67,328
+	agent_188:	16,796
+	agent_189:	16,760
+	agent_19:	16,753
+	agent_190:	37,872
+	agent_191:	37,791
+	agent_192:	75,726
+	agent_193:	83,980
+	agent_194:	54,470
+	agent_195:	54,470
+	agent_196:	20,993
+	agent_197:	20,948
+	agent_198:	20,993
+	agent_199:	20,948
+	agent_2:	50,362
+	agent_20:	37,770
+	agent_200:	20,995
+	agent_201:	20,950
+	agent_202:	46,189
+	agent_203:	46,387
+	agent_204:	12,597
+	agent_205:	12,570
+	agent_206:	16,796
+	agent_207:	20,950
+	agent_208:	37,791
+	agent_209:	46,189
+	agent_21:	42,047
+	agent_210:	16,796
+	agent_211:	12,570
+	agent_212:	37,872
+	agent_213:	33,656
+	agent_214:	96,784
+	agent_215:	96,370
+	agent_216:	96,573
+	agent_217:	97,171
+	agent_218:	54,587
+	agent_219:	54,587
+	agent_22:	37,770
+	agent_220:	54,470
+	agent_221:	54,587
+	agent_222:	100,560
+	agent_223:	79,781
+	agent_224:	62,850
+	agent_225:	63,120
+	agent_226:	12,570
+	agent_227:	12,570
+	agent_228:	58,786
+	agent_229:	58,912
+	agent_23:	41,887
+	agent_230:	46,090
+	agent_231:	41,990
+	agent_232:	25,194
+	agent_233:	20,995
+	agent_234:	20,995
+	agent_235:	16,760
+	agent_236:	88,368
+	agent_237:	92,576
+	agent_238:	29,330
+	agent_239:	46,189
+	agent_24:	29,393
+	agent_240:	29,393
+	agent_241:	29,330
+	agent_242:	20,995
+	agent_243:	21,000
+	agent_244:	79,610
+	agent_245:	79,781
+	agent_246:	58,660
+	agent_247:	67,184
+	agent_248:	29,400
+	agent_249:	29,393
+	agent_25:	29,400
+	agent_250:	63,105
+	agent_251:	58,786
+	agent_252:	71,226
+	agent_253:	71,379
+	agent_254:	41,900
+	agent_255:	37,710
+	agent_256:	29,330
+	agent_257:	33,520
+	agent_258:	25,194
+	agent_259:	25,140
+	agent_26:	29,461
+	agent_260:	71,230
+	agent_261:	58,786
+	agent_262:	79,606
+	agent_263:	84,296
+	agent_264:	83,980
+	agent_265:	79,610
+	agent_266:	29,330
+	agent_267:	54,587
+	agent_268:	88,179
+	agent_269:	92,950
+	agent_27:	29,391
+	agent_270:	71,553
+	agent_271:	71,689
+	agent_272:	25,140
+	agent_273:	29,393
+	agent_274:	29,393
+	agent_275:	29,330
+	agent_276:	42,070
+	agent_277:	41,990
+	agent_278:	37,710
+	agent_279:	25,194
+	agent_28:	125,970
+	agent_280:	42,070
+	agent_281:	41,990
+	agent_282:	41,900
+	agent_283:	41,900
+	agent_284:	20,950
+	agent_285:	16,796
+	agent_286:	37,710
+	agent_287:	37,791
+	agent_288:	79,781
+	agent_289:	83,800
+	agent_29:	126,240
+	agent_290:	79,610
+	agent_291:	84,160
+	agent_292:	33,520
+	agent_293:	29,393
+	agent_294:	46,185
+	agent_295:	46,284
+	agent_296:	54,470
+	agent_297:	46,090
+	agent_298:	12,597
+	agent_299:	12,570
+	agent_3:	50,458
+	agent_30:	117,572
+	agent_300:	21,000
+	agent_301:	20,995
+	agent_302:	96,573
+	agent_303:	96,596
+	agent_304:	184,756
+	agent_305:	134,368
+	agent_306:	37,863
+	agent_307:	37,791
+	agent_308:	125,970
+	agent_309:	130,169
+	agent_31:	122,032
+	agent_310:	41,900
+	agent_311:	41,990
+	agent_312:	117,824
+	agent_313:	122,061
+	agent_314:	92,378
+	agent_315:	100,776
+	agent_316:	108,940
+	agent_317:	104,975
+	agent_318:	109,408
+	agent_319:	104,750
+	agent_32:	67,040
+	agent_320:	46,090
+	agent_321:	46,189
+	agent_322:	46,189
+	agent_323:	46,090
+	agent_324:	29,393
+	agent_325:	29,330
+	agent_326:	63,120
+	agent_327:	54,587
+	agent_328:	54,470
+	agent_329:	54,704
+	agent_33:	62,985
+	agent_330:	41,900
+	agent_331:	41,900
+	agent_332:	62,996
+	agent_333:	54,596
+	agent_334:	25,140
+	agent_335:	20,950
+	agent_336:	20,995
+	agent_337:	25,194
+	agent_338:	58,912
+	agent_339:	58,912
+	agent_34:	29,393
+	agent_340:	41,986
+	agent_341:	37,787
+	agent_342:	184,752
+	agent_343:	164,459
+	agent_344:	50,400
+	agent_345:	29,393
+	agent_346:	37,791
+	agent_347:	37,800
+	agent_348:	25,194
+	agent_349:	20,950
+	agent_35:	58,660
+	agent_350:	54,587
+	agent_351:	54,470
+	agent_352:	62,848
+	agent_353:	50,388
+	agent_354:	54,587
+	agent_355:	50,280
+	agent_356:	25,194
+	agent_357:	37,799
+	agent_358:	25,194
+	agent_359:	29,330
+	agent_36:	117,572
+	agent_360:	29,393
+	agent_361:	25,140
+	agent_362:	25,194
+	agent_363:	20,995
+	agent_364:	21,000
+	agent_365:	25,194
+	agent_366:	29,393
+	agent_367:	33,520
+	agent_368:	63,120
+	agent_369:	71,536
+	agent_37:	113,400
+	agent_370:	12,570
+	agent_371:	12,597
+	agent_372:	41,990
+	agent_373:	41,900
+	agent_374:	87,990
+	agent_375:	88,389
+	agent_376:	92,378
+	agent_377:	75,600
+	agent_378:	62,850
+	agent_379:	67,184
+	agent_38:	108,940
+	agent_380:	46,284
+	agent_381:	46,284
+	agent_382:	12,570
+	agent_383:	12,597
+	agent_384:	62,844
+	agent_385:	63,114
+	agent_386:	29,330
+	agent_387:	25,248
+	agent_388:	29,330
+	agent_389:	29,393
+	agent_39:	105,200
+	agent_390:	46,284
+	agent_391:	50,491
+	agent_392:	37,706
+	agent_393:	37,787
+	agent_394:	20,993
+	agent_395:	20,993
+	agent_396:	20,950
+	agent_397:	16,796
+	agent_398:	75,420
+	agent_399:	96,577
+	agent_4:	37,842
+	agent_40:	164,775
+	agent_41:	177,072
+	agent_42:	159,220
+	agent_43:	159,220
+	agent_44:	71,536
+	agent_45:	71,230
+	agent_46:	71,383
+	agent_47:	71,383
+	agent_48:	113,373
+	agent_49:	180,987
+	agent_5:	37,842
+	agent_50:	151,164
+	agent_51:	96,600
+	agent_52:	256,688
+	agent_53:	226,260
+	agent_54:	37,710
+	agent_55:	46,189
+	agent_56:	37,710
+	agent_57:	41,900
+	agent_58:	75,582
+	agent_59:	79,800
+	agent_6:	37,768
+	agent_60:	104,750
+	agent_61:	88,179
+	agent_62:	105,200
+	agent_63:	88,347
+	agent_64:	71,383
+	agent_65:	79,800
+	agent_66:	67,328
+	agent_67:	84,160
+	agent_68:	130,169
+	agent_69:	88,179
+	agent_7:	37,696
+	agent_70:	54,587
+	agent_71:	54,704
+	agent_72:	21,000
+	agent_73:	20,995
+	agent_74:	46,189
+	agent_75:	50,280
+	agent_76:	12,597
+	agent_77:	16,760
+	agent_78:	58,786
+	agent_79:	54,587
+	agent_8:	54,762
+	agent_80:	37,710
+	agent_81:	41,990
+	agent_82:	37,791
+	agent_83:	41,900
+	agent_84:	84,160
+	agent_85:	79,781
+	agent_86:	83,800
+	agent_87:	79,781
+	agent_88:	92,774
+	agent_89:	100,776
+	agent_9:	54,450
+	agent_90:	109,850
+	agent_91:	117,572
+	agent_92:	126,240
+	agent_93:	130,448
+	agent_94:	71,536
+	agent_95:	71,230
+	agent_96:	79,952
+	agent_97:	83,800
+	agent_98:	42,160
+	agent_99:	42,080
+Amount of information received (by agent, in bytes):
+	agent_0:	50,407
+	agent_1:	50,417
+	agent_10:	37,751
+	agent_100:	12,579
+	agent_101:	12,588
+	agent_102:	20,994
+	agent_103:	25,202
+	agent_104:	37,799
+	agent_105:	37,799
+	agent_106:	25,193
+	agent_107:	21,021
+	agent_108:	42,024
+	agent_109:	42,032
+	agent_11:	29,367
+	agent_110:	100,830
+	agent_111:	92,459
+	agent_112:	100,839
+	agent_113:	92,468
+	agent_114:	79,869
+	agent_115:	71,471
+	agent_116:	84,050
+	agent_117:	71,471
+	agent_118:	29,410
+	agent_119:	29,419
+	agent_12:	37,813
+	agent_120:	75,616
+	agent_121:	71,444
+	agent_122:	83,989
+	agent_123:	79,781
+	agent_124:	83,972
+	agent_125:	83,989
+	agent_126:	58,808
+	agent_127:	50,429
+	agent_128:	58,808
+	agent_129:	50,429
+	agent_13:	37,829
+	agent_130:	63,039
+	agent_131:	63,047
+	agent_132:	63,047
+	agent_133:	63,073
+	agent_134:	29,392
+	agent_135:	41,989
+	agent_136:	46,153
+	agent_137:	46,153
+	agent_138:	104,967
+	agent_139:	104,967
+	agent_14:	37,829
+	agent_140:	104,967
+	agent_141:	104,967
+	agent_142:	71,338
+	agent_143:	71,338
+	agent_144:	71,329
+	agent_145:	71,329
+	agent_146:	71,437
+	agent_147:	71,411
+	agent_148:	37,782
+	agent_149:	37,791
+	agent_15:	37,813
+	agent_150:	54,618
+	agent_151:	54,636
+	agent_152:	12,579
+	agent_153:	12,588
+	agent_154:	58,826
+	agent_155:	63,041
+	agent_156:	20,999
+	agent_157:	21,008
+	agent_158:	63,021
+	agent_159:	58,797
+	agent_16:	16,768
+	agent_160:	46,211
+	agent_161:	58,842
+	agent_162:	71,466
+	agent_163:	58,827
+	agent_164:	79,791
+	agent_165:	75,574
+	agent_166:	29,367
+	agent_167:	25,167
+	agent_168:	54,551
+	agent_169:	58,742
+	agent_17:	25,182
+	agent_170:	71,392
+	agent_171:	71,382
+	agent_172:	33,618
+	agent_173:	37,808
+	agent_174:	62,968
+	agent_175:	67,167
+	agent_176:	37,784
+	agent_177:	37,783
+	agent_178:	75,618
+	agent_179:	79,843
+	agent_18:	16,770
+	agent_180:	71,420
+	agent_181:	67,202
+	agent_182:	37,765
+	agent_183:	37,764
+	agent_184:	63,023
+	agent_185:	63,049
+	agent_186:	84,061
+	agent_187:	67,246
+	agent_188:	16,778
+	agent_189:	16,778
+	agent_19:	16,778
+	agent_190:	37,766
+	agent_191:	37,775
+	agent_192:	75,547
+	agent_193:	83,962
+	agent_194:	54,599
+	agent_195:	54,599
+	agent_196:	20,989
+	agent_197:	20,998
+	agent_198:	20,989
+	agent_199:	20,998
+	agent_2:	50,407
+	agent_20:	37,785
+	agent_200:	20,996
+	agent_201:	21,005
+	agent_202:	46,259
+	agent_203:	46,224
+	agent_204:	12,596
+	agent_205:	12,605
+	agent_206:	16,769
+	agent_207:	20,977
+	agent_208:	37,809
+	agent_209:	46,207
+	agent_21:	41,966
+	agent_210:	16,796
+	agent_211:	12,597
+	agent_212:	37,799
+	agent_213:	33,610
+	agent_214:	96,649
+	agent_215:	96,667
+	agent_216:	96,610
+	agent_217:	96,584
+	agent_218:	54,515
+	agent_219:	54,515
+	agent_22:	37,785
+	agent_220:	54,614
+	agent_221:	54,623
+	agent_222:	100,830
+	agent_223:	79,808
+	agent_224:	62,940
+	agent_225:	62,886
+	agent_226:	12,570
+	agent_227:	12,570
+	agent_228:	58,768
+	agent_229:	58,758
+	agent_23:	41,982
+	agent_230:	46,234
+	agent_231:	42,035
+	agent_232:	25,204
+	agent_233:	21,014
+	agent_234:	20,968
+	agent_235:	16,787
+	agent_236:	88,260
+	agent_237:	92,450
+	agent_238:	29,366
+	agent_239:	46,162
+	agent_24:	29,404
+	agent_240:	29,366
+	agent_241:	29,366
+	agent_242:	20,988
+	agent_243:	20,987
+	agent_244:	79,834
+	agent_245:	79,825
+	agent_246:	58,837
+	agent_247:	67,210
+	agent_248:	29,367
+	agent_249:	29,368
+	agent_25:	29,403
+	agent_250:	63,010
+	agent_251:	58,819
+	agent_252:	71,410
+	agent_253:	71,401
+	agent_254:	41,955
+	agent_255:	37,765
+	agent_256:	29,366
+	agent_257:	33,556
+	agent_258:	25,167
+	agent_259:	25,167
+	agent_26:	29,382
+	agent_260:	71,464
+	agent_261:	58,786
+	agent_262:	79,835
+	agent_263:	84,000
+	agent_264:	83,983
+	agent_265:	79,791
+	agent_266:	29,386
+	agent_267:	54,562
+	agent_268:	88,258
+	agent_269:	92,394
+	agent_27:	29,392
+	agent_270:	71,400
+	agent_271:	71,392
+	agent_272:	25,176
+	agent_273:	29,357
+	agent_274:	29,403
+	agent_275:	29,412
+	agent_276:	41,999
+	agent_277:	42,007
+	agent_278:	37,817
+	agent_279:	25,184
+	agent_28:	126,059
+	agent_280:	41,963
+	agent_281:	41,971
+	agent_282:	41,962
+	agent_283:	41,971
+	agent_284:	20,977
+	agent_285:	16,769
+	agent_286:	37,755
+	agent_287:	37,746
+	agent_288:	79,822
+	agent_289:	84,039
+	agent_29:	126,007
+	agent_290:	79,831
+	agent_291:	84,021
+	agent_292:	33,574
+	agent_293:	29,357
+	agent_294:	46,200
+	agent_295:	46,191
+	agent_296:	54,587
+	agent_297:	46,155
+	agent_298:	12,579
+	agent_299:	12,588
+	agent_3:	50,417
+	agent_30:	117,643
+	agent_300:	20,997
+	agent_301:	20,998
+	agent_302:	96,610
+	agent_303:	96,609
+	agent_304:	184,765
+	agent_305:	134,428
+	agent_306:	37,818
+	agent_307:	37,826
+	agent_308:	126,034
+	agent_309:	130,242
+	agent_31:	121,805
+	agent_310:	42,041
+	agent_311:	42,041
+	agent_312:	117,645
+	agent_313:	121,843
+	agent_314:	92,407
+	agent_315:	100,849
+	agent_316:	109,247
+	agent_317:	105,048
+	agent_318:	109,247
+	agent_319:	105,048
+	agent_32:	67,185
+	agent_320:	46,153
+	agent_321:	46,153
+	agent_322:	46,153
+	agent_323:	46,153
+	agent_324:	29,410
+	agent_325:	29,411
+	agent_326:	62,977
+	agent_327:	54,605
+	agent_328:	54,649
+	agent_329:	54,631
+	agent_33:	62,961
+	agent_330:	41,954
+	agent_331:	41,972
+	agent_332:	63,004
+	agent_333:	54,588
+	agent_334:	25,167
+	agent_335:	20,968
+	agent_336:	20,986
+	agent_337:	25,185
+	agent_338:	58,827
+	agent_339:	58,827
+	agent_34:	29,368
+	agent_340:	41,991
+	agent_341:	37,792
+	agent_342:	184,736
+	agent_343:	163,741
+	agent_344:	50,397
+	agent_345:	29,402
+	agent_346:	37,784
+	agent_347:	37,783
+	agent_348:	25,194
+	agent_349:	21,004
+	agent_35:	58,760
+	agent_350:	54,590
+	agent_351:	54,599
+	agent_352:	63,032
+	agent_353:	50,412
+	agent_354:	54,580
+	agent_355:	50,389
+	agent_356:	25,195
+	agent_357:	37,781
+	agent_358:	25,177
+	agent_359:	29,403
+	agent_36:	117,636
+	agent_360:	29,393
+	agent_361:	25,185
+	agent_362:	25,186
+	agent_363:	20,987
+	agent_364:	20,986
+	agent_365:	25,204
+	agent_366:	29,421
+	agent_367:	33,629
+	agent_368:	63,003
+	agent_369:	71,419
+	agent_37:	113,445
+	agent_370:	12,588
+	agent_371:	12,579
+	agent_372:	41,946
+	agent_373:	41,965
+	agent_374:	88,258
+	agent_375:	88,222
+	agent_376:	92,441
+	agent_377:	75,652
+	agent_378:	63,001
+	agent_379:	67,203
+	agent_38:	109,247
+	agent_380:	46,208
+	agent_381:	46,208
+	agent_382:	12,615
+	agent_383:	12,606
+	agent_384:	62,990
+	agent_385:	62,972
+	agent_386:	29,402
+	agent_387:	25,185
+	agent_388:	29,384
+	agent_389:	29,375
+	agent_39:	105,048
+	agent_390:	46,199
+	agent_391:	50,388
+	agent_392:	37,782
+	agent_393:	37,773
+	agent_394:	20,999
+	agent_395:	20,999
+	agent_396:	21,013
+	agent_397:	16,796
+	agent_398:	75,680
+	agent_399:	96,649
+	agent_4:	37,774
+	agent_40:	163,829
+	agent_41:	176,428
+	agent_42:	159,630
+	agent_43:	159,625
+	agent_44:	71,320
+	agent_45:	71,338
+	agent_46:	71,329
+	agent_47:	71,329
+	agent_48:	113,409
+	agent_49:	180,602
+	agent_5:	37,774
+	agent_50:	151,227
+	agent_51:	96,602
+	agent_52:	256,244
+	agent_53:	226,843
+	agent_54:	37,754
+	agent_55:	46,152
+	agent_56:	37,754
+	agent_57:	41,962
+	agent_58:	75,565
+	agent_59:	79,790
+	agent_6:	37,782
+	agent_60:	105,047
+	agent_61:	88,268
+	agent_62:	105,029
+	agent_63:	88,260
+	agent_64:	71,375
+	agent_65:	79,808
+	agent_66:	67,237
+	agent_67:	84,044
+	agent_68:	130,177
+	agent_69:	88,214
+	agent_7:	37,790
+	agent_70:	54,633
+	agent_71:	54,624
+	agent_72:	21,013
+	agent_73:	21,014
+	agent_74:	46,224
+	agent_75:	50,467
+	agent_76:	12,589
+	agent_77:	16,788
+	agent_78:	58,854
+	agent_79:	54,656
+	agent_8:	54,551
+	agent_80:	37,755
+	agent_81:	41,945
+	agent_82:	37,746
+	agent_83:	41,954
+	agent_84:	84,060
+	agent_85:	79,879
+	agent_86:	84,060
+	agent_87:	79,879
+	agent_88:	92,407
+	agent_89:	100,849
+	agent_9:	54,575
+	agent_90:	109,212
+	agent_91:	117,654
+	agent_92:	126,034
+	agent_93:	130,242
+	agent_94:	71,393
+	agent_95:	71,393
+	agent_96:	79,782
+	agent_97:	84,008
+	agent_98:	42,008
+	agent_99:	42,043
+Size of the largest message sent (by type, in bytes):
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	228
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	229
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	[ALL, DSA, VALUE]:	230
+	- Overall maximum:	230
+Writing the solution to the file: /content/drive/My Drive/MAP/DSA_scen03.xml

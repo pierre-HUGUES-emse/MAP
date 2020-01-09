@@ -14,7 +14,10 @@ def criteria(path):
 paths = []
 paths.append('../output/DSA_scen02.xml')
 paths.append('../output/MGM_scen02.xml')
-paths.append('../output/DSA_scen05.xml')
-paths.append('../output/MGM_scen05.xml')
+paths.append('../output/MaxSum_scen02.xml')
+paths.append('../output/MGM_scen03.xml')
+paths.append('../output/MaxSum_scen03.xml')
+paths.append('../output/DSA_scen03.xml')
+
 for path in paths:
 	print(criteria(path))
