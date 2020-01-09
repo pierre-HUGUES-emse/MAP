@@ -71,9 +71,9 @@ def parse(scen):
 
 		s += '\t<constraints nbConstraints="{}">\n'.format(len(ctr_tab2))
 		for i in range(len(ctr_tab2)):
-			list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), 1]
+			list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), '1']
 			dic = {'=':'EQ', '>':'SUP'}
-			s += '\t\t<constraint name="{}" arity="2" scope="{}" reference="{}">\n'.format(str(i), ' '.join(list_ctr[:-1]), dic[ctr_tab2[i][2]])
+			s += '\t\t<constraint name="{}" arity="2" scope="{}" reference="{}">\n'.format(str(i), ' '.join(list_ctr[:-2]), dic[ctr_tab2[i][2]])
 			s += '\t\t\t<parameters>{}</parameters>\n'.format(' '.join(list_ctr))
 			s += '\t\t</constraint>\n'
 		s += '\t</constraints>\n'
