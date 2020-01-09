@@ -1,0 +1,72 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. 
+
+Parsing the chosen problem file...
+Parsing the chosen agent configuration file...
+Setting up the agents...
+Starting the algorithm...
+var `702' = 680
+var `701' = 442
+var `454' = 156
+var `453' = 394
+var `650' = 142
+var `649' = 380
+var `699' = 114
+var `700' = 352
+var `408' = 380
+var `407' = 142
+var `430' = 296
+var `174' = 750
+var `697' = 142
+var `698' = 380
+var `695' = 456
+var `696' = 694
+var `669' = 72
+var `429' = 58
+var `173' = 512
+var `670' = 310
+var `11' = 778
+var `12' = 540
+var `57' = 268
+var `58' = 30
+var `60' = 156
+var `59' = 394
+var `62' = 352
+var `61' = 114
+var `487' = 498
+var `488' = 736
+var `221' = 666
+var `222' = 428
+var `223' = 540
+var `224' = 778
+var `873' = 72
+var `225' = 708
+var `874' = 310
+var `226' = 470
+var `227' = 394
+var `228' = 156
+var `708' = 86
+var `423' = 652
+var `424' = 414
+var `707' = 324
+var `425' = 526
+var `426' = 764
+var `421' = 44
+var `422' = 282
+var `231' = 142
+var `432' = 86
+var `177' = 414
+var `232' = 380
+var `178' = 652
+var `431' = 324
+var `433' = 380
+var `434' = 142
+var `427' = 470
+var `428' = 708
+var `175' = 778
+var `176' = 540
+Writing the solution to the file: C:\Users\Pierre\OneDrive\Mines 2019-2020\MultiAgent\MAP\output\MGM_scen01.xml
+Waiting for the agents to terminate...
+Done.

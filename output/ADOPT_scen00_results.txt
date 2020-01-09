@@ -1,0 +1,95 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. 
+
+Parsing the chosen problem file...
+Parsing the chosen agent configuration file...
+Setting up the agents...
+Starting the algorithm...
+var `1' = 16
+var `2' = 30
+var `3' = 44
+var `0' = 30
+Total cost of reported solution: 0
+Algorithm finished in 37 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, ADOPT, COST]:	2
+	[ALL, ADOPT, COST]:	2
+	[ALL, ADOPT, COST]:	2
+	[ALL, ADOPT, Preprocessing, Heuristics]:	1
+	[ALL, ADOPT, Preprocessing, Heuristics]:	1
+	[ALL, ADOPT, Preprocessing, Heuristics]:	1
+	[ALL, ADOPT, TERMINATE]:	3
+	[ALL, ADOPT, VALUE]:	24
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	2
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	3
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	3
+	- Total:	54
+Number of messages sent (by agent): 
+	agent_0:	6
+	agent_1:	36
+	agent_2:	6
+	agent_3:	6
+Number of messages received (by agent): 
+	agent_0:	12
+	agent_1:	18
+	agent_2:	12
+	agent_3:	12
+Amount of information sent (by type, in bytes): 
+	[ALL, ADOPT, COST]:	141
+	[ALL, ADOPT, COST]:	141
+	[ALL, ADOPT, COST]:	141
+	[ALL, ADOPT, Preprocessing, Heuristics]:	604
+	[ALL, ADOPT, Preprocessing, Heuristics]:	604
+	[ALL, ADOPT, Preprocessing, Heuristics]:	604
+	[ALL, ADOPT, TERMINATE]:	225
+	[ALL, ADOPT, VALUE]:	933
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	218
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	218
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	218
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	495
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	1?248
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	249
+	- Total:	7?287
+Amount of information sent (by agent, in bytes): 
+	agent_0:	1?379
+	agent_1:	3?150
+	agent_2:	1?379
+	agent_3:	1?379
+Amount of information received (by agent, in bytes): 
+	agent_0:	1?050
+	agent_1:	4?137
+	agent_2:	1?050
+	agent_3:	1?050
+Size of the largest message sent (by type, in bytes): 
+	[ALL, ADOPT, COST]:	85
+	[ALL, ADOPT, COST]:	85
+	[ALL, ADOPT, COST]:	85
+	[ALL, ADOPT, Preprocessing, Heuristics]:	604
+	[ALL, ADOPT, Preprocessing, Heuristics]:	604
+	[ALL, ADOPT, Preprocessing, Heuristics]:	604
+	[ALL, ADOPT, TERMINATE]:	75
+	[ALL, ADOPT, VALUE]:	136
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	165
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	165
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	165
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, Child]:	165
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgeneration, ScoreBroadcastingHeuristic, HeuristicScoreSingleVar]:	416
+	[ALL, VarOrdering, DFSgenerationParallel, ParallelDFSwrapper, VarOrdering, DFSgenerationParallel, ReleaseDFSoutput]:	83
+	- Overall maximum:	604
+Writing the solution to the file: C:\Users\Pierre\OneDrive\Mines 2019-2020\MultiAgent\MAP\output\ADOPT_scen00.xml
+Waiting for the agents to terminate...
+Done.

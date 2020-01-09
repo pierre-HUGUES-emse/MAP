@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution valuation="infinity">
+  <assignment variable="0" value="16" />
+  <assignment variable="1" value="44" />
+  <assignment variable="2" value="30" />
+  <assignment variable="3" value="44" />
+</solution>
