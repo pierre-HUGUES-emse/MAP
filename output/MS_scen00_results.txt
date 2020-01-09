@@ -1,0 +1,59 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. 
+
+Parsing the chosen problem file...
+Parsing the chosen agent configuration file...
+Setting up the agents...
+Starting the algorithm...
+var `3' = 44
+var `0' = 16
+var `2' = 30
+var `1' = 44
+Total cost of reported solution: infinity
+Algorithm finished in 32 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, Max-Sum, FunctionToVar]:	5
+	[ALL, Max-Sum, FunctionToVar]:	3
+	[ALL, Max-Sum, VarToFunction]:	2
+	[ALL, Max-Sum, VarToFunction]:	2
+	[ALL, Max-Sum, VarToFunction]:	2
+	- Total:	14
+Number of messages sent (by agent): 
+	agent_0:	3
+	agent_1:	7
+	agent_2:	2
+	agent_3:	2
+Number of messages received (by agent): 
+	agent_0:	2
+	agent_1:	7
+	agent_2:	3
+	agent_3:	2
+Amount of information sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	1?329
+	[ALL, Max-Sum, FunctionToVar]:	708
+	[ALL, Max-Sum, VarToFunction]:	624
+	[ALL, Max-Sum, VarToFunction]:	624
+	[ALL, Max-Sum, VarToFunction]:	624
+	- Total:	3?909
+Amount of information sent (by agent, in bytes): 
+	agent_0:	708
+	agent_1:	1?953
+	agent_2:	624
+	agent_3:	624
+Amount of information received (by agent, in bytes): 
+	agent_0:	624
+	agent_1:	1?956
+	agent_2:	708
+	agent_3:	621
+Size of the largest message sent (by type, in bytes): 
+	[ALL, Max-Sum, FunctionToVar]:	534
+	[ALL, Max-Sum, FunctionToVar]:	534
+	[ALL, Max-Sum, VarToFunction]:	537
+	[ALL, Max-Sum, VarToFunction]:	537
+	[ALL, Max-Sum, VarToFunction]:	537
+	- Overall maximum:	537
+Writing the solution to the file: C:\Users\Pierre\OneDrive\Mines 2019-2020\MultiAgent\MAP\output\MS_scen00.xml
+Waiting for the agents to terminate...
+Done.

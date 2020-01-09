@@ -1,0 +1,68 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. 
+
+Parsing the chosen problem file...
+Parsing the chosen agent configuration file...
+Setting up the agents...
+Starting the algorithm...
+var `3' = 16
+var `2' = 30
+var `0' = 16
+var `1' = 44
+Total cost of reported solution: 0
+Algorithm finished in 91 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, MGM, improve]:	200
+	[ALL, MGM, improve]:	600
+	[ALL, MGM, improve]:	200
+	[ALL, MGM, improve]:	200
+	[ALL, MGM, ok]:	200
+	[ALL, MGM, ok]:	600
+	[ALL, MGM, ok]:	200
+	[ALL, MGM, ok]:	200
+	- Total:	2?400
+Number of messages sent (by agent): 
+	agent_0:	400
+	agent_1:	1?200
+	agent_2:	400
+	agent_3:	400
+Number of messages received (by agent): 
+	agent_0:	400
+	agent_1:	1?200
+	agent_2:	400
+	agent_3:	400
+Amount of information sent (by type, in bytes): 
+	[ALL, MGM, improve]:	4?191
+	[ALL, MGM, improve]:	12?573
+	[ALL, MGM, improve]:	8?306
+	[ALL, MGM, improve]:	4?191
+	[ALL, MGM, ok]:	4?200
+	[ALL, MGM, ok]:	12?600
+	[ALL, MGM, ok]:	4?200
+	[ALL, MGM, ok]:	4?200
+	- Total:	54?461
+Amount of information sent (by agent, in bytes): 
+	agent_0:	12?506
+	agent_1:	25?173
+	agent_2:	8?391
+	agent_3:	8?391
+Amount of information received (by agent, in bytes): 
+	agent_0:	8?391
+	agent_1:	29?288
+	agent_2:	8?391
+	agent_3:	8?391
+Size of the largest message sent (by type, in bytes): 
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, improve]:	147
+	[ALL, MGM, improve]:	211
+	[ALL, MGM, ok]:	220
+	[ALL, MGM, ok]:	220
+	[ALL, MGM, ok]:	220
+	[ALL, MGM, ok]:	220
+	- Overall maximum:	220
+Writing the solution to the file: C:\Users\Pierre\OneDrive\Mines 2019-2020\MultiAgent\MAP\output\MGM_scen00.xml
+Waiting for the agents to terminate...
+Done.

@@ -1,0 +1,56 @@
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. 
+
+Parsing the chosen problem file...
+Parsing the chosen agent configuration file...
+Setting up the agents...
+Starting the algorithm...
+var `3' = 44
+var `2' = 30
+var `1' = 16
+var `0' = 30
+Total cost of reported solution: 0
+Algorithm finished in 95 ms (simulated time)
+Number of messages sent (by type): 
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	597
+	[ALL, DSA, VALUE]:	199
+	[ALL, DSA, VALUE]:	199
+	- Total:	1194
+Number of messages sent (by agent): 
+	agent_0:	199
+	agent_1:	597
+	agent_2:	199
+	agent_3:	199
+Number of messages received (by agent): 
+	agent_0:	199
+	agent_1:	597
+	agent_2:	199
+	agent_3:	199
+Amount of information sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	4186
+	[ALL, DSA, VALUE]:	12558
+	[ALL, DSA, VALUE]:	4193
+	[ALL, DSA, VALUE]:	4193
+	- Total:	25130
+Amount of information sent (by agent, in bytes): 
+	agent_0:	4186
+	agent_1:	12558
+	agent_2:	4193
+	agent_3:	4193
+Amount of information received (by agent, in bytes): 
+	agent_0:	4186
+	agent_1:	12572
+	agent_2:	4186
+	agent_3:	4186
+Size of the largest message sent (by type, in bytes): 
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	- Overall maximum:	226
+Writing the solution to the file: C:\Users\Pierre\OneDrive\Mines 2019-2020\MultiAgent\MAP\output\DSA_scen00.xml
+Waiting for the agents to terminate...
+Done.
