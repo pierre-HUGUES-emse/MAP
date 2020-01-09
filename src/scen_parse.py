@@ -8,7 +8,9 @@ def parse(scen):
 	var_tab2 = []
 	ctr_tab2 = []
 	dom_tab2 = []
- 
+	cst_tab2 = []
+	costs=[0]*8
+
 	with open(base_path + scen + '/var.txt', 'r') as var_file:
 		var = var_file.read()
 		var_tab = var.split("\n")
@@ -20,13 +22,27 @@ def parse(scen):
 		ctr_tab = ctr.split("\n")
 		for i, j in enumerate(ctr_tab[:-1]):
 			j = j.split()
-			ctr_tab2.append([int(j[0]), int(j[1]), str(j[3]), int(j[4])])
+			try:
+				ctr_tab2.append([int(j[0]), int(j[1]), str(j[3]), int(j[4]), int(j[5])])
+			except:
+				ctr_tab2.append([int(j[0]), int(j[1]), str(j[3]), int(j[4]), -1])
+
 
 	with open(base_path + scen + '/dom.txt', 'r') as dom_file:
 		dom = dom_file.read()
 		dom_tab = dom.split("\n")
 		for i, j in enumerate(dom_tab[:-1]):
 			dom_tab2.append(j.split())
+
+	with open(base_path + scen + '/cst.txt', 'r') as cst_file:
+		cst = cst_file.read()
+		cst_tab = cst.split("\n")
+		for i, j in enumerate(cst_tab[:-1]):
+			cst_tab2.append(j)
+		if '' in cst_tab2:
+			cst_tab3 = cst_tab2[cst_tab2.index('')+1:]
+			for k in range(len(cst_tab3)):
+				costs[k] = cst_tab3[k].split()[2]
 
 	nb_agent = len(var_tab2)
 
@@ -71,7 +87,12 @@ def parse(scen):
 
 		s += '\t<constraints nbConstraints="{}">\n'.format(len(ctr_tab2))
 		for i in range(len(ctr_tab2)):
-			list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), '1']
+			if ctr_tab2[i][4] == 0:
+				list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), str(100*int(costs[0]))]
+			elif ctr_tab2[i][4] == -1:
+				list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), str(1)]
+			else:
+				list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), str(costs[ctr_tab2[i][4]])]
 			dic = {'=':'EQ', '>':'SUP'}
 			s += '\t\t<constraint name="{}" arity="2" scope="{}" reference="{}">\n'.format(str(i), ' '.join(list_ctr[:-2]), dic[ctr_tab2[i][2]])
 			s += '\t\t\t<parameters>{}</parameters>\n'.format(' '.join(list_ctr))
@@ -80,5 +101,4 @@ def parse(scen):
 		s += '</instance>'
 
 		output_file.write(s)
-
 
