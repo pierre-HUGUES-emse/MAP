@@ -3,7 +3,6 @@ number of values.
 If there is no solution minimize the cost function according to the following 
 coefficients:
 
-
              a1 = 1000
              a2 =  100
              a3 =   10
