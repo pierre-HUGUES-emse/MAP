@@ -56,22 +56,22 @@ def parse(scen):
 		s += '\t</variables>\n'
 		s += '\t<predicates nbPredicates="2">\n'
 		s += '\t\t<predicate name="EQ">\n'
-		s += '\t\t\t<parameters> int F1 int F2 int K12</parameters>\n'
+		s += '\t\t\t<parameters> int F1 int F2 int K12 int C</parameters>\n'
 		s += '\t\t\t<expression>\n'
-		s += '\t\t\t\t<functional> eq(abs(sub(F1,F2)), K12) </functional>\n'
+		s += '\t\t\t\t<functional> if(eq(abs(sub(F1,F2)), K12), 0, C) </functional>\n'
 		s += '\t\t\t</expression>\n'
 		s += '\t\t</predicate>\n'
 		s += '\t\t<predicate name="SUP">\n'
-		s += '\t\t\t<parameters> int F1 int F2 int K12</parameters>\n'
+		s += '\t\t\t<parameters> int F1 int F2 int K12 int C</parameters>\n'
 		s += '\t\t\t<expression>\n'
-		s += '\t\t\t\t<functional> gt(abs(sub(F1,F2)), K12) </functional>\n'
+		s += '\t\t\t\t<functional> if(gt(abs(sub(F1,F2)), K12), 0, C) </functional>\n'
 		s += '\t\t\t</expression>\n'
 		s += '\t\t</predicate>\n'
 		s += '\t</predicates>\n'
 
 		s += '\t<constraints nbConstraints="{}">\n'.format(len(ctr_tab2))
 		for i in range(len(ctr_tab2)):
-			list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3])]
+			list_ctr =  [str(ctr_tab2[i][0]), str(ctr_tab2[i][1]), str(ctr_tab2[i][3]), 1]
 			dic = {'=':'EQ', '>':'SUP'}
 			s += '\t\t<constraint name="{}" arity="2" scope="{}" reference="{}">\n'.format(str(i), ' '.join(list_ctr[:-1]), dic[ctr_tab2[i][2]])
 			s += '\t\t\t<parameters>{}</parameters>\n'.format(' '.join(list_ctr))
