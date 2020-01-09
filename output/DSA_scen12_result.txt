@@ -1,0 +1,196 @@
+
+
+FRODO  Copyright (C) 2008-2019  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file: /content/drive/My Drive/MAP/problems_xml/scen12Output.xml
+Parsing the input agent configuration file: /content/drive/My Drive/MAP/frodo2.17.1/agents/DSA/DSAagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_agent_0 {
+		label = agent_0;
+		0 [style="filled"];
+	}
+	subgraph cluster_agent_1 {
+		label = agent_1;
+		1 [style="filled"];
+	}
+	subgraph cluster_agent_4 {
+		label = agent_4;
+		4 [style="filled"];
+	}
+	subgraph cluster_agent_5 {
+		label = agent_5;
+		5 [style="filled"];
+	}
+	subgraph cluster_agent_2 {
+		label = agent_2;
+		2 [style="filled"];
+	}
+	subgraph cluster_agent_3 {
+		label = agent_3;
+		3 [style="filled"];
+	}
+	subgraph cluster_agent_8 {
+		label = agent_8;
+		8 [style="filled"];
+	}
+	subgraph cluster_agent_9 {
+		label = agent_9;
+		9 [style="filled"];
+	}
+	subgraph cluster_agent_6 {
+		label = agent_6;
+		6 [style="filled"];
+	}
+	subgraph cluster_agent_7 {
+		label = agent_7;
+		7 [style="filled"];
+	}
+
+
+	1 -- 0;
+	2 -- 0;
+	2 -- 1;
+	3 -- 0;
+	3 -- 1;
+	3 -- 2;
+	4 -- 0;
+	4 -- 1;
+	4 -- 2;
+	4 -- 3;
+	5 -- 0;
+	5 -- 1;
+	5 -- 2;
+	5 -- 3;
+	5 -- 4;
+	6 -- 0;
+	6 -- 1;
+	6 -- 2;
+	6 -- 3;
+	6 -- 4;
+	6 -- 5;
+	7 -- 0;
+	7 -- 1;
+	7 -- 2;
+	7 -- 3;
+	7 -- 4;
+	7 -- 5;
+	7 -- 6;
+	8 -- 0;
+	8 -- 1;
+	8 -- 2;
+	8 -- 3;
+	8 -- 4;
+	8 -- 5;
+	8 -- 6;
+	8 -- 7;
+	9 -- 0;
+	9 -- 1;
+	9 -- 2;
+	9 -- 3;
+	9 -- 4;
+	9 -- 5;
+	9 -- 6;
+	9 -- 7;
+	9 -- 8;
+}
+
+Starting the algorithm...
+var `9' = 296
+var `8' = 380
+var `5' = 142
+var `7' = 114
+var `6' = 554
+var `3' = 708
+var `2' = 268
+var `0' = 652
+var `1' = 30
+var `4' = 470
+Total cost of reported solution: 150
+Algorithm finished in 2,071 ms (simulated time)
+Number of messages sent (by type):
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	[ALL, DSA, VALUE]:	1,791
+	- Total:	17,910
+Number of messages sent (by agent):
+	agent_0:	1,791
+	agent_1:	1,791
+	agent_2:	1,791
+	agent_3:	1,791
+	agent_4:	1,791
+	agent_5:	1,791
+	agent_6:	1,791
+	agent_7:	1,791
+	agent_8:	1,791
+	agent_9:	1,791
+Number of messages received (by agent):
+	agent_0:	1,791
+	agent_1:	1,791
+	agent_2:	1,791
+	agent_3:	1,791
+	agent_4:	1,791
+	agent_5:	1,791
+	agent_6:	1,791
+	agent_7:	1,791
+	agent_8:	1,791
+	agent_9:	1,791
+Amount of information sent (by type, in bytes):
+	[ALL, DSA, VALUE]:	37,674
+	[ALL, DSA, VALUE]:	37,737
+	[ALL, DSA, VALUE]:	37,800
+	[ALL, DSA, VALUE]:	37,800
+	[ALL, DSA, VALUE]:	37,737
+	[ALL, DSA, VALUE]:	37,674
+	[ALL, DSA, VALUE]:	37,728
+	[ALL, DSA, VALUE]:	37,674
+	[ALL, DSA, VALUE]:	37,674
+	[ALL, DSA, VALUE]:	37,800
+	- Total:	377,298
+Amount of information sent (by agent, in bytes):
+	agent_0:	37,800
+	agent_1:	37,737
+	agent_2:	37,800
+	agent_3:	37,737
+	agent_4:	37,674
+	agent_5:	37,674
+	agent_6:	37,728
+	agent_7:	37,800
+	agent_8:	37,674
+	agent_9:	37,674
+Amount of information received (by agent, in bytes):
+	agent_0:	37,722
+	agent_1:	37,729
+	agent_2:	37,722
+	agent_3:	37,729
+	agent_4:	37,736
+	agent_5:	37,736
+	agent_6:	37,730
+	agent_7:	37,722
+	agent_8:	37,736
+	agent_9:	37,736
+Size of the largest message sent (by type, in bytes):
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	[ALL, DSA, VALUE]:	226
+	- Overall maximum:	226
+Writing the solution to the file: /content/drive/My Drive/MAP/DSA_scen12.xml

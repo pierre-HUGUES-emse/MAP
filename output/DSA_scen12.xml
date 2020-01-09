@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution valuation="150">
+  <assignment variable="0" value="652" />
+  <assignment variable="1" value="30" />
+  <assignment variable="2" value="268" />
+  <assignment variable="3" value="708" />
+  <assignment variable="4" value="470" />
+  <assignment variable="5" value="142" />
+  <assignment variable="6" value="554" />
+  <assignment variable="7" value="114" />
+  <assignment variable="8" value="380" />
+  <assignment variable="9" value="296" />
+</solution>
