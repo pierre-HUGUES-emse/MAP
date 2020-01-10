@@ -43,4 +43,4 @@ You can find our different result in the repository `output`. An instance solved
   - `METHOD_instance.xml` contains the solution found by the method on this instance. You can find the solution cost and the values assigned to each variable.
   - `METHOD_instance_result.txt` is the output of FRODO in the terminal. You can find the execution time, the number of message sent and the size of information sent.
 
-In order to get some graphs out of all of this, we regroup these information in an Excel file and use a Python script in order to plot the data.
+In order to get some graphs out of all of this, we regroup these information in an Excel file and use a Python script in order to plot the data. You can find the graphs in the repository `plots`.
